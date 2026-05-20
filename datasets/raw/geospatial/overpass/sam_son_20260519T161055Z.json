@@ -1,0 +1,370 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-19T16:09:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 3525217160,
+  "lat": 19.7375545,
+  "lon": 105.9019658,
+  "tags": {
+    "name": "Khách sạn bộ Xây Dựng",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3525259312,
+  "lat": 19.7293139,
+  "lon": 105.8992085,
+  "tags": {
+    "name": "Công Ty TNHH Thương Mại Và Du Lịch Ngân Hoa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3525262400,
+  "lat": 19.7332424,
+  "lon": 105.9002492,
+  "tags": {
+    "name": "Khách Sạn Hoa Hồng 1",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3525270752,
+  "lat": 19.7312630,
+  "lon": 105.8988759,
+  "tags": {
+    "name": "Doanh Nghiệp Tư Nhân Khách Sạn Và Du Lịch Hoàng Long",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3525272164,
+  "lat": 19.7339695,
+  "lon": 105.9004316,
+  "tags": {
+    "name": "Khách sạn Thuỳ Dương 3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3525274394,
+  "lat": 19.7360498,
+  "lon": 105.9000883,
+  "tags": {
+    "name": "Thai Lan Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3525274500,
+  "lat": 19.7361912,
+  "lon": 105.8997128,
+  "tags": {
+    "name": "Son Thuy Motel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3525277291,
+  "lat": 19.7376959,
+  "lon": 105.8997235,
+  "tags": {
+    "name": "Khách sạn Bắc Nam",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3525277479,
+  "lat": 19.7379887,
+  "lon": 105.9007427,
+  "tags": {
+    "name": "Huong Bien Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3525277488,
+  "lat": 19.7383927,
+  "lon": 105.8987686,
+  "tags": {
+    "name": "Cay Tre Guest House",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 3525279803,
+  "lat": 19.7385038,
+  "lon": 105.9021160,
+  "tags": {
+    "name": "Hotel Mai Trang",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6082687885,
+  "lat": 19.7262439,
+  "lon": 105.8891240,
+  "tags": {
+    "amenity": "parking",
+    "name": "Bãi Đền Cô Tiên"
+  }
+},
+{
+  "type": "node",
+  "id": 6269114790,
+  "lat": 19.7388502,
+  "lon": 105.9029124,
+  "tags": {
+    "name": "Lach Nam",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9611927063,
+  "lat": 19.7306220,
+  "lon": 105.8985572,
+  "tags": {
+    "addr:city": "Thành Phố Sầm Sơn",
+    "addr:district": "Sầm Sơn",
+    "addr:housenumber": "7",
+    "addr:postcode": "440000",
+    "addr:province": "Thanh Hóa",
+    "addr:street": "Đường Thanh Niên",
+    "addr:subdistrict": "Trường Sơn",
+    "email": "07phuongdonghotel@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Khách Sạn Phương Đông",
+    "phone": "0914633191",
+    "rooms": "80",
+    "tourism": "hotel",
+    "website": "khachsanphuongdong.vn"
+  }
+},
+{
+  "type": "node",
+  "id": 9965029917,
+  "lat": 19.7408888,
+  "lon": 105.9041862,
+  "tags": {
+    "addr:housenumber": "54",
+    "addr:street": "Đường Hồ Xuân Hương",
+    "name": "KS Tài nguyên Môi trường",
+    "name:en": "Resoures and Emvironment Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 478007377,
+  "center": {
+    "lat": 19.7444124,
+    "lon": 105.9079805
+  },
+  "tags": {
+    "name": "Bãi biển Sầm Sơn",
+    "name:en": "Sầm Sơn Beach",
+    "name:es": "Playa de Sam Son",
+    "name:fr": "Plage de Sầm Sơn",
+    "name:vi": "Bãi biển Sầm Sơn",
+    "natural": "beach",
+    "source": "mapbox",
+    "wikidata": "Q1322460",
+    "wikipedia": "vi:Bãi biển Sầm Sơn"
+  }
+},
+{
+  "type": "way",
+  "id": 629849520,
+  "center": {
+    "lat": 19.7156796,
+    "lon": 105.8662902
+  },
+  "tags": {
+    "natural": "beach"
+  }
+},
+{
+  "type": "way",
+  "id": 629849521,
+  "center": {
+    "lat": 19.7277149,
+    "lon": 105.8818707
+  },
+  "tags": {
+    "natural": "beach"
+  }
+},
+{
+  "type": "way",
+  "id": 647769584,
+  "center": {
+    "lat": 19.7267515,
+    "lon": 105.8919152
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Công Viên Hòn Trống Mái"
+  }
+},
+{
+  "type": "way",
+  "id": 647769585,
+  "center": {
+    "lat": 19.7259478,
+    "lon": 105.8918922
+  },
+  "tags": {
+    "amenity": "parking",
+    "name": "Bãi Đậu Xe Hòn Trống Mái"
+  }
+},
+{
+  "type": "way",
+  "id": 647769586,
+  "center": {
+    "lat": 19.7263903,
+    "lon": 105.8892037
+  },
+  "tags": {
+    "amenity": "parking"
+  }
+},
+{
+  "type": "way",
+  "id": 647777933,
+  "center": {
+    "lat": 19.7391219,
+    "lon": 105.8876178
+  },
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Bến xe khách Sầm Sơn",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "way",
+  "id": 688120166,
+  "center": {
+    "lat": 19.7368059,
+    "lon": 105.8991515
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Công viên trung tâm Sầm Sơn"
+  }
+},
+{
+  "type": "way",
+  "id": 1004695925,
+  "center": {
+    "lat": 19.7638120,
+    "lon": 105.9185069
+  },
+  "tags": {
+    "brand": "FLC",
+    "name": "FLC Luxury Hotel Sầm Sơn",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1005726239,
+  "center": {
+    "lat": 19.7646014,
+    "lon": 105.9170539
+  },
+  "tags": {
+    "brand": "FLC",
+    "building": "yes",
+    "name": "FLC Grand Hotel Sầm Sơn",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1005741873,
+  "center": {
+    "lat": 19.7594197,
+    "lon": 105.9161093
+  },
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1008018178,
+  "center": {
+    "lat": 19.7336527,
+    "lon": 105.8992812
+  },
+  "tags": {
+    "landuse": "commercial",
+    "name": "Khách sạn Lê Lợi",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1027199048,
+  "center": {
+    "lat": 19.8184524,
+    "lon": 105.9324905
+  },
+  "tags": {
+    "natural": "beach"
+  }
+},
+{
+  "type": "way",
+  "id": 1174484261,
+  "center": {
+    "lat": 19.7382916,
+    "lon": 105.8982725
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Khách sạn Đường sắt Sầm Sơn",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1234857568,
+  "center": {
+    "lat": 19.7361999,
+    "lon": 105.9004573
+  },
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:street": "Đường Tây Sơn",
+    "landuse": "commercial",
+    "name": "Khách sạn Bộ Công Thương",
+    "tourism": "hotel"
+  }
+}
+
+  ]
+}

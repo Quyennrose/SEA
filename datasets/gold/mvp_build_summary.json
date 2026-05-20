@@ -1,0 +1,8 @@
+{
+  "collection_time": "2026-05-19T16:11:38.596725+00:00",
+  "poi_rows": 622,
+  "weather_rows": 24,
+  "readiness_rows": 24,
+  "redistribution_rows": 17,
+  "note": "MVP proxy features only; no realtime traffic/crowd/booking/revenue."
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bản đồ vận hành du lịch</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Bản đồ vận hành</h1>
+      <p>OpenStreetMap + destination graph; heatmap realtime chỉ bật khi có feed thật</p>
+    </div>
+    <nav>
+      <a href="./index.html">Tổng quan</a>
+      <a class="active" href="./map.html">Bản đồ</a>
+      <a href="./economy.html">Kinh tế</a>
+      <a href="./recommendation.html">Gợi ý AI</a>
+    </nav>
+  </header>
+  <main>
+    <div class="callout warning" style="margin-bottom: 14px;">
+      Bản đồ này hiển thị tọa độ điểm đến thật và graph điều phối dự kiến. Nó không tuyên bố có congestion, crowd density, parking pressure hoặc revenue realtime.
+    </div>
+    <div id="map"></div>
+  </main>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

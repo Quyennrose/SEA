@@ -1,0 +1,953 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-19T16:08:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 839480851,
+  "lat": 20.9580942,
+  "lon": 107.0672948,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Old Hon Gai Ferry Terminal",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 995291906,
+  "lat": 20.9515064,
+  "lon": 107.0412040,
+  "tags": {
+    "check_date": "2025-03-15",
+    "name": "Ha Long Pearl",
+    "name:de": "Ha Long Pearl",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 995292144,
+  "lat": 20.9483048,
+  "lon": 107.0289488,
+  "tags": {
+    "air_conditioning": "yes",
+    "check_date": "2025-03-15",
+    "internet_access": "wlan",
+    "name": "BMC Thăng Long Hotel",
+    "name:de": "BMC Thăng Long Hotel",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 995293185,
+  "lat": 20.9594177,
+  "lon": 107.0187657,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2025-03-15",
+    "name": "Cua Vàng"
+  }
+},
+{
+  "type": "node",
+  "id": 2395785621,
+  "lat": 20.9596292,
+  "lon": 107.0530261,
+  "tags": {
+    "amenity": "parking"
+  }
+},
+{
+  "type": "node",
+  "id": 3410529615,
+  "lat": 20.9602376,
+  "lon": 107.0608645,
+  "tags": {
+    "check_date": "2025-03-15",
+    "name": "Halong Plaza Hotel",
+    "source": "survey",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3770228391,
+  "lat": 20.9505490,
+  "lon": 107.0828851,
+  "tags": {
+    "check_date": "2025-03-15",
+    "name": "Long Ha Nha Nghi",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 3773061053,
+  "lat": 20.9575465,
+  "lon": 107.0502152,
+  "tags": {
+    "addr:street": "Vườn Đào - Bãi Cháy",
+    "check_date": "2025-03-15",
+    "name": "Van Nam",
+    "name:de": "Van Nam",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4092014049,
+  "lat": 20.9508721,
+  "lon": 107.0847837,
+  "tags": {
+    "addr:city": "Hạ Long",
+    "addr:housenumber": "2-4",
+    "addr:province": "Quảng Ninh",
+    "addr:street": "Cảng Mới",
+    "addr:subdistrict": "Bạch Đằng",
+    "amenity": "restaurant",
+    "branch": "Hạ Long",
+    "brand": "Pizza Hut",
+    "brand:wikidata": "Q191615",
+    "cuisine": "pizza",
+    "delivery": "yes",
+    "name": "Pizza Hut",
+    "opening_hours": "10:00-22:00",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4092067022,
+  "lat": 20.9591167,
+  "lon": 107.0486819,
+  "tags": {
+    "addr:city": "ha long",
+    "addr:housenumber": "Ngã 3 dốc hải quân",
+    "addr:street": "Hậu Cần",
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "name": "Nhà Hàng Ẩm Thực Đông Nam"
+  }
+},
+{
+  "type": "node",
+  "id": 4292830434,
+  "lat": 20.9468412,
+  "lon": 107.0247193,
+  "tags": {
+    "addr:street": "Hùng Thắng",
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name:en": "Old Cat Ba ferry terminal",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4292830437,
+  "lat": 20.9468517,
+  "lon": 107.0261351,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4294499916,
+  "lat": 20.9539902,
+  "lon": 107.0704812,
+  "tags": {
+    "addr:housenumber": "9A",
+    "addr:street": "Hàng Than",
+    "internet_access": "wlan",
+    "tourism": "alpine_hut"
+  }
+},
+{
+  "type": "node",
+  "id": 4330722989,
+  "lat": 20.9411670,
+  "lon": 107.0253612,
+  "tags": {
+    "name": "Vinpearl Ha Long resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4664925789,
+  "lat": 20.9499859,
+  "lon": 107.0777452,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Hokkaido Tea & Coffee",
+    "phone": "0986680639"
+  }
+},
+{
+  "type": "node",
+  "id": 4691825127,
+  "lat": 20.9520138,
+  "lon": 107.0801112,
+  "tags": {
+    "addr:housenumber": "109",
+    "addr:street": "25 Thang 4",
+    "internet_access": "wlan",
+    "name:en": "Alamo Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4863125821,
+  "lat": 20.9358279,
+  "lon": 106.9941233,
+  "tags": {
+    "addr:street": "Lô 22D , Khu biệt thự Tuần Châu",
+    "internet_access": "wlan",
+    "name": "Hạ long Khách sạn Vẻ đẹp tiềm ẩn",
+    "name:en": "Hidden Charm Hotel Halong",
+    "name:vi": "Hạ long Khách sạn Vẻ đẹp tiềm ẩn",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4875439821,
+  "lat": 20.9564101,
+  "lon": 107.0488401,
+  "tags": {
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 4890935584,
+  "lat": 20.9790080,
+  "lon": 107.0204262,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Quán ăn vặt Ba Sói",
+    "opening_hours": "24/7",
+    "phone": "0904461211"
+  }
+},
+{
+  "type": "node",
+  "id": 4925494521,
+  "lat": 20.9544264,
+  "lon": 107.0970821,
+  "tags": {
+    "addr:housenumber": "40",
+    "addr:street": "Hoàng Diệu",
+    "name": "Koc moc",
+    "name:vi": "Koc moc",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5179973422,
+  "lat": 20.9579167,
+  "lon": 107.0505405,
+  "tags": {
+    "internet_access": "wlan",
+    "name:en": "Halong Lucky Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5229974522,
+  "lat": 20.9506474,
+  "lon": 107.0757861,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Văn Lang",
+    "amenity": "restaurant",
+    "check_date": "2025-03-15",
+    "cuisine": "american;italian_pizza;mediterranean",
+    "internet_access": "wlan",
+    "name": "Rock House Pizza",
+    "opening_hours": "Tu-Su 07:30-22:30",
+    "phone": "+84 127 668 8844",
+    "website": "https://rock-house-pizza.business.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 5229975822,
+  "lat": 20.9540605,
+  "lon": 107.0236927,
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:street": "Lê Văn Lương",
+    "amenity": "restaurant",
+    "check_date": "2025-03-15",
+    "cuisine": "american;pasta;chicken;italian_pizza",
+    "email": "14pizzahalong@gmail.com",
+    "internet_access": "wlan",
+    "name": "14 Pizza Halong",
+    "opening_hours": "We-Mo 10:00-22:00",
+    "phone": "+84 97 343 41 14"
+  }
+},
+{
+  "type": "node",
+  "id": 5374431321,
+  "lat": 20.9322076,
+  "lon": 106.9948760,
+  "tags": {
+    "name": "Banana and Rose Homestay",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5395107122,
+  "lat": 20.9486771,
+  "lon": 107.0975562,
+  "tags": {
+    "name": "Bảo tàng Quảng Ninh",
+    "name:en": "Quảng Ninh Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 5406394223,
+  "lat": 20.9564363,
+  "lon": 107.0183880,
+  "tags": {
+    "note": "Already abandoned",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5419961621,
+  "lat": 20.9590933,
+  "lon": 107.0718734,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name:en": "Quang Ninh Bus Station",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 5470195021,
+  "lat": 20.9573029,
+  "lon": 107.0501311,
+  "tags": {
+    "addr:housenumber": "21",
+    "addr:street": "Vườn Đào - Bãi Cháy",
+    "email": "manager@halongpartyhostel.com",
+    "internet_access": "wlan",
+    "name:en": "Halong Party Hostel & Hotel",
+    "opening_hours": "24/7",
+    "phone": "(+84-203) 3511 368",
+    "tourism": "hostel",
+    "website": "http://www.halongpartyhostel.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5490093131,
+  "lat": 20.9507910,
+  "lon": 107.0907315,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Ếch ộp quán",
+    "name:en": "Frog restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 5571227421,
+  "lat": 20.9614366,
+  "lon": 107.0437024,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5616118021,
+  "lat": 20.9819824,
+  "lon": 107.0213900,
+  "tags": {
+    "name": "Thien Tan Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5652189821,
+  "lat": 20.9479891,
+  "lon": 107.0779988,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5761407821,
+  "lat": 20.9559718,
+  "lon": 107.0041850,
+  "tags": {
+    "addr:housenumber": "HO1-2",
+    "addr:postcode": "200000",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Quán Cà Phê Eleven Coffee",
+    "name:en": "Eleven Coffee",
+    "opening_hours": "24/7",
+    "phone": "0914954747"
+  }
+},
+{
+  "type": "node",
+  "id": 5803698653,
+  "lat": 20.9675182,
+  "lon": 107.0202141,
+  "tags": {
+    "addr:street": "Hạ Long",
+    "name:en": "Ngoc Tuan Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5841391786,
+  "lat": 20.9512683,
+  "lon": 107.1017358,
+  "tags": {
+    "name": "Paris",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5860894290,
+  "lat": 20.9430044,
+  "lon": 107.0266042,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 5933422985,
+  "lat": 20.9574897,
+  "lon": 107.0512458,
+  "tags": {
+    "addr:housenumber": "26",
+    "addr:street": "Anh Đào",
+    "internet_access": "wlan",
+    "name:en": "Our Houses Ha Long",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 6303376137,
+  "lat": 20.9552954,
+  "lon": 107.0496427,
+  "tags": {
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6303376138,
+  "lat": 20.9551902,
+  "lon": 107.0497593,
+  "tags": {
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6313597168,
+  "lat": 20.9486607,
+  "lon": 107.0970393,
+  "tags": {
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6313597169,
+  "lat": 20.9487052,
+  "lon": 107.0970581,
+  "tags": {
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6313597177,
+  "lat": 20.9483639,
+  "lon": 107.0969504,
+  "tags": {
+    "amenity": "cafe",
+    "name": "My Way"
+  }
+},
+{
+  "type": "node",
+  "id": 6313597225,
+  "lat": 20.9484177,
+  "lon": 107.0971144,
+  "tags": {
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6313597560,
+  "lat": 20.9498123,
+  "lon": 107.0989953,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Sơn Đoòng"
+  }
+},
+{
+  "type": "node",
+  "id": 6313597581,
+  "lat": 20.9496395,
+  "lon": 107.0967999,
+  "tags": {
+    "name": "Bella Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6313934207,
+  "lat": 20.9558791,
+  "lon": 107.0727478,
+  "tags": {
+    "name": "Cầu Koi",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6314164410,
+  "lat": 20.9517336,
+  "lon": 107.0745791,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2025-03-15",
+    "name": "Sunland Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 6322414293,
+  "lat": 20.9544032,
+  "lon": 107.0509160,
+  "tags": {
+    "artwork_type": "sculpture",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6340826290,
+  "lat": 20.9509646,
+  "lon": 107.0359084,
+  "tags": {
+    "check_date": "2025-03-15",
+    "name": "Royal Ha Long",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6704380387,
+  "lat": 20.9613321,
+  "lon": 107.0481197,
+  "tags": {
+    "name": "du lịch",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6717787987,
+  "lat": 20.9637243,
+  "lon": 107.0468242,
+  "tags": {
+    "internet_access": "wlan",
+    "name:en": "Ha Long Ecolodge",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 6853102485,
+  "lat": 20.9480996,
+  "lon": 107.0726609,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Lotus Tea & Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 6854638085,
+  "lat": 20.9474409,
+  "lon": 107.0737307,
+  "tags": {
+    "check_date": "2025-03-15",
+    "name": "deja vu house",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 6987509893,
+  "lat": 20.9476547,
+  "lon": 107.0739344,
+  "tags": {
+    "check_date": "2025-03-15",
+    "name": "Lea House",
+    "source": "GPS",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 7007389986,
+  "lat": 20.9507494,
+  "lon": 107.0758026,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 7040063985,
+  "lat": 20.9505919,
+  "lon": 107.0762422,
+  "tags": {
+    "addr:street": "32 Văn Lang, Hồng Gai, Thành phố Hạ Long, Quảng Ninh, Vietnam",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese;coffee_shop",
+    "internet_access": "wlan",
+    "name:en": "Wander Station Coffee & Restaurant",
+    "phone": "+84 93 351 86 90"
+  }
+},
+{
+  "type": "node",
+  "id": 7044140886,
+  "lat": 20.9532759,
+  "lon": 107.0557052,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Ha Long International Cruise Port",
+    "name:en": "Halong International Cruise Port",
+    "public_transport": "station",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7129916146,
+  "lat": 20.9688472,
+  "lon": 107.0195441,
+  "tags": {
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Gold Mark",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7168783694,
+  "lat": 20.9315798,
+  "lon": 106.9935022,
+  "tags": {
+    "name": "Morning Star Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7252844287,
+  "lat": 20.9525465,
+  "lon": 107.0803343,
+  "tags": {
+    "addr:housenumber": "41",
+    "addr:street": "So nha 41 day 2 duong 25/4",
+    "air_conditioning": "yes",
+    "name": "Hùng vùòng",
+    "name:en": "Hung vuong",
+    "name:fr": "Hotel hung vuong",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7703677537,
+  "lat": 20.9402183,
+  "lon": 107.0238143,
+  "tags": {
+    "tourism": "chalet"
+  }
+},
+{
+  "type": "node",
+  "id": 7703677538,
+  "lat": 20.9401281,
+  "lon": 107.0239297,
+  "tags": {
+    "tourism": "chalet"
+  }
+},
+{
+  "type": "node",
+  "id": 7703677539,
+  "lat": 20.9402107,
+  "lon": 107.0240933,
+  "tags": {
+    "tourism": "chalet"
+  }
+},
+{
+  "type": "node",
+  "id": 7703677540,
+  "lat": 20.9403009,
+  "lon": 107.0239753,
+  "tags": {
+    "tourism": "chalet"
+  }
+},
+{
+  "type": "node",
+  "id": 7703677541,
+  "lat": 20.9403811,
+  "lon": 107.0238546,
+  "tags": {
+    "tourism": "chalet"
+  }
+},
+{
+  "type": "node",
+  "id": 8661572074,
+  "lat": 20.9472591,
+  "lon": 107.0334949,
+  "tags": {
+    "addr:city": "Quảng Ninh",
+    "addr:district": "Hạ long",
+    "addr:subdistrict": "Bãi cháy",
+    "check_date": "2025-03-15",
+    "internet_access": "yes",
+    "internet_access:fee": "yes",
+    "name": "Bài thơ Hotel",
+    "rooms": "28",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9196652318,
+  "lat": 20.9736595,
+  "lon": 107.0536768,
+  "tags": {
+    "name:en": "Cai Lan Port",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9944467817,
+  "lat": 20.9508877,
+  "lon": 107.1025161,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "The Daily Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 10576900641,
+  "lat": 20.9594176,
+  "lon": 106.9965675,
+  "tags": {
+    "name": "Central Luxury Hotel",
+    "name:en": "Central Luxury Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10859902760,
+  "lat": 20.9570226,
+  "lon": 107.0485979,
+  "tags": {
+    "addr:city": "hạ long",
+    "addr:housenumber": "18",
+    "addr:postcode": "01000",
+    "addr:province": "quảng ninh",
+    "addr:street": "Thanh Niên",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "MINALO Hotel",
+    "phone": "0926135555",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10917552405,
+  "lat": 20.9457431,
+  "lon": 107.0359185,
+  "tags": {
+    "name:en": "tinh hieu hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10923381498,
+  "lat": 20.9463151,
+  "lon": 107.0327740,
+  "tags": {
+    "addr:city": "Quảng Ninh",
+    "addr:district": "Hạ long",
+    "addr:housenumber": "LV2, 03, Sun Premier Village",
+    "addr:subdistrict": "Sun Premier Village",
+    "air_conditioning": "yes",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "diet:halal": "no",
+    "diet:kosher": "no",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Nhà Hàng Phương Nam 2",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "outdoor_seating": "pedestrian_zone",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+84901599598",
+    "smoking": "no",
+    "website": "https://nhahangphuongnamhalong.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11016755305,
+  "lat": 20.9512255,
+  "lon": 107.0758518,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11050448405,
+  "lat": 20.9466691,
+  "lon": 107.0329416,
+  "tags": {
+    "name:en": "Halong Aroma Hostel",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 11548925271,
+  "lat": 20.9570358,
+  "lon": 107.0490047,
+  "tags": {
+    "internet_access": "wlan",
+    "name:en": "Halong Fancy Hostel & Restaurant",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 12019768159,
+  "lat": 20.9639720,
+  "lon": 107.0543280,
+  "tags": {
+    "addr:housenumber": "TT3-6",
+    "addr:street": "Hải Quân",
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 12019817981,
+  "lat": 20.9651054,
+  "lon": 107.0546774,
+  "tags": {
+    "addr:housenumber": "TT7.07",
+    "name": "An Villa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 12019817985,
+  "lat": 20.9635379,
+  "lon": 107.0540620,
+  "tags": {
+    "artwork_subject": "con trau",
+    "material": "bronze",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 12189361140,
+  "lat": 20.9565985,
+  "lon": 107.0494617,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Highlands Coffee",
+    "brand:wikidata": "Q5759361",
+    "check_date": "2024-09-15",
+    "cuisine": "coffee_shop;vietnamese",
+    "name": "Highlands Coffee",
+    "name:en": "Highlands Coffee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12189361142,
+  "lat": 20.9563045,
+  "lon": 107.0537776,
+  "tags": {
+    "check_date": "2024-09-15",
+    "name": "Prosperity",
+    "tourism": "hotel"
+  }
+}
+
+  ]
+}

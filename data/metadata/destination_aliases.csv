@@ -1,0 +1,52 @@
+alias,destination_id,notes
+Da Nang,da_nang,English spelling
+Đà Nẵng,da_nang,Vietnamese spelling
+Danang,da_nang,Common OTA/search spelling
+DN,da_nang,Abbreviation requiring contextual validation
+Hoi An,hoi_an,English spelling
+Hội An,hoi_an,Vietnamese spelling
+Hue,hue,English spelling
+Huế,hue,Vietnamese spelling
+Quy Nhon,quy_nhon,English spelling
+Quy Nhơn,quy_nhon,Vietnamese spelling
+Nha Trang,nha_trang,Canonical
+Phu Quoc,phu_quoc,English spelling
+Phú Quốc,phu_quoc,Vietnamese spelling
+Ha Long,ha_long,English spelling
+Hạ Long,ha_long,Vietnamese spelling
+Cat Ba,cat_ba,English spelling
+Cát Bà,cat_ba,Vietnamese spelling
+Sam Son,sam_son,English spelling
+Sầm Sơn,sam_son,Vietnamese spelling
+Cua Lo,cua_lo,English spelling
+Cửa Lò,cua_lo,Vietnamese spelling
+Vung Tau,vung_tau,English spelling
+Vũng Tàu,vung_tau,Vietnamese spelling
+Mui Ne,mui_ne,English spelling
+Mũi Né,mui_ne,Vietnamese spelling
+Hanoi,ha_noi,Common English spelling
+Ha Noi,ha_noi,ASCII spelling
+Hà Nội,ha_noi,Vietnamese spelling
+HCMC,ho_chi_minh_city,Abbreviation
+TP.HCM,ho_chi_minh_city,Vietnamese abbreviation
+Ho Chi Minh City,ho_chi_minh_city,English spelling
+Thành phố Hồ Chí Minh,ho_chi_minh_city,Vietnamese official name
+Ha Giang,ha_giang,English spelling
+Hà Giang,ha_giang,Vietnamese spelling
+Moc Chau,moc_chau,English spelling
+Mộc Châu,moc_chau,Vietnamese spelling
+Sa Pa,sa_pa,Canonical
+Sapa,sa_pa,Common spelling
+Da Lat,da_lat,English spelling
+Đà Lạt,da_lat,Vietnamese spelling
+Con Dao,con_dao,English spelling
+Côn Đảo,con_dao,Vietnamese spelling
+Ly Son,ly_son,English spelling
+Lý Sơn,ly_son,Vietnamese spelling
+Can Tho,can_tho,English spelling
+Cần Thơ,can_tho,Vietnamese spelling
+An Giang,an_giang,Canonical
+Ben Tre,ben_tre,English spelling
+Bến Tre,ben_tre,Vietnamese spelling
+Ninh Binh,ninh_binh,English spelling
+Ninh Bình,ninh_binh,Vietnamese spelling

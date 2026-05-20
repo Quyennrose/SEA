@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gợi ý điều phối AI</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Công cụ gợi ý AI</h1>
+      <p>Logic điều phối có giải thích, kèm evidence và limitation</p>
+    </div>
+    <nav>
+      <a href="./index.html">Tổng quan</a>
+      <a href="./map.html">Bản đồ</a>
+      <a href="./economy.html">Kinh tế</a>
+      <a class="active" href="./recommendation.html">Gợi ý AI</a>
+    </nav>
+  </header>
+  <main>
+    <section class="grid two">
+      <article class="panel">
+        <h2>Kịch bản</h2>
+        <p>Đà Nẵng có thể chịu áp lực nếu giá khách sạn tăng, rủi ro thời tiết biển thay đổi và áp lực tuyến tăng.</p>
+        <div class="callout danger">
+          Chưa được tự động hóa vận hành vì còn thiếu traffic realtime, crowd density, parking, POI capacity và booking velocity.
+        </div>
+      </article>
+      <article class="panel">
+        <h2>Gợi ý AI</h2>
+        <p>Điểm thay thế từ destination graph:</p>
+        <table>
+          <thead><tr><th>Điểm thay thế</th><th>Lý do</th><th>Confidence</th></tr></thead>
+          <tbody>
+            <tr><td>Hội An</td><td>Điểm di sản gần, ma sát di chuyển thấp</td><td>Trung bình cho planning, thấp cho realtime</td></tr>
+            <tr><td>Huế</td><td>Điểm mở rộng di sản, ma sát trung bình</td><td>Trung bình cho campaign planning</td></tr>
+            <tr><td>Quy Nhơn</td><td>Điểm biển thay thế cho điều phối theo chiến dịch</td><td>Thấp nếu chưa có feed transport/capacity</td></tr>
+          </tbody>
+        </table>
+      </article>
+    </section>
+    <section class="panel" style="margin-top: 16px;">
+      <h2>Giải thích</h2>
+      <p>Gợi ý dựa trên `destination_network_edges.csv`, vai trò điểm đến và evidence weather/hotel/review hiện có. Chưa thể tuyên bố giảm congestion hoặc tăng revenue vì cần mobility realtime, crowd density, occupancy và revenue data.</p>
+      <p>Tradeoff kinh tế: điều phối khách có thể giảm áp lực Đà Nẵng và kích hoạt điểm phụ cận, nhưng chỉ khi điểm thay thế còn capacity, satisfaction chấp nhận được, thời tiết an toàn và hạ tầng còn dư địa.</p>
+    </section>
+  </main>
+</body>
+</html>

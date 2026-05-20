@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bảng điều khiển kinh tế du lịch thông minh</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Bảng điều khiển kinh tế du lịch thông minh</h1>
+      <p>Console MVP theo hướng evidence-first cho điều phối du lịch Việt Nam</p>
+    </div>
+    <nav>
+      <a class="active" href="./index.html">Tổng quan</a>
+      <a href="./map.html">Bản đồ</a>
+      <a href="./economy.html">Kinh tế</a>
+      <a href="./recommendation.html">Gợi ý AI</a>
+    </nav>
+  </header>
+  <main>
+    <section class="grid">
+      <article class="panel metric">
+        <span>Destination Health Index</span>
+        <strong>Chưa hoàn chỉnh</strong>
+        <span class="badge blocked">thiếu demand/congestion/revenue feed</span>
+      </article>
+      <article class="panel metric">
+        <span>Demand Index</span>
+        <strong>Schema-only</strong>
+        <span>Bảng demand chính thức đã có khung nhưng chưa có dòng dữ liệu.</span>
+      </article>
+      <article class="panel metric">
+        <span>Congestion Index</span>
+        <strong>Thiếu realtime</strong>
+        <span>Chưa có traffic, crowd density hoặc parking feed.</span>
+      </article>
+      <article class="panel metric">
+        <span>Economic Efficiency</span>
+        <strong>Đang bị chặn</strong>
+        <span>Thiếu dữ liệu doanh thu và áp lực hạ tầng.</span>
+      </article>
+      <article class="panel metric">
+        <span>Revenue Stability</span>
+        <strong>Đang bị chặn</strong>
+        <span>Cần tourism revenue chi tiết theo tháng/địa phương.</span>
+      </article>
+      <article class="panel metric">
+        <span>Satisfaction Score</span>
+        <strong>Một phần</strong>
+        <span>Có review; chưa có sentiment/topic model.</span>
+      </article>
+    </section>
+
+    <section class="panel" style="margin-top: 16px;">
+      <h2>Lớp evidence</h2>
+      <table id="evidence-table">
+        <thead><tr><th>Tín hiệu</th><th>Trạng thái</th><th>Ý nghĩa vận hành</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

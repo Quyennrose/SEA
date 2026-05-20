@@ -1,0 +1,2 @@
+timestamp,destination,hotel_name,room_type,price,availability,occupancy_proxy,competitor_price_index,demand_score,event_impact_score,seasonality_score,weather_suitability_score,recommended_price,price_action,quality_status
+

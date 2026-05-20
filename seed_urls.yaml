@@ -1,0 +1,155 @@
+official_statistics:
+  - https://thongke.tourism.vn/
+  - https://thongke.tourism.vn/index.php/news
+  - https://vietnamtourism.gov.vn/
+  - https://vietnamtourism.gov.vn/en
+  - https://www.nso.gov.vn/
+  - https://www.nso.gov.vn/en/trade-and-services/
+  - https://www.nso.gov.vn/en/press-release/
+  - https://www.nso.gov.vn/en/socio-economic-situation/
+
+transport_air:
+  - https://caa.gov.vn/
+  - https://www.vietnamairport.vn/
+  - https://www.vietnamairport.vn/en
+  - https://www.vietnamairport.vn/tansonnhatairport/
+  - https://www.vietnamairport.vn/noibaiairport/
+  - https://www.vietnamairport.vn/danangairport/
+  - https://www.vietnamairport.vn/camranhairport/
+  - https://www.vietnamairport.vn/phuquocairport/
+  - https://www.vietnamairport.vn/phubaiairport/
+  - https://www.vietnamairport.vn/lienkhuongairport/
+
+transport_ground:
+  - https://vr.com.vn/
+  - https://dsvn.vn/
+  - https://vetau.com.vn/
+  - https://vexere.com/
+  - https://www.baolau.com/
+  - https://12go.asia/en/vietnam
+  - https://futabus.vn/
+
+hotel_ota:
+  - https://www.booking.com/country/vn.html
+  - https://www.agoda.com/country/vietnam.html
+  - https://www.traveloka.com/en-vn/hotel/vietnam
+  - https://www.expedia.com/Vietnam-Hotels.d194.Travel-Guide-Hotels
+  - https://www.hotels.com/co10233120/hotels-in-vietnam/
+  - https://www.trip.com/hotels/country/vietnam.html
+
+review_poi_api:
+  - https://developers.google.com/maps/documentation/places/web-service
+  - https://developers.google.com/maps/documentation/places/web-service/details
+  - https://developers.google.com/maps/documentation/places/web-service/nearby-search
+  - https://tripadvisor-content-api.readme.io/reference/overview
+  - https://location.foursquare.com/developer/reference/places-api-overview
+  - https://overpass-api.de/
+
+hotel_market_reports:
+  - https://www.jll.com.vn/en/trends-and-insights/research
+  - https://www.jll.com/en-sea/insights
+  - https://www.savills.com.vn/research_articles/163944.aspx
+  - https://www.cbrevietnam.com/insights
+  - https://www.colliers.com/en-vn/research
+  - https://www.knightfrank.com.vn/research
+  - https://str.com/data-insights
+  - https://www.airdna.co/
+
+destination_official:
+  - https://vietnam.travel/
+  - https://vietnam.travel/places-to-go
+  - https://vietnam.travel/things-to-do
+  - https://vietnam.travel/trip-ideas
+  - https://tourism.hanoi.gov.vn/
+  - https://halongtourism.com.vn/
+  - https://dulichninhbinh.com.vn/
+  - https://hagiangtourism.vn/
+  - https://danangfantasticity.com/
+  - https://visithue.vn/
+  - https://quangnamtourism.com.vn/
+  - https://quangbinhtourism.vn/
+  - https://dulichbinhdinh.com.vn/
+  - https://nhatrang-travel.com/
+  - https://dalat-info.vn/
+  - https://visithcmc.vn/
+  - https://canthotourism.vn/
+  - https://angiangtourism.vn/
+
+weather:
+  - https://vnmha.gov.vn/
+  - https://nchmf.gov.vn/
+  - https://open-meteo.com/en/docs/historical-weather-api
+  - https://power.larc.nasa.gov/docs/services/api/
+  - https://dev.meteostat.net/
+
+events_holidays:
+  - https://www.timeanddate.com/holidays/vietnam/
+  - https://www.vietnam-briefing.com/news/vietnam-public-holidays.html/
+  - https://vietnam.travel/things-to-do/festivals-vietnam
+  - https://huefestival.com/
+  - https://danangfantasticity.com/en/
+
+global_benchmark:
+  - https://www.unwto.org/tourism-data/un-tourism-tourism-dashboard
+  - https://www.unwto.org/un-tourism-world-tourism-barometer-data
+  - https://data.worldbank.org/indicator/ST.INT.ARVL?locations=VN
+  - https://data.worldbank.org/indicator/ST.INT.RCPT.CD?locations=VN
+  - https://wttc.org/research/economic-impact
+  - https://ourworldindata.org/tourism
+
+destination_searches:
+  hanoi:
+    - Booking Hanoi Hotels
+    - Agoda Hanoi Hotels
+    - Tripadvisor Hanoi Tourism
+    - Google Maps Hanoi hotels search
+  ho_chi_minh_city:
+    - Booking Ho Chi Minh City Hotels
+    - Agoda Ho Chi Minh City Hotels
+    - Tripadvisor Ho Chi Minh City Tourism
+    - Google Maps Ho Chi Minh City hotels search
+  da_nang:
+    - Booking Da Nang Hotels
+    - Agoda Da Nang Hotels
+    - Tripadvisor Da Nang Tourism
+    - Google Maps Da Nang hotels search
+  hoi_an:
+    - Booking Hoi An Hotels
+    - Agoda Hoi An Hotels
+    - Tripadvisor Hoi An Tourism
+    - Google Maps Hoi An hotels search
+  hue:
+    - Booking Hue Hotels
+    - Agoda Hue Hotels
+    - Tripadvisor Hue Tourism
+    - Google Maps Hue hotels search
+  nha_trang:
+    - Booking Nha Trang Hotels
+    - Agoda Nha Trang Hotels
+    - Tripadvisor Nha Trang Tourism
+    - Google Maps Nha Trang hotels search
+  phu_quoc:
+    - Booking Phu Quoc Hotels
+    - Agoda Phu Quoc Hotels
+    - Tripadvisor Phu Quoc Tourism
+    - Google Maps Phu Quoc hotels search
+  da_lat:
+    - Booking Da Lat Hotels
+    - Agoda Da Lat Hotels
+    - Tripadvisor Da Lat Hotels
+    - Google Maps Da Lat hotels search
+  sa_pa:
+    - Booking Sa Pa Hotels
+    - Agoda Sa Pa Hotels
+    - Tripadvisor Sapa Tourism
+    - Google Maps Sapa hotels search
+  ha_long:
+    - Booking Ha Long Hotels
+    - Agoda Ha Long Hotels
+    - Tripadvisor Halong Bay Tourism
+    - Google Maps Ha Long hotels search
+  ninh_binh:
+    - Booking Ninh Binh Hotels
+    - Agoda Ninh Binh Hotels
+    - Tripadvisor Ninh Binh Tourism
+    - Google Maps Ninh Binh hotels search

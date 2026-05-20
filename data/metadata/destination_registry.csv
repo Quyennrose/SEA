@@ -1,0 +1,25 @@
+destination_id,canonical_name,province_or_city,tourism_types,region,lat,lng,coastal_zone,island_zone,heritage_zone,mountain_zone,urban_zone,mekong_zone,operational_role
+da_nang,Da Nang,Da Nang,"coastal;urban;gateway",central_coast,16.0471,108.2068,yes,no,no,no,yes,no,primary_overload_source_and_gateway
+hoi_an,Hoi An,Quang Nam,"heritage;coastal",central_coast,15.8801,108.3380,yes,no,yes,no,no,no,overflow_and_heritage_alternative
+hue,Hue,Hue,"heritage;urban",central_coast,16.4637,107.5909,no,no,yes,no,yes,no,heritage_alternative_and_multi_day_extension
+quy_nhon,Quy Nhon,Binh Dinh,"coastal;urban",south_central_coast,13.7563,109.2297,yes,no,no,no,yes,no,underutilized_coastal_alternative
+nha_trang,Nha Trang,Khanh Hoa,"coastal;urban",south_central_coast,12.2388,109.1967,yes,no,no,no,yes,no,major_coastal_destination
+phu_quoc,Phu Quoc,Kien Giang,"island;coastal",mekong_islands,10.2899,103.9840,yes,yes,no,no,no,no,island_capacity_constrained_destination
+ha_long,Ha Long,Quang Ninh,"coastal;heritage",northeast,20.9712,107.0448,yes,no,yes,no,yes,no,heritage_coastal_destination
+cat_ba,Cat Ba,Hai Phong,"island;coastal;nature",northeast,20.7278,107.0482,yes,yes,no,no,no,no,overflow_from_ha_long_and_hai_phong
+sam_son,Sam Son,Thanh Hoa,"coastal",north_central_coast,19.7419,105.9020,yes,no,no,no,no,no,seasonal_beach_pressure_zone
+cua_lo,Cua Lo,Nghe An,"coastal",north_central_coast,18.7929,105.7220,yes,no,no,no,no,no,seasonal_beach_pressure_zone
+vung_tau,Vung Tau,Ba Ria - Vung Tau,"coastal;urban",southeast,10.4114,107.1362,yes,no,no,no,yes,no,weekend_pressure_from_hcmc
+mui_ne,Mui Ne,Binh Thuan,"coastal",south_central_coast,10.9333,108.2833,yes,no,no,no,no,no,coastal_alternative_and_sports_tourism
+ha_noi,Ha Noi,Ha Noi,"urban;heritage;gateway",red_river_delta,21.0278,105.8342,no,no,yes,no,yes,no,gateway_and_urban_demand_source
+ho_chi_minh_city,Ho Chi Minh City,Ho Chi Minh City,"urban;gateway",southeast,10.8231,106.6297,no,no,no,no,yes,no,gateway_and_weekend_demand_source
+ha_giang,Ha Giang,Ha Giang,"mountain;nature",northern_mountains,22.8233,104.9836,no,no,no,yes,no,no,capacity_sensitive_mountain_route
+moc_chau,Moc Chau,Son La,"mountain;nature",northern_mountains,20.8297,104.6946,no,no,no,yes,no,no,offseason_mountain_alternative
+sa_pa,Sa Pa,Lao Cai,"mountain;nature",northern_mountains,22.3364,103.8438,no,no,no,yes,no,no,mountain_overload_and_weather_sensitive_zone
+da_lat,Da Lat,Lam Dong,"mountain;urban",central_highlands,11.9404,108.4583,no,no,no,yes,yes,no,highland_alternative_and_weekend_pressure_zone
+con_dao,Con Dao,Ba Ria - Vung Tau,"island;coastal;heritage",southeast_islands,8.6864,106.6082,yes,yes,yes,no,no,no,capacity_constrained_island_destination
+ly_son,Ly Son,Quang Ngai,"island;coastal",central_coast_islands,15.3833,109.1167,yes,yes,no,no,no,no,ferry_capacity_sensitive_island
+can_tho,Can Tho,Can Tho,"mekong;urban",mekong_delta,10.0452,105.7469,no,no,no,no,yes,yes,mekong_gateway_and_redistribution_hub
+an_giang,An Giang,An Giang,"mekong;heritage;nature",mekong_delta,10.5216,105.1259,no,no,yes,no,no,yes,festival_and_mekong_alternative
+ben_tre,Ben Tre,Ben Tre,"mekong;nature",mekong_delta,10.2434,106.3756,no,no,no,no,no,yes,low_density_mekong_alternative
+ninh_binh,Ninh Binh,Ninh Binh,"heritage;nature",red_river_delta,20.2506,105.9745,no,no,yes,no,no,no,heritage_nature_overflow_from_hanoi

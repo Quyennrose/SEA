@@ -1,0 +1,9 @@
+destination_id,month,tourism_revenue,occupancy_rate,average_spending,stay_duration,offseason_revenue_growth,infrastructure_pressure,economic_efficiency_index,data_status,evidence_source,limitation
+da_nang,2026-05,,,,,,,,"blocked","missing_dataset_registry: tourism_revenue_local,booking_velocity,environmental_pressure","No granular revenue, true occupancy, spending or infrastructure pressure"
+hoi_an,2026-05,,,,,,,,"blocked","missing_dataset_registry: tourism_revenue_local,booking_velocity,environmental_pressure","No granular revenue, true occupancy, spending or infrastructure pressure"
+hue,2026-05,,,,,,,,"blocked","missing_dataset_registry: tourism_revenue_local,booking_velocity,environmental_pressure","No granular revenue, true occupancy, spending or infrastructure pressure"
+quy_nhon,2026-05,,,,,,,,"blocked","missing_dataset_registry: tourism_revenue_local,booking_velocity,environmental_pressure","No granular revenue, true occupancy, spending or infrastructure pressure"
+phu_quoc,2026-05,,,,,,,,"blocked","missing_dataset_registry: tourism_revenue_local,booking_velocity,transport_flow_gold,environmental_pressure","Island economy requires flight/ferry and environment data"
+ha_noi,2026-05,,,,,,,,"blocked","missing_dataset_registry: tourism_revenue_local,booking_velocity","No granular revenue or occupancy"
+ho_chi_minh_city,2026-05,,,,,,,,"blocked","missing_dataset_registry: tourism_revenue_local,booking_velocity","No granular revenue or occupancy"
+can_tho,2026-05,,,,,,,,"blocked","missing_dataset_registry: tourism_revenue_local,event_calendar_attendance","No granular revenue or event attendance"

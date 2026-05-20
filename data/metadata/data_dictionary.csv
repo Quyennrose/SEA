@@ -1,0 +1,60 @@
+table,column,type,required,description,source_domains
+tourism_demand_signals,timestamp,datetime,yes,Observation timestamp,tourism_demand
+tourism_demand_signals,destination,string,yes,Normalized destination name,tourism_demand
+tourism_demand_signals,demand_score,float,no,Composite normalized demand signal,tourism_demand
+tourism_demand_signals,booking_volume,float,no,Observed or partner-provided booking volume,tourism_demand;hotels_accommodation
+tourism_demand_signals,search_volume,float,no,Search trend index or count,tourism_demand
+tourism_demand_signals,flight_search_volume,float,no,Air search or route intent volume,tourism_demand;transport_economic_infrastructure
+hotels_accommodation,hotel_name,string,yes,Hotel or property name,hotels_accommodation
+hotels_accommodation,destination,string,yes,Destination or province/city,hotels_accommodation
+hotels_accommodation,price,float,no,Quoted room price,hotels_accommodation
+hotels_accommodation,occupancy_proxy,float,no,Estimated occupancy from availability and inventory signals,hotels_accommodation
+hotels_accommodation,availability,float,no,Available rooms or availability flag,hotels_accommodation
+hotels_accommodation,star_rating,float,no,Hotel star class,hotels_accommodation
+hotels_accommodation,review_score,float,no,Public review score,hotels_accommodation;events_social_reviews
+hotels_accommodation,review_count,integer,no,Public review count,hotels_accommodation;events_social_reviews
+hotels_accommodation,timestamp,datetime,yes,Snapshot timestamp,hotels_accommodation
+mobility_traffic,location,string,yes,Zone POI route or coordinate label,mobility_traffic
+mobility_traffic,timestamp,datetime,yes,Observation timestamp,mobility_traffic
+mobility_traffic,congestion_level,float,no,Normalized congestion score,mobility_traffic
+mobility_traffic,travel_time,float,no,Observed or estimated travel time in minutes,mobility_traffic
+mobility_traffic,crowd_density,float,no,People per square meter or normalized density,mobility_traffic
+mobility_traffic,transport_load,float,no,Transit load factor or passenger count,mobility_traffic
+poi_inventory,poi_name,string,yes,Point of interest name,mobility_traffic;events_social_reviews
+poi_inventory,category,string,yes,Beach museum restaurant transport hub hidden attraction or other category,mobility_traffic
+poi_inventory,coordinates,string,yes,Latitude longitude or geometry reference,mobility_traffic
+poi_inventory,capacity,float,no,Estimated operating capacity,geospatial
+poi_inventory,popularity_score,float,no,Composite popularity signal,events_social_reviews
+poi_inventory,opening_hours,string,no,Operating hours,mobility_traffic
+poi_inventory,review_score,float,no,POI review score,events_social_reviews
+review_sentiment,sentiment_score,float,no,NLP sentiment from review text,events_social_reviews
+review_sentiment,crowding_mentions,integer,no,Count or binary flag for crowding complaint,events_social_reviews
+review_sentiment,satisfaction_index,float,no,Composite satisfaction score,events_social_reviews
+review_sentiment,complaint_frequency,float,no,Complaint share by topic,events_social_reviews
+weather_environment,timestamp,datetime,yes,Observation or forecast timestamp,weather_environment
+weather_environment,destination,string,yes,Destination name,weather_environment
+weather_environment,temperature,float,no,Temperature in Celsius,weather_environment
+weather_environment,rainfall,float,no,Rainfall in millimeters,weather_environment
+weather_environment,weather_risk,float,no,Composite risk for storms rain heat or unsafe beach conditions,weather_environment
+weather_environment,beach_condition,string,no,Beach operating condition label,weather_environment
+events,event_name,string,yes,Event or campaign name,events_social_reviews
+events,destination,string,yes,Destination name,events_social_reviews
+events,date,date,yes,Event date,events_social_reviews
+events,expected_attendance,float,no,Expected attendance if provided,events_social_reviews
+events,event_type,string,no,Festival concert sports holiday campaign or other type,events_social_reviews
+events,tourism_impact_score,float,no,Estimated impact on visitor demand,events_social_reviews
+social_trends,trend_score,float,no,Composite social trend score,events_social_reviews
+social_trends,virality_score,float,no,Engagement growth and reach score,events_social_reviews
+social_trends,mention_volume,float,no,Destination or hashtag mention count,events_social_reviews
+social_trends,engagement_level,float,no,Views likes comments shares or normalized engagement,events_social_reviews
+transport_supply,route,string,yes,Origin destination route,transport_economic_infrastructure
+transport_supply,seat_capacity,float,no,Seats available by route and period,transport_economic_infrastructure
+transport_supply,passenger_volume,float,no,Passenger volume by route and period,transport_economic_infrastructure
+transport_supply,transport_price,float,no,Observed fare or price index,transport_economic_infrastructure
+transport_supply,delay_rate,float,no,Delay or cancellation rate,transport_economic_infrastructure
+local_economy,revenue,float,no,Tourism revenue,transport_economic_infrastructure
+local_economy,tourism_jobs,float,no,Tourism employment count,transport_economic_infrastructure
+local_economy,local_business_count,float,no,Active tourism-related local businesses,transport_economic_infrastructure
+local_economy,infrastructure_pressure,float,no,Composite infrastructure use pressure,transport_economic_infrastructure
+local_economy,environmental_pressure,float,no,Waste water energy or ecological pressure score,transport_economic_infrastructure
+

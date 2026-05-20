@@ -1,0 +1,9 @@
+﻿event_type,tu_khoa_nhan_dien,tac_dong_van_hanh
+environmental_risk,"cháy rừng, ô nhiễm, rác thải, sự cố môi trường","giảm Destination Health, không recommend điểm đó"
+weather_disruption,"bão, mưa lớn, ngập, biển động","tăng Weather Risk, cảnh báo tuyến/bãi biển"
+traffic_disruption,"kẹt xe, sạt lở, ùn tắc, cấm đường","tăng Travel Friction, đề xuất phân luồng"
+event_pressure,"lễ hội, concert, sự kiện thể thao","tăng Demand Score, chia khung giờ, tăng shuttle"
+capacity_change,"đóng/mở điểm tham quan, thay đổi sức chứa",cập nhật áp lực vé/hạ tầng
+economic_opportunity,"doanh thu, sản phẩm mới, kích cầu","tăng cơ hội kinh tế, combo địa phương"
+policy_change,"quy định, phí, chính sách visa/du lịch",điều chỉnh khuyến nghị vận hành
+ticket_price_change,"giá vé, combo, khuyến mãi",cập nhật ticket pressure và gợi ý giá

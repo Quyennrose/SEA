@@ -1,0 +1,8 @@
+origin_id,alternative_id,date,underutilized_capacity_score,accessibility_score,weather_suitability_score,travel_friction_score,redistribution_opportunity_score,data_status,evidence_source,limitation
+da_nang,hoi_an,2026-05-19,,,,"low",,"graph_ready_missing_capacity","destination_network_edges; weather_daily_gold","Graph edge exists; no POI capacity/crowd/traffic; no score computed"
+da_nang,hue,2026-05-19,,,,"medium",,"graph_ready_missing_capacity","destination_network_edges; weather_daily_gold","Graph edge exists; no capacity/crowd/traffic; no score computed"
+da_nang,quy_nhon,2026-05-19,,,,"high",,"campaign_only_missing_capacity","destination_network_edges; weather_daily_gold","High friction; campaign-level redistribution only"
+ho_chi_minh_city,vung_tau,2026-05-19,,,,"medium",,"graph_ready_missing_traffic","destination_network_edges","No HCMC-Vung Tau travel-time or parking data"
+ha_noi,ninh_binh,2026-05-19,,,,"medium",,"graph_ready_missing_capacity","destination_network_edges","No POI capacity/crowd data"
+ha_long,cat_ba,2026-05-19,,,,"medium",,"transport_constrained_missing_ferry","destination_network_edges","No ferry load or marine condition data"
+can_tho,ben_tre,2026-05-19,,,,"medium",,"graph_ready_missing_capacity","destination_network_edges","No POI/event capacity data"

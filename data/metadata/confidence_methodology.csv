@@ -1,0 +1,2 @@
+﻿cong_thuc,ghi_chu
+"0.30*source_reliability + 0.25*freshness_score + 0.20*coverage_score + 0.15*completeness_score + 0.10*proxy_validation_score","Nếu không có proxy_validation_score thì chia lại trọng số cho 4 thành phần còn lại."

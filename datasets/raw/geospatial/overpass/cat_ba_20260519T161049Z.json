@@ -1,0 +1,974 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-19T16:09:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 778791182,
+  "lat": 20.7321310,
+  "lon": 107.0589122,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "ferry": "yes",
+    "name": "Bến Bèo",
+    "name:en": "Ben Beo",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 994065522,
+  "lat": 20.7247477,
+  "lon": 107.0519917,
+  "tags": {
+    "addr:housenumber": "192",
+    "name": "Phương Linh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994065585,
+  "lat": 20.7242639,
+  "lon": 107.0507878,
+  "tags": {
+    "addr:housenumber": "303",
+    "name": "Princes Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994065733,
+  "lat": 20.7248120,
+  "lon": 107.0525497,
+  "tags": {
+    "addr:housenumber": "170",
+    "name": "Nhị Anh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994065821,
+  "lat": 20.7242388,
+  "lon": 107.0506926,
+  "tags": {
+    "addr:housenumber": "307",
+    "name": "Quang Minh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994065873,
+  "lat": 20.7251373,
+  "lon": 107.0532764,
+  "tags": {
+    "name": "Hùng Anh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994066012,
+  "lat": 20.7260102,
+  "lon": 107.0532507,
+  "tags": {
+    "addr:housenumber": "118",
+    "name": "Sunflower Two",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727512,
+  "lat": 20.7249982,
+  "lon": 107.0497553,
+  "tags": {
+    "addr:street": "Núi Ngọc",
+    "name": "Nam Phương 1",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727535,
+  "lat": 20.7254176,
+  "lon": 107.0498782,
+  "tags": {
+    "addr:housenumber": "21",
+    "addr:street": "Núi Ngọc",
+    "name": "Lan Ha",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727537,
+  "lat": 20.7241244,
+  "lon": 107.0500410,
+  "tags": {
+    "name": "Cat Ba Dream",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727544,
+  "lat": 20.7243638,
+  "lon": 107.0504589,
+  "tags": {
+    "name": "Sunflower One",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727549,
+  "lat": 20.7241526,
+  "lon": 107.0500330,
+  "tags": {
+    "name": "Thang Long Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727574,
+  "lat": 20.7251708,
+  "lon": 107.0497593,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Núi Ngọc",
+    "name": "Tuan Ha",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727585,
+  "lat": 20.7258653,
+  "lon": 107.0508626,
+  "tags": {
+    "addr:housenumber": "32",
+    "addr:street": "Núi Ngọc",
+    "name": "Sông Chanh II",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727586,
+  "lat": 20.7252071,
+  "lon": 107.0498104,
+  "tags": {
+    "addr:housenumber": "15",
+    "addr:street": "Núi Ngọc",
+    "name": "Dung Hà",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727590,
+  "lat": 20.7249490,
+  "lon": 107.0494944,
+  "tags": {
+    "addr:street": "Núi Ngọc",
+    "name": "Yen Thanh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727593,
+  "lat": 20.7322923,
+  "lon": 107.0587290,
+  "tags": {
+    "name": "Đảo Xanh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727603,
+  "lat": 20.7254227,
+  "lon": 107.0502446,
+  "tags": {
+    "addr:housenumber": "18",
+    "addr:street": "Núi Ngọc",
+    "amenity": "restaurant",
+    "name": "Phong an lang",
+    "name:vi": "Phong an lang"
+  }
+},
+{
+  "type": "node",
+  "id": 994727609,
+  "lat": 20.7241706,
+  "lon": 107.0500133,
+  "tags": {
+    "addr:housenumber": "315",
+    "amenity": "restaurant",
+    "name": "Ha Vy"
+  }
+},
+{
+  "type": "node",
+  "id": 994727611,
+  "lat": 20.7242749,
+  "lon": 107.0508444,
+  "tags": {
+    "addr:housenumber": "301",
+    "name": "Trường Giang",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727613,
+  "lat": 20.7242515,
+  "lon": 107.0507360,
+  "tags": {
+    "addr:housenumber": "305",
+    "name": "Huy Hoàng",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727620,
+  "lat": 20.7255630,
+  "lon": 107.0504728,
+  "tags": {
+    "addr:housenumber": "28",
+    "addr:street": "Núi Ngọc",
+    "name": "Sun & Sea Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994727621,
+  "lat": 20.7252271,
+  "lon": 107.0500357,
+  "tags": {
+    "addr:city": "Cát Bà",
+    "addr:district": "Huyện Cát Hải",
+    "addr:housenumber": "23",
+    "addr:postcode": "180000",
+    "addr:province": "Vietnam",
+    "addr:street": "Núi Ngọc",
+    "addr:subdistrict": "Thị trấn Cát Bà",
+    "brand": "svd",
+    "ele": "9",
+    "name": "vien duong hotel",
+    "rooms": "25",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994768154,
+  "lat": 20.7216172,
+  "lon": 107.0513378,
+  "tags": {
+    "name": "Draco QK3 Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994768169,
+  "lat": 20.7232921,
+  "lon": 107.0504665,
+  "tags": {
+    "addr:housenumber": "233",
+    "name": "Nam Duong Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994768173,
+  "lat": 20.7254053,
+  "lon": 107.0507437,
+  "tags": {
+    "addr:housenumber": "3",
+    "name:en": "Sea Dragon Hotel",
+    "name:vi": "Rồng Biển Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 994768198,
+  "lat": 20.7236864,
+  "lon": 107.0497680,
+  "tags": {
+    "artwork_type": "sculpture",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 994768199,
+  "lat": 20.7234309,
+  "lon": 107.0503963,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Green Mango"
+  }
+},
+{
+  "type": "node",
+  "id": 994768209,
+  "lat": 20.7253972,
+  "lon": 107.0498601,
+  "tags": {
+    "addr:housenumber": "17/19",
+    "addr:street": "Núi Ngọc",
+    "name": "Hoàng Hiếu Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1707326620,
+  "lat": 20.7836679,
+  "lon": 107.0659875,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "description": "Boats to KotBa depart at 6:00 and 12:30",
+    "name:en": "Viet Hai harbor",
+    "note": "Boats to KotBa depart at 6:00 and 12:30"
+  }
+},
+{
+  "type": "node",
+  "id": 2147600360,
+  "lat": 20.7293037,
+  "lon": 107.0784490,
+  "tags": {
+    "email": "sales@monkeyislandresort.com",
+    "fax": "+84 439261585",
+    "fixme": "resurvey",
+    "name": "Monkey Island Resort",
+    "phone": "+84 439261585",
+    "tourism": "hotel",
+    "website": "http://www.monkeyislandresort.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2649308257,
+  "lat": 20.7255728,
+  "lon": 107.0480930,
+  "tags": {
+    "addr:housenumber": "196",
+    "amenity": "restaurant",
+    "name": "My Way"
+  }
+},
+{
+  "type": "node",
+  "id": 2649308258,
+  "lat": 20.7231574,
+  "lon": 107.0505139,
+  "tags": {
+    "name": "Hailong Hotel",
+    "source": "GPS; sign",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3179329661,
+  "lat": 20.7255221,
+  "lon": 107.0482057,
+  "tags": {
+    "addr:city": "Hai Phong",
+    "addr:district": "Cat Ba Town",
+    "addr:housenumber": "193",
+    "addr:province": "Vietnam",
+    "addr:street": "1/4",
+    "name": "Phuong Mai Family Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3251910822,
+  "lat": 20.7249088,
+  "lon": 107.0494246,
+  "tags": {
+    "name": "Sea View Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3678370946,
+  "lat": 20.7637986,
+  "lon": 107.0274568,
+  "tags": {
+    "name": "guesthouse",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 3762098212,
+  "lat": 20.7248336,
+  "lon": 107.0530669,
+  "tags": {
+    "name": "Cat Ba Guest House",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 3880373876,
+  "lat": 20.7399027,
+  "lon": 107.0426875,
+  "tags": {
+    "name": "little cat ba",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4116112658,
+  "lat": 20.7175788,
+  "lon": 107.0474827,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4193506893,
+  "lat": 20.7249076,
+  "lon": 107.0489767,
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Hoang Long",
+    "opening_hours": "24/7",
+    "phone": "0313887224",
+    "public_transport": "station"
+  }
+},
+{
+  "type": "node",
+  "id": 4199690889,
+  "lat": 20.7270299,
+  "lon": 107.0437802,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Catba Central Hotel II",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4225072693,
+  "lat": 20.7501788,
+  "lon": 106.9977479,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Woodstock Beach Camp",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4225389590,
+  "lat": 20.7385094,
+  "lon": 107.0322535,
+  "tags": {
+    "name": "Cat Ba Mountain View Guesthouse",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 4226241690,
+  "lat": 20.7237473,
+  "lon": 107.0502284,
+  "tags": {
+    "addr:housenumber": "226",
+    "addr:street": "Đường 1/4",
+    "amenity": "restaurant",
+    "description": "\"As if it is your best!\" #1@TripAdvisor",
+    "email": "info@oasiscatba.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Cat Ba Oasis Bar",
+    "outdoor_seating": "yes",
+    "phone": "+84963771155",
+    "smoking": "outside",
+    "website": "http://oasiscatba.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4330795089,
+  "lat": 20.7256251,
+  "lon": 107.0479225,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Nam VIP CAFÉ"
+  }
+},
+{
+  "type": "node",
+  "id": 4365895095,
+  "lat": 20.7248791,
+  "lon": 107.0527876,
+  "tags": {
+    "addr:housenumber": "160",
+    "addr:street": "Núi Ngọc",
+    "email": "info@catbahostel.com",
+    "internet_access": "wlan",
+    "name:en": "Cat Ba Hostel",
+    "opening_hours": "Mo-Su 06:00-23:00",
+    "phone": "0313887762",
+    "tourism": "hostel",
+    "website": "http://www.catbahostel.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4375049390,
+  "lat": 20.7267529,
+  "lon": 107.0521941,
+  "tags": {
+    "addr:housenumber": "84",
+    "addr:street": "Núi Ngọc",
+    "internet_access": "wlan",
+    "name": "Cat Ba Lingur Hostel 2",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 4426378697,
+  "lat": 20.7697237,
+  "lon": 107.0202476,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "internet_access": "wlan",
+    "name": "Cafe Kim Ba - Ga Doi"
+  }
+},
+{
+  "type": "node",
+  "id": 4463333191,
+  "lat": 20.7256826,
+  "lon": 107.0474654,
+  "tags": {
+    "addr:housenumber": "185",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "internet_access": "wlan",
+    "name": "Phương Nhung",
+    "name:de": "Phuong Nhung",
+    "name:en": "Phuong Nhung"
+  }
+},
+{
+  "type": "node",
+  "id": 4476873989,
+  "lat": 20.7423183,
+  "lon": 107.0288077,
+  "tags": {
+    "name:en": "Cat Ba Ancient House Homestay",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4481230492,
+  "lat": 20.7484079,
+  "lon": 107.0801658,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4542264189,
+  "lat": 20.7276929,
+  "lon": 107.0474770,
+  "tags": {
+    "name:en": "Stairs",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4544639393,
+  "lat": 20.7251321,
+  "lon": 107.0490692,
+  "tags": {
+    "addr:housenumber": "214",
+    "addr:street": "Đường 1/4",
+    "email": "thangphonglan@gmail.com",
+    "internet_access": "wlan",
+    "name": "Phong Lan",
+    "name:vi": "Phong Lan",
+    "phone": "0313888605",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4550354489,
+  "lat": 20.7258634,
+  "lon": 107.0470059,
+  "tags": {
+    "addr:housenumber": "177",
+    "addr:street": "1/4",
+    "amenity": "restaurant",
+    "cuisine": "local;vietnamese;burger;pizza",
+    "diet:vegan": "yes",
+    "internet_access": "wlan",
+    "name": "Like Coffee",
+    "name:vi": "Like Coffee",
+    "opening_hours": "08:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4577246998,
+  "lat": 20.7247897,
+  "lon": 107.0525981,
+  "tags": {
+    "name:zh": "飯店",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4577301893,
+  "lat": 20.7246759,
+  "lon": 107.0518111,
+  "tags": {
+    "amenity": "restaurant",
+    "name:zh": "Green Bamboo Forest"
+  }
+},
+{
+  "type": "node",
+  "id": 4583782591,
+  "lat": 20.7277826,
+  "lon": 107.0468594,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "fish;vietnamese",
+    "name": "Com No 368",
+    "name:en": "Eatery Com No 368",
+    "name:vi": "Com No 368",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "phone": "01668018357"
+  }
+},
+{
+  "type": "node",
+  "id": 4587394292,
+  "lat": 20.7602435,
+  "lon": 107.0784897,
+  "tags": {
+    "name": "Van boi trong",
+    "name:en": "Van boi trong",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4588218190,
+  "lat": 20.7780599,
+  "lon": 107.0768088,
+  "tags": {
+    "name:en": "Tung thit / Jellyfish Wall / Three Brothers",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4588218291,
+  "lat": 20.7611426,
+  "lon": 107.0636188,
+  "tags": {
+    "name:en": "Pirate's belly",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4619897789,
+  "lat": 20.7270647,
+  "lon": 107.0517659,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Cat ba Garden House",
+    "name:vi": "Cat ba Garden House",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4631432489,
+  "lat": 20.7611156,
+  "lon": 107.0638045,
+  "tags": {
+    "name": "Castway island",
+    "name:en": "Backpacker Hanoi Hostels - Castway",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 4735874124,
+  "lat": 20.7225943,
+  "lon": 107.0508544,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Tien Thang Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4751837831,
+  "lat": 20.7220126,
+  "lon": 107.0511224,
+  "tags": {
+    "name": "Tang tien hotel",
+    "name:vi": "Tang tien hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4754045222,
+  "lat": 20.7252294,
+  "lon": 107.0488659,
+  "tags": {
+    "addr:city": "Cát Bà",
+    "addr:housenumber": "211",
+    "addr:postcode": "180000",
+    "addr:province": "Hải Phòng",
+    "addr:street": "Đường 1/4",
+    "addr:subdistrict": "cat ba",
+    "check_date": "2026-01-21",
+    "description": "Khách sạn có view đẹp, nhìn ra vịnh Cát Bà, không gian thoáng đãng, nhân viên phục vụ nhiệt tình, chu đáo. Đầu bếp nấu ăn rất ngon, giá cả hợp lý; liên hệ theo email: dulichcathai@gmail.com; số điện thoại: 00840869109688; gặp anh Toàn",
+    "email": "dulichcathai@gmail.com",
+    "internet_access": "wlan",
+    "internet_access:ssid": "Viettel",
+    "name": "Ngoc Hoa Hotel",
+    "name:en": "Trung hoa hotel",
+    "rooms": "16",
+    "stars": "1",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4791799202,
+  "lat": 20.7259468,
+  "lon": 107.0469462,
+  "tags": {
+    "name": "Phu Thanh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4794363321,
+  "lat": 20.7262865,
+  "lon": 107.0504507,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Huyen vu",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 4811383111,
+  "lat": 20.7244217,
+  "lon": 107.0518855,
+  "tags": {
+    "addr:housenumber": "271",
+    "name": "Catba Central Hotel",
+    "name:en": "Catba Central Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4811386801,
+  "lat": 20.7256782,
+  "lon": 107.0477358,
+  "tags": {
+    "addr:housenumber": "195",
+    "addr:street": "Đường 1/4",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name:en": "Quan Cat Ba Cafe - Coffee",
+    "opening_hours": "Mo-Su 09:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4883401322,
+  "lat": 20.7269280,
+  "lon": 107.0428609,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Tâm Hôn Viêt",
+    "name:en": "Vietname's Soul Food",
+    "name:vi": "Tâm Hôn Viêt"
+  }
+},
+{
+  "type": "node",
+  "id": 4895300622,
+  "lat": 20.7301001,
+  "lon": 107.0788986,
+  "tags": {
+    "name:en": "Panorama",
+    "name:fr": "Panorama",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4920029421,
+  "lat": 20.7408666,
+  "lon": 106.9989859,
+  "tags": {
+    "historic": "bunker",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4930999322,
+  "lat": 20.7249115,
+  "lon": 107.0496463,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Viet Anh",
+    "name:vi": "Viet Anh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4957754323,
+  "lat": 20.7269290,
+  "lon": 107.0427059,
+  "tags": {
+    "amenity": "restaurant",
+    "name:en": "Vietnamese Soul Food"
+  }
+},
+{
+  "type": "node",
+  "id": 4968881231,
+  "lat": 20.7266545,
+  "lon": 107.0467131,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "burger;american;pasta;italian;breakfast;pizza;asian",
+    "internet_access": "wlan",
+    "name": "My Way",
+    "name:nl": "My way",
+    "name:vi": "My Way"
+  }
+},
+{
+  "type": "node",
+  "id": 5010909779,
+  "lat": 20.7278897,
+  "lon": 107.0461664,
+  "tags": {
+    "addr:city": "Thành phố Hải Phòng",
+    "addr:district": "Huyện Cát Hải",
+    "addr:housenumber": "số 23",
+    "addr:street": "Tùng Dinh",
+    "addr:subdistrict": "Thị trấn Cát Bà",
+    "description": "Khách sạn có vị trí tốt, thuận tiện cho giao thông đi lại, đầy đủ dịch vụ tiện nghi, phòng sạch sẽ , nhân viên 24/24 vô cùng nhiệt tình chu đáo.",
+    "email": "vandung281093@gmail.com",
+    "internet_access": "yes",
+    "level": "7",
+    "name": "Nhật Anh Hotel 2",
+    "rooms": "28",
+    "smoking": "outside",
+    "stars": "1",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5021041821,
+  "lat": 20.7400756,
+  "lon": 107.0419466,
+  "tags": {
+    "addr:street": "Đập Nước, Khu phố 1",
+    "email": "centralbackpackerscatba@gmail.com",
+    "internet_access": "wlan",
+    "name": "Central Backpackers Hostel",
+    "name:fr": "Central Backpackers Hostel",
+    "phone": "+842256274888",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 5059552421,
+  "lat": 20.7254218,
+  "lon": 107.0484375,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Green Bamboo Forest"
+  }
+},
+{
+  "type": "node",
+  "id": 5083068621,
+  "lat": 20.7225512,
+  "lon": 107.0508745,
+  "tags": {
+    "name": "Cat Ba Central Hostel Backpacker",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 5100898121,
+  "lat": 20.7245907,
+  "lon": 107.0524978,
+  "tags": {
+    "addr:housenumber": "249",
+    "addr:street": "Núi Ngọc",
+    "internet_access": "wlan",
+    "name": "Cat Ba Green House",
+    "tourism": "hotel"
+  }
+}
+
+  ]
+}

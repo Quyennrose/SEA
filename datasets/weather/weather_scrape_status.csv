@@ -1,0 +1,64 @@
+﻿province,latitude,longitude,source_status,collected_at,note
+An Giang,10.5216,105.1259,public_open_meteo_api,2026-05-17T19:30:45.824442+00:00,
+Ba Ria - Vung Tau,10.5417,107.2429,public_open_meteo_api,2026-05-17T19:30:45.832898+00:00,
+Bac Giang,21.2731,106.1946,public_open_meteo_api,2026-05-17T19:30:45.842704+00:00,
+Bac Kan,22.147,105.8348,public_open_meteo_api,2026-05-17T19:30:45.852399+00:00,
+Bac Lieu,9.294,105.7278,public_open_meteo_api,2026-05-17T19:30:45.860241+00:00,
+Bac Ninh,21.1861,106.0763,public_open_meteo_api,2026-05-17T19:30:45.866532+00:00,
+Ben Tre,10.2434,106.3756,public_open_meteo_api,2026-05-17T19:30:45.876172+00:00,
+Binh Dinh,13.782,109.219,public_open_meteo_api,2026-05-17T19:30:45.885033+00:00,
+Binh Duong,11.3254,106.477,public_open_meteo_api,2026-05-17T19:30:45.892926+00:00,
+Binh Phuoc,11.7512,106.7235,public_open_meteo_api,2026-05-17T19:30:45.899019+00:00,
+Binh Thuan,10.9333,108.1,public_open_meteo_api,2026-05-17T19:32:08.495728+00:00,
+Ca Mau,9.1768,105.1524,public_open_meteo_api,2026-05-17T19:32:08.500891+00:00,
+Can Tho,10.0452,105.7469,public_open_meteo_api,2026-05-17T19:32:08.506465+00:00,
+Cao Bang,22.6666,106.2639,public_open_meteo_api,2026-05-17T19:32:08.511842+00:00,
+Da Nang,16.0544,108.2022,public_open_meteo_api,2026-05-17T19:32:08.518628+00:00,
+Dak Lak,12.71,108.2378,public_open_meteo_api,2026-05-17T19:32:08.528738+00:00,
+Dak Nong,12.2646,107.6098,public_open_meteo_api,2026-05-17T19:32:08.534950+00:00,
+Dien Bien,21.386,103.023,public_open_meteo_api,2026-05-17T19:32:08.540250+00:00,
+Dong Nai,10.9453,106.8246,public_open_meteo_api,2026-05-17T19:32:08.545408+00:00,
+Dong Thap,10.4938,105.6882,public_open_meteo_api,2026-05-17T19:32:08.553011+00:00,
+Gia Lai,13.9833,108.0,public_open_meteo_api,2026-05-17T19:33:44.207256+00:00,
+Ha Giang,22.8025,104.9784,public_open_meteo_api,2026-05-17T19:33:44.212292+00:00,
+Ha Nam,20.5835,105.9229,public_open_meteo_api,2026-05-17T19:33:44.217208+00:00,
+Ha Noi,21.0278,105.8342,public_open_meteo_api,2026-05-17T19:33:44.222342+00:00,
+Ha Tinh,18.3559,105.8877,public_open_meteo_api,2026-05-17T19:33:44.227538+00:00,
+Hai Duong,20.9373,106.3146,public_open_meteo_api,2026-05-17T19:33:44.233240+00:00,
+Hai Phong,20.8449,106.6881,public_open_meteo_api,2026-05-17T19:33:44.239553+00:00,
+Hau Giang,9.7579,105.6413,public_open_meteo_api,2026-05-17T19:33:44.246646+00:00,
+Hoa Binh,20.6861,105.3131,public_open_meteo_api,2026-05-17T19:33:44.254018+00:00,
+Hung Yen,20.6464,106.0511,public_open_meteo_api,2026-05-17T19:33:44.260071+00:00,
+Khanh Hoa,12.2388,109.1967,public_open_meteo_api,2026-05-17T19:35:07.938467+00:00,
+Kien Giang,10.0125,105.0809,public_open_meteo_api,2026-05-17T19:35:07.948069+00:00,
+Kon Tum,14.3497,108.0005,public_open_meteo_api,2026-05-17T19:35:07.958843+00:00,
+Lai Chau,22.3862,103.4703,public_open_meteo_api,2026-05-17T19:35:07.969395+00:00,
+Lam Dong,11.9404,108.4583,public_open_meteo_api,2026-05-17T19:35:07.977623+00:00,
+Lang Son,21.8537,106.7615,public_open_meteo_api,2026-05-17T19:35:07.983466+00:00,
+Lao Cai,22.4809,103.9755,public_open_meteo_api,2026-05-17T19:35:07.988891+00:00,
+Long An,10.6956,106.2431,public_open_meteo_api,2026-05-17T19:35:07.995018+00:00,
+Nam Dinh,20.4388,106.1621,public_open_meteo_api,2026-05-17T19:35:08.001521+00:00,
+Nghe An,18.6796,105.6813,public_open_meteo_api,2026-05-17T19:35:08.008903+00:00,
+Ninh Binh,20.2506,105.9745,public_open_meteo_api,2026-05-17T19:36:41.226186+00:00,
+Ninh Thuan,11.6739,108.8629,public_open_meteo_api,2026-05-17T19:36:41.236227+00:00,
+Phu Tho,21.2684,105.2046,public_open_meteo_api,2026-05-17T19:36:41.246236+00:00,
+Phu Yen,13.0882,109.0929,public_open_meteo_api,2026-05-17T19:36:41.254910+00:00,
+Quang Binh,17.4689,106.6223,public_open_meteo_api,2026-05-17T19:36:41.264199+00:00,
+Quang Nam,15.5394,108.0191,public_open_meteo_api,2026-05-17T19:36:41.274972+00:00,
+Quang Ngai,15.1214,108.8044,public_open_meteo_api,2026-05-17T19:36:41.281587+00:00,
+Quang Ninh,21.0064,107.2925,public_open_meteo_api,2026-05-17T19:36:41.288056+00:00,
+Quang Tri,16.75,107.2,public_open_meteo_api,2026-05-17T19:36:41.299603+00:00,
+Soc Trang,9.6025,105.9739,public_open_meteo_api,2026-05-17T19:36:41.308689+00:00,
+Son La,21.1022,103.7289,request_failed,2026-05-17T19:37:51.489700+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Tay Ninh,11.3352,106.1099,request_failed,2026-05-17T19:37:51.489731+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Thai Binh,20.4463,106.3366,request_failed,2026-05-17T19:37:51.489740+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Thai Nguyen,21.5672,105.8252,request_failed,2026-05-17T19:37:51.489745+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Thanh Hoa,19.8067,105.7852,request_failed,2026-05-17T19:37:51.489750+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Thua Thien Hue,16.4637,107.5909,request_failed,2026-05-17T19:37:51.489755+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Tien Giang,10.4493,106.3421,request_failed,2026-05-17T19:37:51.489759+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Ho Chi Minh City,10.8231,106.6297,request_failed,2026-05-17T19:37:51.489763+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Tra Vinh,9.9347,106.3453,request_failed,2026-05-17T19:37:51.489767+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Tuyen Quang,21.7767,105.228,request_failed,2026-05-17T19:37:51.489772+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Vinh Long,10.2537,105.9722,request_failed,2026-05-17T19:39:01.669713+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Vinh Phuc,21.3089,105.6049,request_failed,2026-05-17T19:39:01.669728+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"
+Yen Bai,21.7168,104.8986,request_failed,2026-05-17T19:39:01.669732+00:00,"failed to request 'https://archive-api.open-meteo.com/v1/archive': {'error': True, 'reason': 'Hourly API request limit exceeded. Please try again in the next hour.'}"

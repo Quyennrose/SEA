@@ -1,0 +1,9 @@
+destination_id,date,travel_time_delay_score,crowd_density_score,parking_pressure_score,hotspot_load_score,congestion_pressure_index,data_status,evidence_source,limitation
+da_nang,2026-05-19,,,,,,"missing_realtime","dataset_status_catalog: traffic_travel_time,crowd_density_hotspots,parking_occupancy","No Maps/traffic, crowd, parking or POI capacity feed; do not infer congestion"
+hoi_an,2026-05-19,,,,,,"missing_realtime","dataset_status_catalog: traffic_travel_time,crowd_density_hotspots,poi_capacity_gold","No pedestrian/heritage-core capacity feed"
+hue,2026-05-19,,,,,,"missing_realtime","dataset_status_catalog: traffic_travel_time,poi_capacity_gold","No queue, traffic or heritage-site capacity feed"
+quy_nhon,2026-05-19,,,,,,"missing_realtime","dataset_status_catalog: traffic_travel_time,crowd_density_hotspots","No live mobility feed"
+nha_trang,2026-05-19,,,,,,"missing_realtime","dataset_status_catalog: traffic_travel_time,crowd_density_hotspots","No beach crowd or parking feed"
+phu_quoc,2026-05-19,,,,,,"missing_realtime","dataset_status_catalog: transport_flow_gold,crowd_density_hotspots","No flight/ferry load and beach density feed"
+ha_long,2026-05-19,,,,,,"missing_realtime","dataset_status_catalog: traffic_travel_time,transport_flow_gold","No bay/road/ferry load feed"
+sa_pa,2026-05-19,,,,,,"missing_realtime","dataset_status_catalog: traffic_travel_time","No mountain-route travel-time/incident feed"

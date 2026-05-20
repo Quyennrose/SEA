@@ -1,0 +1,227 @@
+# Knowledge Base SEA
+
+Xin chào, tôi là Trợ lý điều hành SEA. Tôi có thể giúp bạn xem cảnh báo du lịch, giải thích chỉ số, đề xuất điều phối khách và phân tích hiệu quả kinh tế.
+
+Quy tắc: chỉ trả lời dựa trên bảng gold/current; nếu thiếu dữ liệu phải nói rõ thiếu dữ liệu, confidence thấp hoặc cần API đối tác.
+
+## Cảnh báo điểm đến
+- Hạ Long (Quảng Ninh): cảnh báo cam, áp lực 84.73, thời tiết 84.1, hạ tầng 57.9, điều phối 61.76. Vì sao: rủi ro thời tiết cao; proxy giá/lưu trú căng. Nên làm: Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.. Hiệu quả kinh tế: Giảm áp lực điểm nóng, tăng chi tiêu ăn uống/vận tải/lưu trú ở điểm phụ, giảm chi phí xã hội do kẹt xe và trải nghiệm xấu.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Cát Bà (Hải Phòng): cảnh báo cam, áp lực 70.81, thời tiết 96.38, hạ tầng 54.82, điều phối 35.0. Vì sao: rủi ro thời tiết cao. Nên làm: Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.. Hiệu quả kinh tế: Giảm áp lực điểm nóng, tăng chi tiêu ăn uống/vận tải/lưu trú ở điểm phụ, giảm chi phí xã hội do kẹt xe và trải nghiệm xấu.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Quy Nhơn (Bình Định): cảnh báo vàng, áp lực 65.71, thời tiết 68.32, hạ tầng 52.49, điều phối 35.0. Vì sao: áp lực ở mức theo dõi từ dữ liệu hiện có. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Đà Nẵng (Đà Nẵng): cảnh báo vàng, áp lực 63.06, thời tiết 49.64, hạ tầng 75.02, điều phối 79.84. Vì sao: áp lực ở mức theo dõi từ dữ liệu hiện có. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Mũi Né (Bình Thuận): cảnh báo vàng, áp lực 60.78, thời tiết 49.66, hạ tầng 58.88, điều phối 35.0. Vì sao: áp lực ở mức theo dõi từ dữ liệu hiện có. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Sầm Sơn (Thanh Hóa): cảnh báo vàng, áp lực 58.85, thời tiết 97.98, hạ tầng 35.04, điều phối 35.0. Vì sao: rủi ro thời tiết cao; hạ tầng proxy yếu. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Hội An (Quảng Nam): cảnh báo vàng, áp lực 52.25, thời tiết 41.96, hạ tầng 81.82, điều phối 72.97. Vì sao: áp lực ở mức theo dõi từ dữ liệu hiện có. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Huế (Huế): cảnh báo vàng, áp lực 51.4, thời tiết 61.22, hạ tầng 68.51, điều phối 35.0. Vì sao: áp lực ở mức theo dõi từ dữ liệu hiện có. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Vũng Tàu (Bà Rịa - Vũng Tàu): cảnh báo vàng, áp lực 40.95, thời tiết 48.82, hạ tầng 70.7, điều phối 35.0. Vì sao: áp lực ở mức theo dõi từ dữ liệu hiện có. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Cửa Lò (Nghệ An): cảnh báo xanh, áp lực 36.2, thời tiết 40.58, hạ tầng 37.2, điều phối 35.0. Vì sao: hạ tầng proxy yếu. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_near_real_time. Độ tin cậy: 76.5.
+- Ninh Bình (Ninh Bình): cảnh báo xám, áp lực 48.38, thời tiết 85.38, hạ tầng 23.27, điều phối 35.0. Vì sao: rủi ro thời tiết cao; hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Lý Sơn (Quảng Ngãi): cảnh báo xám, áp lực 47.76, thời tiết 83.6, hạ tầng 22.7, điều phối 35.0. Vì sao: rủi ro thời tiết cao; hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Hà Nội (Hà Nội): cảnh báo xám, áp lực 45.65, thời tiết 77.56, hạ tầng 33.92, điều phối 50.89. Vì sao: rủi ro thời tiết cao; hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Hà Giang (Hà Giang): cảnh báo xám, áp lực 43.62, thời tiết 71.78, hạ tầng 25.66, điều phối 35.0. Vì sao: rủi ro thời tiết cao; hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Phú Quốc (Kiên Giang): cảnh báo xám, áp lực 37.76, thời tiết 57.28, hạ tầng 48.71, điều phối 41.8. Vì sao: thiếu POI/nguồn kiểm định. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Phong Nha - Kẻ Bàng (Quảng Bình): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Bà Nà Hills (Đà Nẵng): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Mai Châu (Hòa Bình): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Tam Đảo (Vĩnh Phúc): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Pleiku (Gia Lai): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Buôn Ma Thuột (Đắk Lắk): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Châu Đốc (An Giang): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Ba Vì (Hà Nội): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Thiên Cầm (Hà Tĩnh): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Nhật Lệ (Quảng Bình): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Cửa Tùng (Quảng Trị): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Hải Tiến (Thanh Hóa): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Lăng Cô (Huế): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Cù Lao Chàm (Quảng Nam): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Tam Kỳ (Quảng Nam): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Sa Huỳnh (Quảng Ngãi): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Mỹ Khê (Đà Nẵng): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- La Gi (Bình Thuận): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Phan Thiết (Bình Thuận): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Kỳ Co (Bình Định): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Bình Ba (Khánh Hòa): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Cam Ranh (Khánh Hòa): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Phan Rang - Tháp Chàm (Ninh Thuận): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Vĩnh Hy (Ninh Thuận): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Gành Đá Đĩa (Phú Yên): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Tuy Hòa (Phú Yên): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Hà Tiên (Kiên Giang): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Cô Tô (Quảng Ninh): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Trà Cổ (Quảng Ninh): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Hồ Tràm (Bà Rịa - Vũng Tàu): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Cần Giờ (TP Hồ Chí Minh): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Hòn Sơn (Kiên Giang): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Nam Du (Kiên Giang): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Bạc Liêu (Bạc Liêu): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Đất Mũi Cà Mau (Cà Mau): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Sóc Trăng (Sóc Trăng): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Trà Vinh (Trà Vinh): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Đồ Sơn (Hải Phòng): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Thịnh Long (Nam Định): cảnh báo xám, áp lực 36.0, thời tiết 50.0, hạ tầng 35.0, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 43.75.
+- Mộc Châu (Sơn La): cảnh báo xám, áp lực 34.61, thời tiết 46.02, hạ tầng 32.1, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Bến Tre (Bến Tre): cảnh báo xám, áp lực 33.56, thời tiết 43.02, hạ tầng 32.84, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- An Giang (An Giang): cảnh báo xám, áp lực 32.63, thời tiết 40.38, hạ tầng 33.51, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Cần Thơ (Cần Thơ): cảnh báo xám, áp lực 32.07, thời tiết 38.76, hạ tầng 34.92, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Nha Trang (Khánh Hòa): cảnh báo xám, áp lực 28.72, thời tiết 43.08, hạ tầng 50.78, điều phối 35.0. Vì sao: thiếu POI/nguồn kiểm định. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Côn Đảo (Bà Rịa - Vũng Tàu): cảnh báo xám, áp lực 27.69, thời tiết 65.62, hạ tầng 36.71, điều phối 35.0. Vì sao: hạ tầng proxy yếu; thiếu POI/nguồn kiểm định. Nên làm: Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Sa Pa (Lào Cai): cảnh báo xám, áp lực 24.69, thời tiết 50.8, hạ tầng 44.99, điều phối 35.0. Vì sao: thiếu POI/nguồn kiểm định. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- TP Hồ Chí Minh (TP Hồ Chí Minh): cảnh báo xám, áp lực 16.48, thời tiết 47.1, hạ tầng 40.17, điều phối 75.2. Vì sao: thiếu POI/nguồn kiểm định. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+- Đà Lạt (Lâm Đồng): cảnh báo xám, áp lực 16.38, thời tiết 41.74, hạ tầng 55.42, điều phối 35.0. Vì sao: thiếu POI/nguồn kiểm định. Nên làm: Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.. Hiệu quả kinh tế: Tăng doanh thu mùa thấp điểm và kéo dài thời gian lưu trú nếu kích cầu đúng phân khúc.. Dữ liệu dùng: mixed_proxy_thieu_du_lieu. Độ tin cậy: 61.5.
+
+## Forecast
+
+- Hạ Long 24 giờ: 84.54 (cam). Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.
+- Hạ Long 7 ngày: 85.08 (đỏ). Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.
+- Hạ Long 30 ngày: 78.59 (cam). Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.
+- Hạ Long 3 tháng: 73.05 (cam). Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.
+- Cát Bà 24 giờ: 78.48 (cam). Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.
+- Cát Bà 7 ngày: 66.96 (vàng). Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.
+- Cát Bà 30 ngày: 59.65 (vàng). Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.
+- Cát Bà 3 tháng: 57.65 (vàng). Phân luồng giao thông, tăng shuttle, chia khung giờ vào điểm nóng, tạm giảm quảng bá đại trà và đẩy khách sang điểm thay thế có hạ tầng tốt hơn.
+- Quy Nhơn 24 giờ: 66.49 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Quy Nhơn 7 ngày: 65.1 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Quy Nhơn 30 ngày: 60.95 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Quy Nhơn 3 tháng: 58.24 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Đà Nẵng 24 giờ: 59.03 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Đà Nẵng 7 ngày: 64.47 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Đà Nẵng 30 ngày: 66.4 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Đà Nẵng 3 tháng: 66.54 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Mũi Né 24 giờ: 57.44 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Mũi Né 7 ngày: 61.98 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Mũi Né 30 ngày: 61.19 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Mũi Né 3 tháng: 59.36 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Sầm Sơn 24 giờ: 70.59 (cam). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Sầm Sơn 7 ngày: 53.74 (vàng). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Sầm Sơn 30 ngày: 43.65 (vàng). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Sầm Sơn 3 tháng: 40.68 (vàng). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Hội An 24 giờ: 49.16 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Hội An 7 ngày: 53.13 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Hội An 30 ngày: 59.08 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Hội An 3 tháng: 62.96 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Huế 24 giờ: 54.35 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Huế 7 ngày: 49.51 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Huế 30 ngày: 50.6 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Huế 3 tháng: 53.36 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Vũng Tàu 24 giờ: 43.31 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Vũng Tàu 7 ngày: 39.42 (xanh). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Vũng Tàu 30 ngày: 43.73 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Vũng Tàu 3 tháng: 48.71 (vàng). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Cửa Lò 24 giờ: 37.51 (xanh). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Cửa Lò 7 ngày: 35.9 (xanh). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Cửa Lò 30 ngày: 34.2 (xanh). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Cửa Lò 3 tháng: 33.14 (xanh). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Ninh Bình 24 giờ: 59.48 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Ninh Bình 7 ngày: 43.78 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Ninh Bình 30 ngày: 34.4 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Ninh Bình 3 tháng: 31.48 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Lý Sơn 24 giờ: 58.51 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Lý Sơn 7 ngày: 43.32 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Lý Sơn 30 ngày: 33.89 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Lý Sơn 3 tháng: 30.79 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Hà Nội 24 giờ: 55.22 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Hà Nội 7 ngày: 41.74 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Hà Nội 30 ngày: 34.3 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Hà Nội 3 tháng: 32.26 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Hà Giang 24 giờ: 52.07 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Hà Giang 7 ngày: 40.21 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Hà Giang 30 ngày: 32.82 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Hà Giang 3 tháng: 30.31 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Phú Quốc 24 giờ: 43.62 (xám). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Phú Quốc 7 ngày: 35.5 (xám). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Phú Quốc 30 ngày: 35.28 (xám). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Phú Quốc 3 tháng: 37.37 (xám). Theo dõi thời tiết, giá/lưu trú và sự kiện; chuẩn bị shuttle, voucher giờ thấp điểm.
+- Phong Nha - Kẻ Bàng 24 giờ: 40.2 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Phong Nha - Kẻ Bàng 7 ngày: 34.5 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Phong Nha - Kẻ Bàng 30 ngày: 31.11 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Phong Nha - Kẻ Bàng 3 tháng: 29.9 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Bà Nà Hills 24 giờ: 40.2 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Bà Nà Hills 7 ngày: 34.5 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Bà Nà Hills 30 ngày: 31.11 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Bà Nà Hills 3 tháng: 29.9 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Mai Châu 24 giờ: 40.2 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Mai Châu 7 ngày: 34.5 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Mai Châu 30 ngày: 31.11 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Mai Châu 3 tháng: 29.9 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Tam Đảo 24 giờ: 40.2 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Tam Đảo 7 ngày: 34.5 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Tam Đảo 30 ngày: 31.11 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Tam Đảo 3 tháng: 29.9 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Pleiku 24 giờ: 40.2 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Pleiku 7 ngày: 34.5 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Pleiku 30 ngày: 31.11 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+- Pleiku 3 tháng: 29.9 (xám). Không đẩy khách đại trà; ưu tiên bãi đỗ, vệ sinh công cộng, biển chỉ dẫn, QR vé và điểm thông tin du lịch.
+
+## Kiểm định proxy
+
+- Hạ Long: lệch 0.75%, proxy rất tốt, confidence sau kiểm định 76.5.
+- Cát Bà: lệch 26.53%, cần theo dõi, confidence sau kiểm định 68.5.
+- Quy Nhơn: lệch 3.82%, proxy rất tốt, confidence sau kiểm định 76.5.
+- Đà Nẵng: lệch 27.03%, cần theo dõi, confidence sau kiểm định 68.5.
+- Mũi Né: lệch 22.39%, cần theo dõi, confidence sau kiểm định 68.5.
+- Sầm Sơn: lệch 39.94%, proxy không ổn định, giảm confidence, confidence sau kiểm định 61.5.
+- Hội An: lệch 24.52%, cần theo dõi, confidence sau kiểm định 68.5.
+- Huế: lệch 16.04%, proxy tốt, dùng được, confidence sau kiểm định 73.5.
+- Vũng Tàu: lệch 16.12%, proxy tốt, dùng được, confidence sau kiểm định 73.5.
+- Cửa Lò: lệch 10.79%, proxy tốt, dùng được, confidence sau kiểm định 73.5.
+- Ninh Bình: lệch 43.34%, proxy không ổn định, giảm confidence, confidence sau kiểm định 46.5.
+- Lý Sơn: lệch 42.87%, proxy không ổn định, giảm confidence, confidence sau kiểm định 46.5.
+- Hà Nội: lệch 41.14%, proxy không ổn định, giảm confidence, confidence sau kiểm định 46.5.
+- Hà Giang: lệch 39.23%, proxy không ổn định, giảm confidence, confidence sau kiểm định 46.5.
+- Phú Quốc: lệch 34.08%, cần theo dõi, confidence sau kiểm định 53.5.
+- Phong Nha - Kẻ Bàng: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Bà Nà Hills: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Mai Châu: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Tam Đảo: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Pleiku: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Buôn Ma Thuột: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Châu Đốc: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Ba Vì: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Thiên Cầm: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Nhật Lệ: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Cửa Tùng: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Hải Tiến: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Lăng Cô: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Cù Lao Chàm: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Tam Kỳ: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Sa Huỳnh: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Mỹ Khê: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- La Gi: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Phan Thiết: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Kỳ Co: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Bình Ba: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Cam Ranh: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Phan Rang - Tháp Chàm: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Vĩnh Hy: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Gành Đá Đĩa: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Tuy Hòa: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Hà Tiên: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Cô Tô: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Trà Cổ: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Hồ Tràm: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Cần Giờ: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Hòn Sơn: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Nam Du: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Bạc Liêu: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Đất Mũi Cà Mau: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Sóc Trăng: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Trà Vinh: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Đồ Sơn: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Thịnh Long: lệch 28.0%, cần theo dõi, confidence sau kiểm định 35.75.
+- Mộc Châu: lệch 24.79%, cần theo dõi, confidence sau kiểm định 53.5.
+- Bến Tre: lệch 21.99%, cần theo dõi, confidence sau kiểm định 53.5.
+- An Giang: lệch 19.19%, proxy tốt, dùng được, confidence sau kiểm định 58.5.
+- Cần Thơ: lệch 17.26%, proxy tốt, dùng được, confidence sau kiểm định 58.5.
+- Nha Trang: lệch 33.33%, cần theo dõi, confidence sau kiểm định 53.5.
+- Côn Đảo: lệch 57.8%, proxy không ổn định, giảm confidence, confidence sau kiểm định 46.5.
+- Sa Pa: lệch 51.4%, proxy không ổn định, giảm confidence, confidence sau kiểm định 46.5.
+- TP Hồ Chí Minh: lệch 65.01%, proxy không ổn định, giảm confidence, confidence sau kiểm định 46.5.
+- Đà Lạt: lệch 60.76%, proxy không ổn định, giảm confidence, confidence sau kiểm định 46.5.
+
+## Format trả lời AI
+Tình hình:
+Vì sao:
+Nên làm:
+Hiệu quả kinh tế:
+Dữ liệu dùng:
+Độ tin cậy:

@@ -1,0 +1,9 @@
+destination_id,date,demand_health_score,congestion_health_score,environment_health_score,satisfaction_health_score,infrastructure_health_score,economic_sustainability_score,destination_health_index,data_status,evidence_source,limitation
+da_nang,2026-05-19,,,,,,,,"incomplete","weather_daily_gold; hotels_inventory_silver; public_reviews_silver","Weather/hotel/review evidence exists but demand, congestion, infrastructure and revenue feeds are missing"
+hoi_an,2026-05-19,,,,,,,,"incomplete","weather_daily_gold; hotels_inventory_silver; public_reviews_silver","No POI capacity, pedestrian crowd, revenue or event attendance"
+hue,2026-05-19,,,,,,,,"incomplete","weather_daily_gold; hotels_inventory_silver; public_reviews_silver","No heritage capacity, queue, revenue or traffic feed"
+quy_nhon,2026-05-19,,,,,,,,"incomplete","weather_daily_gold; hotels_inventory_silver","No demand, congestion, revenue or satisfaction model"
+nha_trang,2026-05-19,,,,,,,,"incomplete","weather_daily_gold; hotels_inventory_silver","No beach density, traffic, revenue or sentiment model"
+phu_quoc,2026-05-19,,,,,,,,"incomplete","weather_daily_gold; hotels_inventory_silver","No flight/ferry load, marine forecast, environment pressure or revenue"
+ha_long,2026-05-19,,,,,,,,"incomplete","weather_daily_gold; hotels_inventory_silver","No bay capacity, cruise/ferry load, congestion or revenue"
+sa_pa,2026-05-19,,,,,,,,"incomplete","weather_daily_gold; hotels_inventory_silver","No road access stress, crowding, revenue or environment pressure"

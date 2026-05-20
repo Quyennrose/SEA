@@ -1,0 +1,10 @@
+layer_id,geometry_type,required_fields,source_candidates,update_frequency,used_by,missing_today
+admin_boundaries,polygon,"province_code,province_name,destination_id,geometry","GADM; official Vietnam administrative boundary datasets",yearly,"joins;thresholds;maps",yes
+destination_points,point,"destination_id,canonical_name,lat,lng,tourism_type","destination_registry.csv; OSM; local DoT",monthly,"dashboard;graph;forecast",partial
+poi_master,point,"poi_id,name,destination_id,category,lat,lng,opening_hours,capacity,source","OSM Overpass; Google Places; official attraction lists",weekly_to_monthly,"heatmap;capacity;recommendation",yes
+beach_zones,polygon,"beach_id,destination_id,name,geometry,safe_capacity,coastal_risk_class","local authorities; OSM coastline; manual GIS",monthly,"beach_density;marine_risk",yes
+transport_hubs,point,"hub_id,type,name,lat,lng,capacity,destination_id","OSM; airport/rail/bus/ferry operators",monthly,"accessibility;transport_load",yes
+road_network,line,"road_id,geometry,class,max_speed,source","OSM; HERE; TomTom; local transport GIS",weekly,"routing;travel_friction",yes
+parking_zones,polygon,"parking_id,zone_id,capacity,price_policy,geometry","local authorities; parking operators; OSM",monthly_to_hourly,"parking_pressure;rerouting",yes
+event_venues,point,"venue_id,name,lat,lng,capacity,destination_id","official event portals; venue operators",monthly,"event_pressure;crowd_plan",yes
+environment_zones,polygon,"zone_id,type,environmental_limit,wastewater_limit,beach_quality_station","environment agencies; utilities",monthly,"infrastructure_stress;environment_pressure",yes

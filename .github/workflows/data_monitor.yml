@@ -1,0 +1,55 @@
+name: SEA data monitor
+
+on:
+  schedule:
+    # 02:00 UTC = 09:00 Asia/Ho_Chi_Minh
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild-sea:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Ho_Chi_Minh
+      RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      RAPIDAPI_SERP_HOST: google-serp-search-api.p.rapidapi.com
+      RAPIDAPI_GOOGLE_MAPS_HOST: google-maps-extractor2.p.rapidapi.com
+      RAPIDAPI_GOOGLE_PLACES_HOST: ${{ secrets.RAPIDAPI_GOOGLE_PLACES_HOST }}
+      POSITIONSTACK_API_KEY: ${{ secrets.POSITIONSTACK_API_KEY }}
+      OPENROUTESERVICE_API_KEY: ${{ secrets.OPENROUTESERVICE_API_KEY }}
+      GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
+      SYNC_FULL_DATA_TO_SHEETS: "false"
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      AI_PROVIDER: gemini
+      GEMINI_MODEL: gemini-2.5-flash
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run SEA operating pipeline
+        run: python scrapers/sea_operating_pipeline.py
+
+      - name: Commit regenerated SEA outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add datasets/gold/current data/metadata exports rag
+          git reset -- .env || true
+          if git diff --cached --quiet; then
+            echo "No SEA output changes to commit."
+          else
+            git commit -m "chore(data): auto update SEA outputs"
+            git push
+          fi

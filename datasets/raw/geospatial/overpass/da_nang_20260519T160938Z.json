@@ -1,0 +1,821 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-19T16:07:46Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 729406385,
+  "lat": 16.0746726,
+  "lon": 108.2187015,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe Win"
+  }
+},
+{
+  "type": "node",
+  "id": 729406386,
+  "lat": 16.0627174,
+  "lon": 108.2089430,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CafeKhanh Ly"
+  }
+},
+{
+  "type": "node",
+  "id": 729406387,
+  "lat": 16.0347187,
+  "lon": 108.2446539,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ThanhBinh Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406388,
+  "lat": 16.0632999,
+  "lon": 108.1601536,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Fantasy"
+  }
+},
+{
+  "type": "node",
+  "id": 729406389,
+  "lat": 16.0657433,
+  "lon": 108.2077628,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Lang Tien"
+  }
+},
+{
+  "type": "node",
+  "id": 729406391,
+  "lat": 16.0684586,
+  "lon": 108.1500026,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe Truc Phuong"
+  }
+},
+{
+  "type": "node",
+  "id": 729406392,
+  "lat": 16.0785765,
+  "lon": 108.2193388,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Phe 83"
+  }
+},
+{
+  "type": "node",
+  "id": 729406393,
+  "lat": 16.0640577,
+  "lon": 108.2208466,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe Dong Xanh"
+  }
+},
+{
+  "type": "node",
+  "id": 729406394,
+  "lat": 16.0736841,
+  "lon": 108.2182886,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CafeTo Be"
+  }
+},
+{
+  "type": "node",
+  "id": 729406397,
+  "lat": 16.0668568,
+  "lon": 108.1743586,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Sao Mai"
+  }
+},
+{
+  "type": "node",
+  "id": 729406398,
+  "lat": 16.0762311,
+  "lon": 108.2308433,
+  "tags": {
+    "amenity": "cafe",
+    "name": "MienThao Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406399,
+  "lat": 16.0539382,
+  "lon": 108.2208037,
+  "tags": {
+    "amenity": "cafe",
+    "name": "GmcCoffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406400,
+  "lat": 16.0827332,
+  "lon": 108.2219624,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe 3 Ladies"
+  }
+},
+{
+  "type": "node",
+  "id": 729406401,
+  "lat": 16.0662810,
+  "lon": 108.1920523,
+  "tags": {
+    "amenity": "cafe",
+    "name": "OnenineCoffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406402,
+  "lat": 16.0515981,
+  "lon": 108.1700044,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Phe Thuan"
+  }
+},
+{
+  "type": "node",
+  "id": 729406403,
+  "lat": 16.0597687,
+  "lon": 108.2135027,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CafeGiai Khat 204"
+  }
+},
+{
+  "type": "node",
+  "id": 729406404,
+  "lat": 16.0719493,
+  "lon": 108.2127548,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Konia"
+  }
+},
+{
+  "type": "node",
+  "id": 729406405,
+  "lat": 16.0623504,
+  "lon": 108.2088960,
+  "tags": {
+    "amenity": "cafe",
+    "name": "VuonNguyet Khue Vien Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406406,
+  "lat": 16.0494377,
+  "lon": 108.2133794,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CafeNguyen"
+  }
+},
+{
+  "type": "node",
+  "id": 729406407,
+  "lat": 16.0681394,
+  "lon": 108.1818645,
+  "tags": {
+    "amenity": "cafe",
+    "name": "NgocVan Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406408,
+  "lat": 16.0654507,
+  "lon": 108.2078514,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CafeLuna"
+  }
+},
+{
+  "type": "node",
+  "id": 729406410,
+  "lat": 16.0674462,
+  "lon": 108.1525529,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CafeBao Dang"
+  }
+},
+{
+  "type": "node",
+  "id": 729406411,
+  "lat": 16.0703982,
+  "lon": 108.2013201,
+  "tags": {
+    "amenity": "cafe",
+    "name": "AnhLinh Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406412,
+  "lat": 16.0789002,
+  "lon": 108.2328072,
+  "tags": {
+    "amenity": "cafe",
+    "name": "HoaTieu Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406413,
+  "lat": 16.0582376,
+  "lon": 108.2126391,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Giai Khat Quang"
+  }
+},
+{
+  "type": "node",
+  "id": 729406414,
+  "lat": 16.0488551,
+  "lon": 108.2168233,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe72"
+  }
+},
+{
+  "type": "node",
+  "id": 729406415,
+  "lat": 16.0648206,
+  "lon": 108.2164746,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ThanhHuong Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406416,
+  "lat": 16.0348682,
+  "lon": 108.1778991,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Hoang Anh"
+  }
+},
+{
+  "type": "node",
+  "id": 729406417,
+  "lat": 16.0851302,
+  "lon": 108.2196914,
+  "tags": {
+    "amenity": "cafe",
+    "name": "AnhLinh Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406418,
+  "lat": 16.0653619,
+  "lon": 108.2069099,
+  "tags": {
+    "amenity": "cafe",
+    "name": "VuonThao Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406419,
+  "lat": 16.0569901,
+  "lon": 108.2128107,
+  "tags": {
+    "amenity": "cafe",
+    "name": "324Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406420,
+  "lat": 16.0738518,
+  "lon": 108.2032513,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Nhà Hàng Chay & Cà Phê Thúp An"
+  }
+},
+{
+  "type": "node",
+  "id": 729406421,
+  "lat": 16.0452824,
+  "lon": 108.2227242,
+  "tags": {
+    "amenity": "cafe",
+    "name": "PhoSao Coffee",
+    "name:de": "PhoSao Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406422,
+  "lat": 16.0822257,
+  "lon": 108.2399242,
+  "tags": {
+    "amenity": "cafe",
+    "name": "BaoNhi Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406423,
+  "lat": 16.0586810,
+  "lon": 108.2122153,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CafeBan Toi"
+  }
+},
+{
+  "type": "node",
+  "id": 729406424,
+  "lat": 16.0360488,
+  "lon": 108.1832421,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Nhat Linh"
+  }
+},
+{
+  "type": "node",
+  "id": 729406425,
+  "lat": 16.0710077,
+  "lon": 108.2212999,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CafeThoang Sai Gon"
+  }
+},
+{
+  "type": "node",
+  "id": 729406426,
+  "lat": 16.0358065,
+  "lon": 108.1822067,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Trung"
+  }
+},
+{
+  "type": "node",
+  "id": 729406427,
+  "lat": 16.0713363,
+  "lon": 108.1914818,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Thu Dung"
+  }
+},
+{
+  "type": "node",
+  "id": 729406428,
+  "lat": 16.0871156,
+  "lon": 108.2413157,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe219"
+  }
+},
+{
+  "type": "node",
+  "id": 729406430,
+  "lat": 16.0677692,
+  "lon": 108.1593811,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Long"
+  }
+},
+{
+  "type": "node",
+  "id": 729406431,
+  "lat": 16.0522905,
+  "lon": 108.2373783,
+  "tags": {
+    "amenity": "cafe",
+    "name": "MyDuyen Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406432,
+  "lat": 16.0659805,
+  "lon": 108.2200312,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Phe New Life"
+  }
+},
+{
+  "type": "node",
+  "id": 729406433,
+  "lat": 16.0750293,
+  "lon": 108.1492071,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Bong Da 14"
+  }
+},
+{
+  "type": "node",
+  "id": 729406434,
+  "lat": 16.0707379,
+  "lon": 108.2203416,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe New Life"
+  }
+},
+{
+  "type": "node",
+  "id": 729406436,
+  "lat": 16.0951751,
+  "lon": 108.2444155,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ThanhHuong Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406437,
+  "lat": 16.0860629,
+  "lon": 108.2405662,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Phe Chieu Tim"
+  }
+},
+{
+  "type": "node",
+  "id": 729406438,
+  "lat": 16.0543867,
+  "lon": 108.2097101,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ThanhHong Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406439,
+  "lat": 16.0905214,
+  "lon": 108.2428407,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe153"
+  }
+},
+{
+  "type": "node",
+  "id": 729406440,
+  "lat": 16.0463238,
+  "lon": 108.2386833,
+  "tags": {
+    "amenity": "cafe",
+    "name": "TigonCoffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406441,
+  "lat": 16.0602790,
+  "lon": 108.2093560,
+  "tags": {
+    "amenity": "cafe",
+    "name": "LindaCoffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406442,
+  "lat": 16.0799961,
+  "lon": 108.2131970,
+  "tags": {
+    "amenity": "cafe",
+    "name": "MyPhuc Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406444,
+  "lat": 16.0322748,
+  "lon": 108.1885957,
+  "tags": {
+    "amenity": "cafe",
+    "name": "ThanhTruc Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406445,
+  "lat": 16.0906658,
+  "lon": 108.2423678,
+  "tags": {
+    "amenity": "cafe",
+    "name": "TrucTam Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406446,
+  "lat": 16.0864224,
+  "lon": 108.2407112,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Phe Giai Khat Yen Trang"
+  }
+},
+{
+  "type": "node",
+  "id": 729406447,
+  "lat": 16.0582170,
+  "lon": 108.2207447,
+  "tags": {
+    "addr:housenumber": "130",
+    "addr:street": "Đường Trưng Nữ Vương",
+    "amenity": "cafe",
+    "name": "NhatHa Coffee Ice Cream"
+  }
+},
+{
+  "type": "node",
+  "id": 729406448,
+  "lat": 16.0764324,
+  "lon": 108.2195373,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Kien Viet"
+  }
+},
+{
+  "type": "node",
+  "id": 729406449,
+  "lat": 16.0574334,
+  "lon": 108.2066095,
+  "tags": {
+    "amenity": "cafe",
+    "name": "HolidayCoffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406450,
+  "lat": 16.0706704,
+  "lon": 108.2339835,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Sao Mai"
+  }
+},
+{
+  "type": "node",
+  "id": 729406451,
+  "lat": 16.0670114,
+  "lon": 108.1820190,
+  "tags": {
+    "amenity": "cafe",
+    "name": "NgocAnh Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406452,
+  "lat": 16.0706198,
+  "lon": 108.2227242,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Loc Thu"
+  }
+},
+{
+  "type": "node",
+  "id": 729406453,
+  "lat": 16.0196036,
+  "lon": 108.1940563,
+  "tags": {
+    "amenity": "cafe",
+    "name": "HongAn Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406454,
+  "lat": 16.0789549,
+  "lon": 108.2173222,
+  "tags": {
+    "amenity": "cafe",
+    "name": "GiaiKhat 115 Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406455,
+  "lat": 16.0764549,
+  "lon": 108.2190335,
+  "tags": {
+    "amenity": "cafe",
+    "name": "SaoMai Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406456,
+  "lat": 16.0549074,
+  "lon": 108.2121294,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CafeThanh Hoa"
+  }
+},
+{
+  "type": "node",
+  "id": 729406457,
+  "lat": 16.0733682,
+  "lon": 108.2140390,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Phe Paris Da"
+  }
+},
+{
+  "type": "node",
+  "id": 729406458,
+  "lat": 16.0598754,
+  "lon": 108.2122709,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Delta"
+  }
+},
+{
+  "type": "node",
+  "id": 729406460,
+  "lat": 16.0610214,
+  "lon": 108.2119310,
+  "tags": {
+    "amenity": "cafe",
+    "name": "NangMai Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406461,
+  "lat": 16.0564910,
+  "lon": 108.1666315,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Phe Trung"
+  }
+},
+{
+  "type": "node",
+  "id": 729406462,
+  "lat": 16.0525482,
+  "lon": 108.1796323,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Phe Cam Ni"
+  }
+},
+{
+  "type": "node",
+  "id": 729406463,
+  "lat": 16.0559075,
+  "lon": 108.2444179,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Phe Bien Nho"
+  }
+},
+{
+  "type": "node",
+  "id": 729406464,
+  "lat": 16.0899132,
+  "lon": 108.2420341,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CayBang Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406465,
+  "lat": 16.0693105,
+  "lon": 108.2051503,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe Giai Khat 417"
+  }
+},
+{
+  "type": "node",
+  "id": 729406466,
+  "lat": 16.0224941,
+  "lon": 108.2136583,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Win Win"
+  }
+},
+{
+  "type": "node",
+  "id": 729406468,
+  "lat": 16.0376986,
+  "lon": 108.2220751,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Thuy Trang"
+  }
+},
+{
+  "type": "node",
+  "id": 729406470,
+  "lat": 16.0607378,
+  "lon": 108.2104826,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CaPhe Hoa Co May"
+  }
+},
+{
+  "type": "node",
+  "id": 729406471,
+  "lat": 16.0733415,
+  "lon": 108.1775719,
+  "tags": {
+    "amenity": "cafe",
+    "name": "55Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406473,
+  "lat": 16.0889382,
+  "lon": 108.2421461,
+  "tags": {
+    "amenity": "cafe",
+    "name": "PhuongMai Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 729406475,
+  "lat": 16.0311905,
+  "lon": 108.2242256,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Trung Nguyên",
+    "brand:wikidata": "Q3541154",
+    "cuisine": "coffee_shop;vietnamese",
+    "name": "Trung Nguyên Coffee",
+    "name:en": "Trung Nguyên Coffee",
+    "name:vi": "Cà phê Trung Nguyên",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 729406476,
+  "lat": 16.0737871,
+  "lon": 108.1493575,
+  "tags": {
+    "amenity": "cafe",
+    "name": "TrungDuong Coffee"
+  }
+}
+
+  ]
+}

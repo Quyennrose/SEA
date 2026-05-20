@@ -1,0 +1,208 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-19T16:09:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 4749975424,
+  "lat": 18.7849927,
+  "lon": 105.7422421,
+  "tags": {
+    "name": "Beachcamping free",
+    "name:en": "Beachcamping free",
+    "name:vi": "Beachcamping free",
+    "tourism": "camp_site"
+  }
+},
+{
+  "type": "node",
+  "id": 10298161709,
+  "lat": 18.7980752,
+  "lon": 105.7285557,
+  "tags": {
+    "name:en": "Kingdom Hotel",
+    "name:ru": "Гостиница Kingdom Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10725498105,
+  "lat": 18.8198878,
+  "lon": 105.7219185,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 11145960707,
+  "lat": 18.8081514,
+  "lon": 105.7216092,
+  "tags": {
+    "name": "Khách Sạn Lan Đồng",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11652401169,
+  "lat": 18.8019100,
+  "lon": 105.7239795,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Xôi"
+  }
+},
+{
+  "type": "node",
+  "id": 11652401269,
+  "lat": 18.8020057,
+  "lon": 105.7240536,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe Boom"
+  }
+},
+{
+  "type": "way",
+  "id": 478393931,
+  "center": {
+    "lat": 18.8012945,
+    "lon": 105.7758813
+  },
+  "tags": {
+    "natural": "beach",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 897359056,
+  "center": {
+    "lat": 18.7705842,
+    "lon": 105.7556709
+  },
+  "tags": {
+    "amenity": "parking"
+  }
+},
+{
+  "type": "way",
+  "id": 1191711575,
+  "center": {
+    "lat": 18.8091107,
+    "lon": 105.7233174
+  },
+  "tags": {
+    "tourism": "theme_park"
+  }
+},
+{
+  "type": "way",
+  "id": 1202271595,
+  "center": {
+    "lat": 18.8098969,
+    "lon": 105.7217191
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Khách Sạn Ngân Hàng",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1222669644,
+  "center": {
+    "lat": 18.7967778,
+    "lon": 105.7299638
+  },
+  "tags": {
+    "addr:housenumber": "284",
+    "addr:street": "Đường Binh Minh",
+    "landuse": "commercial",
+    "name": "Khách sạn VEAM Cửa Lò",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1222669647,
+  "center": {
+    "lat": 18.7978405,
+    "lon": 105.7292691
+  },
+  "tags": {
+    "landuse": "commercial",
+    "name": "Khách sạn Xanh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1286228645,
+  "center": {
+    "lat": 18.7743455,
+    "lon": 105.7510243
+  },
+  "tags": {
+    "area": "yes",
+    "name": "VinWonder Cửa Hội",
+    "operator": "Vingroup",
+    "tourism": "theme_park"
+  }
+},
+{
+  "type": "way",
+  "id": 1286228647,
+  "center": {
+    "lat": 18.7683214,
+    "lon": 105.7565298
+  },
+  "tags": {
+    "brand": "Meliá",
+    "brand:wikidata": "Q1815030",
+    "landuse": "commercial",
+    "layer": "1",
+    "name": "Melia Vinpearl Cửa Hội Beach Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1307012810,
+  "center": {
+    "lat": 18.8034393,
+    "lon": 105.7198839
+  },
+  "tags": {
+    "addr:housenumber": "33",
+    "addr:street": "Đường Sào Nam",
+    "building": "yes",
+    "name": "Khách sạn An Bình",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1307012811,
+  "center": {
+    "lat": 18.8033288,
+    "lon": 105.7197379
+  },
+  "tags": {
+    "amenity": "bus_station",
+    "bus": "yes",
+    "name": "Bến xe Cửa Lò",
+    "public_transport": "station"
+  }
+}
+
+  ]
+}

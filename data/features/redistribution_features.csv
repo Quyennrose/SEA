@@ -1,0 +1,2 @@
+timestamp,origin_destination,origin_zone,target_destination,target_poi,origin_pressure_index,target_capacity_score,travel_time_minutes,category_match_score,satisfaction_score,economic_balance_score,redistribution_score,recommended_action,quality_status
+

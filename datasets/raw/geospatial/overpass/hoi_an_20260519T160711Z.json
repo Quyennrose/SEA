@@ -1,0 +1,1042 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-19T16:05:45Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 134031931,
+  "lat": 15.8761075,
+  "lon": 108.3889694,
+  "tags": {
+    "amenity": "ferry_terminal",
+    "name": "Cửa Đại"
+  }
+},
+{
+  "type": "node",
+  "id": 1037736909,
+  "lat": 15.8875890,
+  "lon": 108.3279837,
+  "tags": {
+    "addr:housenumber": "467",
+    "addr:street": "Hai Bà Trưng",
+    "name": "Golden Holiday",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1190580408,
+  "lat": 15.8804863,
+  "lon": 108.3427783,
+  "tags": {
+    "addr:housenumber": "397",
+    "addr:street": "Cửa Đại",
+    "email": "sunflowerhoian@gmail.com",
+    "name": "Sunflower Hotel",
+    "phone": "+845103939838",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1412287837,
+  "lat": 15.8824297,
+  "lon": 108.3251204,
+  "tags": {
+    "internet_access": "wired",
+    "internet_access:fee": "no",
+    "name": "Minh Quang",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1500002352,
+  "lat": 15.8816219,
+  "lon": 108.3276885,
+  "tags": {
+    "name": "Hotel My Chau",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1576490972,
+  "lat": 15.8812927,
+  "lon": 108.3255955,
+  "tags": {
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 1726781610,
+  "lat": 15.8764695,
+  "lon": 108.3275305,
+  "tags": {
+    "addr:housenumber": "107-109",
+    "addr:street": "Nguyễn Thái Học",
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "bar": "yes",
+    "check_date": "2023-12-19",
+    "cuisine": "international",
+    "drive_through": "no",
+    "email": "cargoclub@tastevietnam.asia",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "Taste Vietnam Guest",
+    "internet_access:type": "wlan",
+    "name": "Cargo Club Cafe & Restaurant",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "operator": "Taste Vietnam",
+    "outdoor_seating": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "phone": "+845103911227",
+    "toilets": "yes",
+    "website": "https://tastevietnam.asia/cargo-club-cafe-restaurant-hoi-an",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1984115166,
+  "lat": 15.8794633,
+  "lon": 108.3208587,
+  "tags": {
+    "addr:housenumber": "60",
+    "addr:street": "Hùng Vương",
+    "name": "Nhi Nhi Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1997671803,
+  "lat": 15.8827601,
+  "lon": 108.3270371,
+  "tags": {
+    "addr:housenumber": "42",
+    "addr:street": "Trần Cao Vân",
+    "amenity": "restaurant",
+    "name": "Day & Night Café"
+  }
+},
+{
+  "type": "node",
+  "id": 2060866025,
+  "lat": 15.8744836,
+  "lon": 108.3235617,
+  "tags": {
+    "addr:housenumber": "127",
+    "addr:street": "Ngô Quyền",
+    "check_date": "2022-12-31",
+    "name": "Emerald Hoi An Riverside Resort",
+    "tourism": "hotel",
+    "website": "https://emeraldhoianriverside.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855759,
+  "lat": 15.8761553,
+  "lon": 108.3286940,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Banana Leaf",
+    "name:de": "Cau lau nudeln & white rose"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855765,
+  "lat": 15.8761577,
+  "lon": 108.3305259,
+  "tags": {
+    "addr:housenumber": "46",
+    "addr:street": "Bạch Đằng",
+    "amenity": "restaurant",
+    "name": "Blue Dragon"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855773,
+  "lat": 15.8761426,
+  "lon": 108.3302008,
+  "tags": {
+    "addr:housenumber": "52",
+    "addr:street": "Bạch Đằng",
+    "amenity": "restaurant",
+    "name": "Cafe Des Amis"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855779,
+  "lat": 15.8761347,
+  "lon": 108.3293599,
+  "tags": {
+    "addr:housenumber": "74",
+    "amenity": "cafe",
+    "name": "Can",
+    "name:vi": "Can 화이트로즈 프ㅏ이드 완탕"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855785,
+  "lat": 15.8761865,
+  "lon": 108.3308839,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Cordon Bleu"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855790,
+  "lat": 15.8770709,
+  "lon": 108.3288680,
+  "tags": {
+    "addr:housenumber": "89",
+    "addr:street": "Trần Phú",
+    "amenity": "restaurant",
+    "name": "Dac San Hoi An"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855801,
+  "lat": 15.8761027,
+  "lon": 108.3295029,
+  "tags": {
+    "addr:housenumber": "70",
+    "amenity": "restaurant",
+    "name": "Du Port"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855807,
+  "lat": 15.8771734,
+  "lon": 108.3288922,
+  "tags": {
+    "addr:housenumber": "104",
+    "addr:street": "Trần Phú",
+    "amenity": "restaurant",
+    "name": "Faifoo"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855824,
+  "lat": 15.8766241,
+  "lon": 108.3271952,
+  "tags": {
+    "addr:city": "Hoi An",
+    "addr:housenumber": "122",
+    "addr:street": "Nguyễn Thái Học",
+    "amenity": "restaurant",
+    "name": "Green Chili"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855840,
+  "lat": 15.8766480,
+  "lon": 108.3295924,
+  "tags": {
+    "addr:housenumber": "54",
+    "amenity": "restaurant",
+    "name": "Green Mango"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855847,
+  "lat": 15.8770516,
+  "lon": 108.3278406,
+  "tags": {
+    "addr:housenumber": "111",
+    "addr:street": "Trần Phú",
+    "amenity": "cafe",
+    "check_date": "2023-01-01",
+    "cuisine": "barbecue;vietnamese;asian;korean;chinese",
+    "internet_access": "wlan",
+    "name": "Hải Café",
+    "wifi": "Free"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855854,
+  "lat": 15.8761024,
+  "lon": 108.3297942,
+  "tags": {
+    "addr:housenumber": "64",
+    "amenity": "restaurant",
+    "name": "Hai San"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855866,
+  "lat": 15.8770533,
+  "lon": 108.3273582,
+  "tags": {
+    "addr:city": "Hội An",
+    "addr:country": "VN",
+    "addr:housenumber": "129",
+    "addr:street": "Trần Phú",
+    "building": "yes",
+    "check_date": "2023-01-01",
+    "fee": "yes",
+    "name": "Nhà cổ Đức An",
+    "name:en": "Duc An Ancient House",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855897,
+  "lat": 15.8762696,
+  "lon": 108.3279918,
+  "tags": {
+    "addr:housenumber": "98",
+    "amenity": "restaurant",
+    "check_date": "2025-02-17",
+    "check_date:diet:vegetarian": "2025-02-17",
+    "diet:vegetarian": "yes",
+    "name": "Hong Phuc II"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855902,
+  "lat": 15.8761444,
+  "lon": 108.3287821,
+  "tags": {
+    "addr:housenumber": "86",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "internet_access": "wlan",
+    "name": "Hong Phuc"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855914,
+  "lat": 15.8772330,
+  "lon": 108.3275290,
+  "tags": {
+    "addr:housenumber": "144",
+    "name": "Khach San Phu Thinh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855925,
+  "lat": 15.8767707,
+  "lon": 108.3302248,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Kisetsu"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855941,
+  "lat": 15.8764689,
+  "lon": 108.3293460,
+  "tags": {
+    "addr:housenumber": "49",
+    "amenity": "restaurant",
+    "name": "Lantern Town"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855947,
+  "lat": 15.8766204,
+  "lon": 108.3277853,
+  "tags": {
+    "addr:city": "Hoi An",
+    "addr:housenumber": "106",
+    "addr:street": "Nguyễn Thái Học",
+    "amenity": "restaurant",
+    "check_date": "2023-01-02",
+    "name": "Morning Glory",
+    "name:en": "Morning Glory",
+    "opening_hours": "Mo-Su 08:00-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855954,
+  "lat": 15.8770968,
+  "lon": 108.3292876,
+  "tags": {
+    "addr:city": "Hội An",
+    "addr:country": "VN",
+    "addr:housenumber": "77",
+    "addr:street": "Trần Phú",
+    "check_date": "2023-01-01",
+    "fee": "yes",
+    "name": "Nhà cổ Quân Thắng",
+    "name:de": "Quang Thang Haus",
+    "name:en": "Quan Thang House",
+    "name:es": "Casa Quan Thang",
+    "name:ru": "Старинный дом Куан Тханга",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855958,
+  "lat": 15.8761275,
+  "lon": 108.3289405,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe Phôn"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855988,
+  "lat": 15.8761822,
+  "lon": 108.3285209,
+  "tags": {
+    "addr:housenumber": "90",
+    "amenity": "restaurant",
+    "name": "Quang Thang"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855994,
+  "lat": 15.8761784,
+  "lon": 108.3307714,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Red Sail"
+  }
+},
+{
+  "type": "node",
+  "id": 2076855999,
+  "lat": 15.8764347,
+  "lon": 108.3270753,
+  "tags": {
+    "addr:housenumber": "119-121",
+    "addr:street": "Nguyễn Thái Học",
+    "amenity": "restaurant",
+    "check_date": "2023-01-01",
+    "name": "Sakura",
+    "website": "http://hoiansakura.com.vn"
+  }
+},
+{
+  "type": "node",
+  "id": 2076856005,
+  "lat": 15.8761549,
+  "lon": 108.3304625,
+  "tags": {
+    "addr:housenumber": "48",
+    "addr:street": "Bạch Đằng",
+    "amenity": "restaurant",
+    "name": "Sao Mai"
+  }
+},
+{
+  "type": "node",
+  "id": 2076856011,
+  "lat": 15.8766029,
+  "lon": 108.3275612,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2023-01-02",
+    "name": "Tam Tam Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 2076856015,
+  "lat": 15.8770543,
+  "lon": 108.3275740,
+  "tags": {
+    "addr:housenumber": "121",
+    "amenity": "cafe",
+    "check_date": "2023-01-01",
+    "name": "Tam Tam Jardin"
+  }
+},
+{
+  "type": "node",
+  "id": 2076856027,
+  "lat": 15.8763250,
+  "lon": 108.3273919,
+  "tags": {
+    "addr:city": "Hoi An",
+    "addr:housenumber": "113",
+    "addr:street": "Bạch Đằng",
+    "amenity": "restaurant",
+    "name": "Thanh Hien"
+  }
+},
+{
+  "type": "node",
+  "id": 2076856032,
+  "lat": 15.8772671,
+  "lon": 108.3295480,
+  "tags": {
+    "addr:housenumber": "80",
+    "addr:street": "Trần Phú",
+    "fee": "yes",
+    "name": "Boa tang gom su mau dich",
+    "name:en": "Ceramic Tiles Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 2076856052,
+  "lat": 15.8763019,
+  "lon": 108.3276277,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Viet Vic"
+  }
+},
+{
+  "type": "node",
+  "id": 2076856055,
+  "lat": 15.8770406,
+  "lon": 108.3269156,
+  "tags": {
+    "addr:housenumber": "143",
+    "addr:street": "Trần Phú",
+    "check_date": "2023-01-01",
+    "name": "Vinh Hung",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2076856059,
+  "lat": 15.8764364,
+  "lon": 108.3285534,
+  "tags": {
+    "amenity": "restaurant",
+    "indoor_seating": "yes",
+    "name": "White Marble",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401440,
+  "lat": 15.8758924,
+  "lon": 108.3264035,
+  "tags": {
+    "addr:housenumber": "37",
+    "amenity": "restaurant",
+    "name": "An Hoi"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401441,
+  "lat": 15.8761599,
+  "lon": 108.3245591,
+  "tags": {
+    "addr:housenumber": "69",
+    "name": "An Hoi",
+    "note": "add address",
+    "source": "survey",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401442,
+  "lat": 15.8774516,
+  "lon": 108.3247131,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Binh MI"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401443,
+  "lat": 15.8761057,
+  "lon": 108.3253217,
+  "tags": {
+    "addr:housenumber": "53",
+    "amenity": "restaurant",
+    "name": "Cava",
+    "note": "add address",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401444,
+  "lat": 15.8758168,
+  "lon": 108.3268026,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Cho Ban"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401446,
+  "lat": 15.8770664,
+  "lon": 108.3257834,
+  "tags": {
+    "addr:housenumber": "05",
+    "addr:street": "Nguyễn Thị Minh Khai",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Nhà Hàng Cafe CitroNella",
+    "name:en": "Cafe CitroNella",
+    "name:vi": "Nhà Hàng Cafe CitroNella",
+    "outdoor_seating": "yes",
+    "website": "https://nha-hang-cafe-citronella.business.site"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401448,
+  "lat": 15.8754048,
+  "lon": 108.3260219,
+  "tags": {
+    "addr:housenumber": "07",
+    "amenity": "restaurant",
+    "name": "Guava and Mango"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401451,
+  "lat": 15.8751580,
+  "lon": 108.3283506,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Hi Restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401453,
+  "lat": 15.8754801,
+  "lon": 108.3281009,
+  "tags": {
+    "addr:housenumber": "01",
+    "amenity": "restaurant",
+    "check_date": "2023-01-01",
+    "name": "Khoai Tay Va Ca",
+    "name:en": "Chips and Fish",
+    "name:vi": "Khoai Tay Va Ca"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401454,
+  "lat": 15.8761954,
+  "lon": 108.3249199,
+  "tags": {
+    "addr:housenumber": "61",
+    "addr:street": "Nguyễn Phúc Chu",
+    "check_date": "2022-12-31",
+    "fax": "+84 (510) 3911697",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Long Life Riverside",
+    "phone": "+84 (510) 3911696",
+    "tourism": "hotel",
+    "website": "http://longliferiverside.com"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401455,
+  "lat": 15.8774061,
+  "lon": 108.3247860,
+  "tags": {
+    "addr:housenumber": "45",
+    "amenity": "restaurant",
+    "name": "Mai Fish"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401456,
+  "lat": 15.8757103,
+  "lon": 108.3270947,
+  "tags": {
+    "addr:housenumber": "25",
+    "amenity": "restaurant",
+    "name": "Man Nguyen"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401457,
+  "lat": 15.8760099,
+  "lon": 108.3258167,
+  "tags": {
+    "addr:housenumber": "45",
+    "addr:street": "Nguyễn Phúc Chu",
+    "amenity": "restaurant",
+    "check_date": "2022-12-31",
+    "contact:facebook": "https://www.facebook.com/mangomangorestaurant",
+    "name": "Mango Mango",
+    "website": "https://www.mangomangovietnam.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401474,
+  "lat": 15.8761756,
+  "lon": 108.3252256,
+  "tags": {
+    "addr:housenumber": "55",
+    "addr:street": "Nguyễn Phúc Chu",
+    "amenity": "restaurant",
+    "name": "Quan An Sau",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401475,
+  "lat": 15.8757605,
+  "lon": 108.3270202,
+  "tags": {
+    "addr:housenumber": "27",
+    "amenity": "restaurant",
+    "name": "Seafood Garden",
+    "note": "correct location",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401476,
+  "lat": 15.8757759,
+  "lon": 108.3269721,
+  "tags": {
+    "addr:housenumber": "29",
+    "amenity": "restaurant",
+    "name": "Thanh Phuong"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401477,
+  "lat": 15.8776902,
+  "lon": 108.3244607,
+  "tags": {
+    "addr:housenumber": "44",
+    "addr:street": "Nguyễn Thị Minh Khai",
+    "amenity": "restaurant",
+    "name": "Van Phi"
+  }
+},
+{
+  "type": "node",
+  "id": 2091401478,
+  "lat": 15.8777899,
+  "lon": 108.3243460,
+  "tags": {
+    "addr:housenumber": "55",
+    "addr:street": "Nguyễn Thị Minh Khai",
+    "amenity": "restaurant",
+    "name": "Yellow Flower"
+  }
+},
+{
+  "type": "node",
+  "id": 2092582328,
+  "lat": 15.8768188,
+  "lon": 108.3286791,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Gourmet Garden"
+  }
+},
+{
+  "type": "node",
+  "id": 2092582344,
+  "lat": 15.8785630,
+  "lon": 108.3289969,
+  "tags": {
+    "addr:housenumber": "61",
+    "amenity": "cafe",
+    "name": "Huong Vien"
+  }
+},
+{
+  "type": "node",
+  "id": 2092582351,
+  "lat": 15.8781656,
+  "lon": 108.3299528,
+  "tags": {
+    "addr:housenumber": "76/26",
+    "amenity": "restaurant",
+    "name": "Old Garden"
+  }
+},
+{
+  "type": "node",
+  "id": 2092582353,
+  "lat": 15.8772983,
+  "lon": 108.3319068,
+  "tags": {
+    "addr:housenumber": "7/2",
+    "name": "Pho Hoi",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2092582383,
+  "lat": 15.8774683,
+  "lon": 108.3317979,
+  "tags": {
+    "addr:housenumber": "11",
+    "amenity": "restaurant",
+    "name": "The Pear Tree"
+  }
+},
+{
+  "type": "node",
+  "id": 2092582385,
+  "lat": 15.8778696,
+  "lon": 108.3319964,
+  "tags": {
+    "addr:city": "Hội An",
+    "addr:country": "VN",
+    "addr:housenumber": "10",
+    "addr:street": "Trần Phú",
+    "amenity": "community_centre",
+    "community_centre": "community_hall",
+    "name": "Hội quán Hải Nam",
+    "name:en": "Assembly Hall of the Hainan Chinese Congregation",
+    "name:es": "Asamblea Hai Nam",
+    "name:vi-Hani": "會館海南",
+    "name:zh-Hant": "海南會館",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 2217387212,
+  "lat": 15.9141779,
+  "lon": 108.3396551,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "An Bang Beach Club",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2217387213,
+  "lat": 15.9133928,
+  "lon": 108.3403672,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Kim Cuc",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2267838861,
+  "lat": 15.8756716,
+  "lon": 108.3272471,
+  "tags": {
+    "addr:city": "Hoi An",
+    "addr:housenumber": "21",
+    "addr:street": "Nguyễn Phúc Chu",
+    "amenity": "restaurant",
+    "name": "the Dublin Gate",
+    "source": "survey",
+    "toilets:wheelchair": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2267838867,
+  "lat": 15.8757382,
+  "lon": 108.3260369,
+  "tags": {
+    "addr:city": "Hoi An",
+    "addr:country": "VN",
+    "addr:housenumber": "3",
+    "addr:street": "Nguyen Hoang Street",
+    "addr:suburb": "An Hoi Islet",
+    "alt_name": "The Market Restaurant",
+    "amenity": "restaurant",
+    "contact:fax": "+84 510 3926927",
+    "contact:phone": "+84 510 33926926",
+    "contact:website": "http://msvy-tastevietnam.com/",
+    "internet_access": "wlan",
+    "name": "The Market Restaurant",
+    "name:en": "Nha hang cho po",
+    "name:vi": "vy's Market Restaurant",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2269957315,
+  "lat": 15.8777738,
+  "lon": 108.3311817,
+  "tags": {
+    "amenity": "restaurant",
+    "changing_table": "yes",
+    "cuisine": "vietnamese",
+    "level": "0",
+    "name": "Miss Ly",
+    "outdoor_seating": "yes",
+    "source": "survey",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 2269957318,
+  "lat": 15.8759590,
+  "lon": 108.3228119,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Thoai Ngoc Hau",
+    "check_date": "2023-01-01",
+    "name": "Little Hoi An Boutique Hotel & Spa",
+    "source": "survey",
+    "tourism": "hotel",
+    "website": "https://www.littlehoiangroup.com/little-hoi-an"
+  }
+},
+{
+  "type": "node",
+  "id": 2269957322,
+  "lat": 15.8813341,
+  "lon": 108.3505455,
+  "tags": {
+    "alt_name": "Bamboo Village",
+    "name": "Riverside Bamboo Resort",
+    "note": "add alt name",
+    "source": "survey",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2269957326,
+  "lat": 15.8958814,
+  "lon": 108.3680638,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Golden Bridge",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2269957329,
+  "lat": 15.8758370,
+  "lon": 108.3266543,
+  "tags": {
+    "addr:housenumber": "35",
+    "amenity": "restaurant",
+    "name": "Fusion Lounge",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2271214793,
+  "lat": 15.8774464,
+  "lon": 108.3359654,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Phạm Hồng Thái",
+    "brand": "Anantara",
+    "check_date": "2023-01-03",
+    "name": "Anantara Resort",
+    "source": "survey",
+    "tourism": "hotel",
+    "website": "https://www.anantara.com/en/hoi-an/"
+  }
+},
+{
+  "type": "node",
+  "id": 2461400746,
+  "lat": 15.8773645,
+  "lon": 108.3307783,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Market",
+    "name:vi": "Market"
+  }
+},
+{
+  "type": "node",
+  "id": 2461400750,
+  "lat": 15.8774760,
+  "lon": 108.3308179,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 2461400753,
+  "lat": 15.8775027,
+  "lon": 108.3310483,
+  "tags": {
+    "addr:city": "Hoi An",
+    "addr:housenumber": "36",
+    "addr:province": "Quang Nam",
+    "addr:street": "Trần Phú",
+    "amenity": "restaurant",
+    "cuisine": "international",
+    "name": "Bazar Garden Restaurant",
+    "opening_hours": "07:30-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 2461400758,
+  "lat": 15.8780039,
+  "lon": 108.3281558,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian;vietnamese",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "only",
+    "name": "Vegetarian Vegan Chay Resturant",
+    "name:en": "Ba Dam Vegetarian",
+    "opening_hours": "Mo-Su 07:00-20:00"
+  }
+}
+
+  ]
+}

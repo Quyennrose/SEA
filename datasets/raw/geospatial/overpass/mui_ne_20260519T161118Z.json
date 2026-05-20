@@ -1,0 +1,994 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-05-19T16:09:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 491537776,
+  "lat": 10.9577744,
+  "lon": 108.2619997,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 491537831,
+  "lat": 10.9409737,
+  "lon": 108.2793304,
+  "tags": {
+    "alt_name:en": "mui ne harbour",
+    "alt_name_1:en": "Mũi Né harbour",
+    "name:de": "Mũi Né Hafen",
+    "name:en": "Mũi Né harbor",
+    "name:ru": "рыбацкая гавань",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 491537832,
+  "lat": 10.9516986,
+  "lon": 108.2567496,
+  "tags": {
+    "name:ru": "Фабрика рыбного соуса",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 1390208339,
+  "lat": 10.9492932,
+  "lon": 108.2588354,
+  "tags": {
+    "addr:street": "Huỳnh Thúc Kháng",
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "name": "Canary Beach Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1390208348,
+  "lat": 10.9487770,
+  "lon": 108.2606968,
+  "tags": {
+    "addr:city": "Mui Ne",
+    "addr:district": "Ward Ham Tien",
+    "addr:housenumber": "72A",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "name": "Hai Gia Resort",
+    "phone": "(062) 3847.555 - 0903 342 321",
+    "tourism": "hotel",
+    "website": "https://seahome.com.vn/"
+  }
+},
+{
+  "type": "node",
+  "id": 1390208350,
+  "lat": 10.9492499,
+  "lon": 108.2584496,
+  "tags": {
+    "addr:housenumber": "56",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "name": "Thai hoa muine resort",
+    "name:de": "Thai hoa muine resort",
+    "smoking": "separated",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1390208352,
+  "lat": 10.9511154,
+  "lon": 108.2541629,
+  "tags": {
+    "name": "Hai Au Mui Ne Beach Resort & Spa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1390208369,
+  "lat": 10.9455432,
+  "lon": 108.2733837,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 1797128213,
+  "lat": 10.9612932,
+  "lon": 108.3221245,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Ha Le"
+  }
+},
+{
+  "type": "node",
+  "id": 2102482354,
+  "lat": 10.9553091,
+  "lon": 108.2343193,
+  "tags": {
+    "name": "Song Huong Hotel",
+    "source": "personal expirience",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2281493549,
+  "lat": 10.9547744,
+  "lon": 108.2359070,
+  "tags": {
+    "name": "Hoang Hai Resort",
+    "source": "survey",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2281493558,
+  "lat": 10.9548861,
+  "lon": 108.2348589,
+  "tags": {
+    "name": "Mui Ne Resort",
+    "source": "survey",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323101003,
+  "lat": 10.9286158,
+  "lon": 108.2914308,
+  "tags": {
+    "name": "Ganh Resort",
+    "name:de": "Ganh Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323105860,
+  "lat": 10.9291741,
+  "lon": 108.2838080,
+  "tags": {
+    "name": "Malibu Resort",
+    "name:de": "Malibu Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323108365,
+  "lat": 10.9209929,
+  "lon": 108.2914983,
+  "tags": {
+    "name": "Resort Vịnh Mũi Né",
+    "name:de": "Resort Vịnh Mũi Né",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323108536,
+  "lat": 10.9238068,
+  "lon": 108.2938234,
+  "tags": {
+    "name": "The Sailing Bay Resort",
+    "name:de": "The Sailing Bay Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323109874,
+  "lat": 10.9230230,
+  "lon": 108.2937346,
+  "tags": {
+    "name": "Dv Du Lịch Gành Mũi Né",
+    "name:de": "Dv Du Lịch Gành Mũi Né",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323114170,
+  "lat": 10.9214818,
+  "lon": 108.2926606,
+  "tags": {
+    "name": "Muine Bay Resort",
+    "name:de": "Muine Bay Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323117609,
+  "lat": 10.9420835,
+  "lon": 108.2979164,
+  "tags": {
+    "name": "Khu du lịch Malibu",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323118050,
+  "lat": 10.9390814,
+  "lon": 108.2957170,
+  "tags": {
+    "name": "Kitecamp Nomad",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323118680,
+  "lat": 10.9448328,
+  "lon": 108.2980666,
+  "tags": {
+    "addr:city": "Mui Ne",
+    "addr:housenumber": "3",
+    "addr:province": "Lam Dong",
+    "addr:street": "Nguyễn Hữu Thọ",
+    "email": "pandanus@pandanusresort.com",
+    "internet_access": "yes",
+    "internet_access:fee": "customers",
+    "name": "Pandanus Resort",
+    "phone": "+84 2523 849 849",
+    "tourism": "hotel",
+    "website": "https://www.pandanusresort.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 3323121039,
+  "lat": 10.9429684,
+  "lon": 108.2769898,
+  "tags": {
+    "name": "Khách sạn Đại Dương",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323123236,
+  "lat": 10.9520114,
+  "lon": 108.2526139,
+  "tags": {
+    "name": "Muine de Century Resort & Spa",
+    "name:de": "Muine de Century Resort & Spa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323123578,
+  "lat": 10.9550029,
+  "lon": 108.2389615,
+  "tags": {
+    "name": "Mai Vy Guest House",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323124137,
+  "lat": 10.9506684,
+  "lon": 108.2580642,
+  "tags": {
+    "name": "Lucy Resort",
+    "name:de": "Lucy Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323124467,
+  "lat": 10.9502418,
+  "lon": 108.2588956,
+  "tags": {
+    "name": "Nhà nghỉ Đức Thảo Guest House",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323125049,
+  "lat": 10.9540707,
+  "lon": 108.2474533,
+  "tags": {
+    "name": "Ngoc Lam Guest House",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323125983,
+  "lat": 10.9524767,
+  "lon": 108.2508565,
+  "tags": {
+    "addr:city": "Phan Thiết",
+    "addr:district": "Hàm Tiến",
+    "addr:housenumber": "8",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "internet_access": "wlan",
+    "name": "PhuongTay Guest House",
+    "phone": "0623743745",
+    "tourism": "hotel",
+    "website": "https://phuongtayguesthouse.webnode.vn/"
+  }
+},
+{
+  "type": "node",
+  "id": 3323126115,
+  "lat": 10.9518494,
+  "lon": 108.2512228,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Little Muine Cottages Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323126155,
+  "lat": 10.9525486,
+  "lon": 108.2471744,
+  "tags": {
+    "name": "Sunrise Village Hotel",
+    "name:ko": "선라이즈 빌리지 호텔",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323128242,
+  "lat": 10.9527224,
+  "lon": 108.2503609,
+  "tags": {
+    "name": "Little Paris Resort & Spa",
+    "name:de": "Little Paris Resort & Spa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323128894,
+  "lat": 10.9527066,
+  "lon": 108.2449911,
+  "tags": {
+    "name": "Cham Villas Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323130015,
+  "lat": 10.9550187,
+  "lon": 108.2383177,
+  "tags": {
+    "name": "Resort Hoàng Ngọc",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323130842,
+  "lat": 10.9546711,
+  "lon": 108.2372502,
+  "tags": {
+    "name": "Muine Watergate Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323132362,
+  "lat": 10.9543709,
+  "lon": 108.2367245,
+  "tags": {
+    "name": "Mai Am Guest House",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323132608,
+  "lat": 10.9548344,
+  "lon": 108.2342891,
+  "tags": {
+    "name": "Dynasty Beach Mui Ne Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323133568,
+  "lat": 10.9549608,
+  "lon": 108.2335059,
+  "tags": {
+    "name": "Pacific Beach Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323134379,
+  "lat": 10.9553505,
+  "lon": 108.2329587,
+  "tags": {
+    "name": "Rang Garden Resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3700486425,
+  "lat": 10.9543170,
+  "lon": 108.2457590,
+  "tags": {
+    "addr:housenumber": "230",
+    "addr:street": "Nguyễn Đình Chiểu",
+    "amenity": "restaurant",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Sandy Foods & Drinks",
+    "name:vi": "yana food & drink"
+  }
+},
+{
+  "type": "node",
+  "id": 3700533525,
+  "lat": 10.9510930,
+  "lon": 108.2562520,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Nhat Nam",
+    "name:de": "Nhat Nam",
+    "name:ru": "Nhat Nam Вьетнамская кухня.. вкусно",
+    "operator": "Nam"
+  }
+},
+{
+  "type": "node",
+  "id": 3768384489,
+  "lat": 10.9466694,
+  "lon": 108.3013058,
+  "tags": {
+    "addr:city": "Mui Ne",
+    "addr:district": "Phan Tiet",
+    "addr:street": "DT 716",
+    "amenity": "cafe",
+    "cuisine": "bakery",
+    "internet_access": "wlan",
+    "name": "Rids surf club",
+    "opening_hours": "06:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 3852310928,
+  "lat": 10.9543324,
+  "lon": 108.2587827,
+  "tags": {
+    "addr:city": "Phan Thiết",
+    "addr:district": "Hàm Tiến",
+    "addr:postcode": "801090",
+    "addr:province": "Bình Thuận",
+    "addr:subdistrict": "khu phố 4",
+    "name": "Vita Garden Mini-Zoo",
+    "name:de": "Vita Garden Mini-Zoo",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "phone": "+841286602806",
+    "tourism": "zoo"
+  }
+},
+{
+  "type": "node",
+  "id": 3852310930,
+  "lat": 10.9545384,
+  "lon": 108.2584529,
+  "tags": {
+    "addr:city": "Phan Thiết",
+    "addr:district": "Hàm Tiến",
+    "addr:postcode": "801090",
+    "addr:province": "Bình Thuận",
+    "addr:subdistrict": "khu phố 4",
+    "amenity": "cafe",
+    "cuisine": "asian",
+    "internet_access": "wlan",
+    "name": "Vita Garden Mini-Zoo Cafe",
+    "name:de": "Vita Garden Mini-Zoo Cafe",
+    "opening_hours": "08*00-18*00",
+    "phone": "+841286602806",
+    "smoking": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3856714735,
+  "lat": 10.9532390,
+  "lon": 108.2503143,
+  "tags": {
+    "addr:housenumber": "15B",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "only",
+    "name": "Vi Dieu",
+    "name:en": "Vi Dieu Com Chay Vegetarian"
+  }
+},
+{
+  "type": "node",
+  "id": 3905920618,
+  "lat": 10.9499305,
+  "lon": 108.2595064,
+  "tags": {
+    "name": "Diem Lien Guesthouse",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3910071079,
+  "lat": 10.9499785,
+  "lon": 108.2592827,
+  "tags": {
+    "name": "Diem Lien Guesthouse",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3977376685,
+  "lat": 10.9525467,
+  "lon": 108.2548339,
+  "tags": {
+    "name": "Hoang Nga Guesthouse",
+    "name:de": "Hoang Nga Guesthouse",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 4007347502,
+  "lat": 10.9550962,
+  "lon": 108.2313128,
+  "tags": {
+    "name": "Minh Tâm resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4100263191,
+  "lat": 10.9473197,
+  "lon": 108.2643459,
+  "tags": {
+    "addr:housenumber": "90",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "email": "surf4you.vietnam@gmail.con",
+    "internet_access": "wlan",
+    "name": "Surf4you Residence",
+    "name:de": "Surf4you Residence",
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "phone": "+841695838173",
+    "tourism": "hotel",
+    "website": "surf4you.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 4101229290,
+  "lat": 10.9532381,
+  "lon": 108.2428751,
+  "tags": {
+    "addr:street": "Nguyễn Đình Chiểu",
+    "check_date": "2025-07-23",
+    "internet_access": "wlan",
+    "name": "Venus Mui Ne Hotel",
+    "phone": "+841697711971",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4192834198,
+  "lat": 10.9524554,
+  "lon": 108.2536384,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Futa bus"
+  }
+},
+{
+  "type": "node",
+  "id": 4210802590,
+  "lat": 10.9520082,
+  "lon": 108.2567008,
+  "tags": {
+    "alt_name:ru": "Красный ручей",
+    "name": "Fairy Stream",
+    "name:ko": "요정의 샘",
+    "name:ru": "Ручей Фей",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4288352495,
+  "lat": 10.9549819,
+  "lon": 108.2345860,
+  "tags": {
+    "addr:housenumber": "144",
+    "addr:street": "Nguyễn Đình Chiểu",
+    "amenity": "bus_station",
+    "name": "The Sinh Tourist",
+    "opening_hours": "Mo-Su 07:00-22:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4288390992,
+  "lat": 10.9528160,
+  "lon": 108.2472861,
+  "tags": {
+    "addr:housenumber": "246/2B",
+    "addr:street": "Nguyễn Đình Chiểu",
+    "internet_access": "wlan",
+    "name": "La Marina",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4290573291,
+  "lat": 10.9551990,
+  "lon": 108.2330400,
+  "tags": {
+    "amenity": "bus_station",
+    "name": "Bus Station",
+    "name:ko": "버스역",
+    "name:ru": "Остановка автобусная"
+  }
+},
+{
+  "type": "node",
+  "id": 4290667290,
+  "lat": 10.9582685,
+  "lon": 108.2624722,
+  "tags": {
+    "name": "Fairy Stream Waterfall",
+    "name:de": "Fairy Stream Waterfall",
+    "name:ru": "ручей фей",
+    "name:vi": "Suối tiên Mũi Né",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4338190395,
+  "lat": 10.9552817,
+  "lon": 108.2322306,
+  "tags": {
+    "name": "Hai Yen Family Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4348159989,
+  "lat": 10.9552197,
+  "lon": 108.2327195,
+  "tags": {
+    "addr:street": "Nguyễn Đình Chiểu",
+    "amenity": "restaurant",
+    "cuisine": "sandwich;kebab;italian",
+    "internet_access": "wlan",
+    "name": "Sindbad",
+    "name:en": "오리지널 케밥"
+  }
+},
+{
+  "type": "node",
+  "id": 4394363291,
+  "lat": 10.9349505,
+  "lon": 108.2862917,
+  "tags": {
+    "addr:housenumber": "356",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "amenity": "cafe",
+    "cuisine": "vietnamese",
+    "internet_access": "wlan",
+    "name": "coffee moon",
+    "name:vi": "coffee moon"
+  }
+},
+{
+  "type": "node",
+  "id": 4394381989,
+  "lat": 10.9550715,
+  "lon": 108.2362572,
+  "tags": {
+    "addr:housenumber": "253",
+    "addr:street": "Nguyễn Đình Chiểu",
+    "amenity": "restaurant",
+    "cuisine": "burger",
+    "internet_access": "wlan",
+    "name": "Phat Hamburger",
+    "name:vi": "Phat Hamburger",
+    "opening_hours": "10:00-21:30",
+    "phone": "0986412733"
+  }
+},
+{
+  "type": "node",
+  "id": 4400705789,
+  "lat": 10.9553173,
+  "lon": 108.2353672,
+  "tags": {
+    "internet_access": "wlan",
+    "name:en": "247 C/A Guesthouse",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4455907490,
+  "lat": 10.9554458,
+  "lon": 108.2289920,
+  "tags": {
+    "name:en": "Papaya Guesthouse",
+    "name:ru": "Папайя",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4455907589,
+  "lat": 10.9554455,
+  "lon": 108.2290523,
+  "tags": {
+    "addr:housenumber": "215",
+    "addr:street": "Nguyễn Đình Chiểu",
+    "amenity": "cafe",
+    "cuisine": "pasta;russian;pizza",
+    "email": "pbolkhovitinov@gmail.com",
+    "internet_access": "wlan",
+    "name:en": "Pizzets",
+    "name:ru": "пиццерия",
+    "opening_hours": "Mo-Su 12:00-22:00",
+    "operator": "Bolkhovitinov Petr",
+    "phone": "+841218668132",
+    "website": "http://www.pizzets.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4494173589,
+  "lat": 10.9542482,
+  "lon": 108.3043247,
+  "tags": {
+    "name:en": "Red Canyon",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4496714490,
+  "lat": 10.9485932,
+  "lon": 108.2626252,
+  "tags": {
+    "addr:housenumber": "76",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "amenity": "restaurant",
+    "name": "Thao Nu",
+    "name:de": "Thao Nu",
+    "name:en": "Thao Nu"
+  }
+},
+{
+  "type": "node",
+  "id": 4540904313,
+  "lat": 10.9378367,
+  "lon": 108.2952841,
+  "tags": {
+    "name": "Góc Biển",
+    "phone": "0623748200",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4540904316,
+  "lat": 10.9380545,
+  "lon": 108.2886438,
+  "tags": {
+    "amenity": "cafe",
+    "level": "0",
+    "name": "Coffee Nhà Hàng"
+  }
+},
+{
+  "type": "node",
+  "id": 4540904320,
+  "lat": 10.9403164,
+  "lon": 108.2956916,
+  "tags": {
+    "name": "Universe",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 4540904323,
+  "lat": 10.9395364,
+  "lon": 108.2936590,
+  "tags": {
+    "amenity": "cafe",
+    "level": "0",
+    "name": "Café Legend",
+    "name:de": "Café Legend"
+  }
+},
+{
+  "type": "node",
+  "id": 4540904324,
+  "lat": 10.9383515,
+  "lon": 108.2889073,
+  "tags": {
+    "amenity": "cafe",
+    "level": "0",
+    "name": "Coffee Nike",
+    "name:de": "Coffee Nike"
+  }
+},
+{
+  "type": "node",
+  "id": 4540969535,
+  "lat": 10.9416056,
+  "lon": 108.2784563,
+  "tags": {
+    "addr:housenumber": "170",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "amenity": "restaurant",
+    "cuisine": "fish",
+    "level": "0",
+    "name": "Hồng Anh",
+    "phone": "01662123279"
+  }
+},
+{
+  "type": "node",
+  "id": 4544553491,
+  "lat": 10.9550646,
+  "lon": 108.2368569,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "italian_pizza;coffee_shop",
+    "name": "Gặp gỡ",
+    "name:vi": "Gặp gỡ"
+  }
+},
+{
+  "type": "node",
+  "id": 4552526189,
+  "lat": 10.9416363,
+  "lon": 108.2822392,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4605286292,
+  "lat": 10.9538485,
+  "lon": 108.2471868,
+  "tags": {
+    "addr:housenumber": "246",
+    "addr:street": "Nguyễn Đình Chiểu",
+    "amenity": "cafe",
+    "cuisine": "vietnamese;russian",
+    "diet:vegetarian": "yes",
+    "name:en": "The food Court Dong Vui",
+    "opening_hours": "Mo-Su 07:30-23:00"
+  }
+},
+{
+  "type": "node",
+  "id": 4624128289,
+  "lat": 10.9553565,
+  "lon": 108.3069033,
+  "tags": {
+    "name": "Bang Lai Ten Canh",
+    "name:en": "Red canyon",
+    "name:vi": "Bang Lai Ten Canh",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4650330095,
+  "lat": 10.9500335,
+  "lon": 108.2588795,
+  "tags": {
+    "addr:housenumber": "58A",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "amenity": "restaurant",
+    "cuisine": "russian;vietnamese",
+    "name": "Nhà Hàng Thanh Lan"
+  }
+},
+{
+  "type": "node",
+  "id": 4723495291,
+  "lat": 10.9549622,
+  "lon": 108.2350477,
+  "tags": {
+    "name": "Thanh Trúc",
+    "name:en": "Thanh Trúc",
+    "name:fr": "Thanh Trúc",
+    "name:vi": "Thanh Trúc",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4724072089,
+  "lat": 10.9526027,
+  "lon": 108.2539474,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "russian;vietnamese",
+    "internet_access": "wlan",
+    "name:en": "Russian cruise",
+    "name:ru": "Русская кухня"
+  }
+},
+{
+  "type": "node",
+  "id": 4735550321,
+  "lat": 10.9491700,
+  "lon": 108.2614592,
+  "tags": {
+    "addr:housenumber": "72",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "amenity": "restaurant",
+    "name": "Canh buồm vang7272",
+    "name:vi": "Canh buồm vang7272"
+  }
+},
+{
+  "type": "node",
+  "id": 4735557427,
+  "lat": 10.9510871,
+  "lon": 108.2562218,
+  "tags": {
+    "addr:street": "Huỳnh Thúc Kháng",
+    "amenity": "restaurant",
+    "name": "Nhật nam",
+    "name:vi": "Nhật nam"
+  }
+}
+
+  ]
+}

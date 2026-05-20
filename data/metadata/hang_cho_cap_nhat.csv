@@ -1,0 +1,3 @@
+﻿queue_id,ma_nguon,ten_nguon,hanh_dong,dataset_cap_nhat,muc_uu_tien,trang_thai_queue,tao_luc,ghi_chu
+queue_001,gso_report,Báo cáo GSO,kiểm tra nguồn trước khi đưa vào hàng chờ cập nhật,tourism_demand_monthly,trung bình,chờ xử lý,20/05/2026 22:18,"Khi bấm Cập nhật dữ liệu, SEA đọc queue này, archive current cũ, rebuild bảng tổng hợp và giữ bản ổn định nếu lỗi."
+queue_002,gemini,Gemini 2.5 Flash,dùng Gemini nếu có key; fallback sang Ollama rồi rule-based nếu lỗi,rag/sea_knowledge_base.md,trung bình,chờ xử lý,20/05/2026 22:18,"Khi bấm Cập nhật dữ liệu, SEA đọc queue này, archive current cũ, rebuild bảng tổng hợp và giữ bản ổn định nếu lỗi."

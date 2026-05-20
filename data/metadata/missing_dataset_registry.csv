@@ -1,0 +1,7 @@
+﻿dataset_id,ten_tieng_viet,loai_du_lieu,ly_do_thieu,dung_cho_kpi_nao,do_tin_cay_hien_tai,tooltip_giai_thich
+traffic_realtime,Mật độ giao thông theo tuyến vào điểm đến,partner_api_required,Cần API giao thông/đối tác địa phương,"Điểm áp lực, điều phối",0,SEA vẫn hiển thị nhưng đánh màu xám/độ tin cậy thấp cho phần thiếu nguồn này.
+crowd_density,Mật độ khách theo giờ tại bãi biển/POI,partner_api_required,Cần camera/IoT/telco/đối tác,Cảnh báo quá tải,0,SEA vẫn hiển thị nhưng đánh màu xám/độ tin cậy thấp cho phần thiếu nguồn này.
+hotel_occupancy,Công suất phòng khách sạn,partner_api_required,Cần PMS/OTA partner API,"Áp lực lưu trú, dự báo",0,SEA vẫn hiển thị nhưng đánh màu xám/độ tin cậy thấp cho phần thiếu nguồn này.
+ticket_sales_velocity,Tốc độ bán vé khu vui chơi,partner_api_required,Cần API khu vui chơi,Áp lực vé và chia khung giờ,0,SEA vẫn hiển thị nhưng đánh màu xám/độ tin cậy thấp cho phần thiếu nguồn này.
+marine_warning,"Sóng, dòng chảy, cảnh báo bão biển",missing,Cần nguồn khí tượng biển chính thức,Rủi ro thời tiết biển,0,SEA vẫn hiển thị nhưng đánh màu xám/độ tin cậy thấp cho phần thiếu nguồn này.
+tourism_revenue_local,Doanh thu theo điểm đến/ngành,missing,Cần thống kê địa phương hoặc đối tác thanh toán,Hiệu quả kinh tế,0,SEA vẫn hiển thị nhưng đánh màu xám/độ tin cậy thấp cho phần thiếu nguồn này.

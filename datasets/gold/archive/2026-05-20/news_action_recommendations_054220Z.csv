@@ -1,0 +1,13 @@
+﻿event_id,affected_destination_id,affected_destination,event_type,risk_score_delta,confidence_score,operation_signal,recommended_action,owner
+local_signal_ha_long,ha_long,Ha Long,event_pressure,8,76.5,"tăng Demand Score, tăng shuttle, chia khung giờ, đẩy điểm phụ","tăng Demand Score, tăng shuttle, chia khung giờ, đẩy điểm phụ",địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_cat_ba,cat_ba,Cat Ba,event_pressure,8,76.5,"tăng Demand Score, tăng shuttle, chia khung giờ, đẩy điểm phụ","tăng Demand Score, tăng shuttle, chia khung giờ, đẩy điểm phụ",địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_quy_nhon,quy_nhon,Quy Nhon,economic_opportunity,-5,76.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_da_nang,da_nang,Da Nang,economic_opportunity,-5,76.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_mui_ne,mui_ne,Mui Ne,economic_opportunity,-5,76.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_sam_son,sam_son,Sam Son,economic_opportunity,-5,76.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_hoi_an,hoi_an,Hoi An,economic_opportunity,-5,76.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_hue,hue,Hue,economic_opportunity,-5,76.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_vung_tau,vung_tau,Vung Tau,economic_opportunity,-5,76.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_cua_lo,cua_lo,Cua Lo,economic_opportunity,-5,76.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_ninh_binh,ninh_binh,Ninh Binh,economic_opportunity,-5,61.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải
+local_signal_ly_son,ly_son,Ly Son,economic_opportunity,-5,61.5,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,ưu tiên combo ăn uống/vé/lưu trú nếu hạ tầng đủ,địa phương/doanh nghiệp/khu vui chơi/vận tải

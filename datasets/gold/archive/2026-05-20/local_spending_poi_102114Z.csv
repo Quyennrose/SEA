@@ -1,0 +1,501 @@
+﻿destination_id,ten_diem_den,ten_poi,nhom_chi_tieu,lat,lng,source_name,goi_y_kinh_te
+da_nang,Da Nang,Cafe Win,restaurant,16.0746726,108.2187015,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CafeKhanh Ly,restaurant,16.0627174,108.208943,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,ThanhBinh Coffee,restaurant,16.0347187,108.2446539,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Fantasy,restaurant,16.0632999,108.1601536,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Lang Tien,restaurant,16.0657433,108.2077628,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Cafe Truc Phuong,restaurant,16.0684586,108.1500026,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Ca Phe 83,restaurant,16.0785765,108.2193388,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Cafe Dong Xanh,restaurant,16.0640577,108.2208466,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CafeTo Be,restaurant,16.0736841,108.2182886,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Sao Mai,restaurant,16.0668568,108.1743586,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,MienThao Coffee,restaurant,16.0762311,108.2308433,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,GmcCoffee,restaurant,16.0539382,108.2208037,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe 3 Ladies,restaurant,16.0827332,108.2219624,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,OnenineCoffee,restaurant,16.066281,108.1920523,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Ca Phe Thuan,restaurant,16.0515981,108.1700044,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CafeGiai Khat 204,restaurant,16.0597687,108.2135027,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Konia,restaurant,16.0719493,108.2127548,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,VuonNguyet Khue Vien Coffee,restaurant,16.0623504,108.208896,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CafeNguyen,restaurant,16.0494377,108.2133794,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,NgocVan Coffee,restaurant,16.0681394,108.1818645,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CafeLuna,restaurant,16.0654507,108.2078514,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CafeBao Dang,restaurant,16.0674462,108.1525529,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,AnhLinh Coffee,restaurant,16.0703982,108.2013201,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,HoaTieu Coffee,restaurant,16.0789002,108.2328072,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Giai Khat Quang,restaurant,16.0582376,108.2126391,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Cafe72,restaurant,16.0488551,108.2168233,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,ThanhHuong Coffee,restaurant,16.0648206,108.2164746,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Hoang Anh,restaurant,16.0348682,108.1778991,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,AnhLinh Coffee,restaurant,16.0851302,108.2196914,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,VuonThao Coffee,restaurant,16.0653619,108.2069099,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,324Coffee,restaurant,16.0569901,108.2128107,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Nhà Hàng Chay & Cà Phê Thúp An,restaurant,16.0738518,108.2032513,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,PhoSao Coffee,restaurant,16.0452824,108.2227242,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,BaoNhi Coffee,restaurant,16.0822257,108.2399242,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CafeBan Toi,restaurant,16.058681,108.2122153,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Nhat Linh,restaurant,16.0360488,108.1832421,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CafeThoang Sai Gon,restaurant,16.0710077,108.2212999,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Trung,restaurant,16.0358065,108.1822067,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Thu Dung,restaurant,16.0713363,108.1914818,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Cafe219,restaurant,16.0871156,108.2413157,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Long,restaurant,16.0677692,108.1593811,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,MyDuyen Coffee,restaurant,16.0522905,108.2373783,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Ca Phe New Life,restaurant,16.0659805,108.2200312,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Bong Da 14,restaurant,16.0750293,108.1492071,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe New Life,restaurant,16.0707379,108.2203416,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,ThanhHuong Coffee,restaurant,16.0951751,108.2444155,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Ca Phe Chieu Tim,restaurant,16.0860629,108.2405662,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,ThanhHong Coffee,restaurant,16.0543867,108.2097101,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Cafe153,restaurant,16.0905214,108.2428407,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,TigonCoffee,restaurant,16.0463238,108.2386833,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,LindaCoffee,restaurant,16.060279,108.209356,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,MyPhuc Coffee,restaurant,16.0799961,108.213197,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,ThanhTruc Coffee,restaurant,16.0322748,108.1885957,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,TrucTam Coffee,restaurant,16.0906658,108.2423678,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Ca Phe Giai Khat Yen Trang,restaurant,16.0864224,108.2407112,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,NhatHa Coffee Ice Cream,restaurant,16.058217,108.2207447,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Kien Viet,restaurant,16.0764324,108.2195373,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,HolidayCoffee,restaurant,16.0574334,108.2066095,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Sao Mai,restaurant,16.0706704,108.2339835,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,NgocAnh Coffee,restaurant,16.0670114,108.182019,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Loc Thu,restaurant,16.0706198,108.2227242,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,HongAn Coffee,restaurant,16.0196036,108.1940563,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,GiaiKhat 115 Coffee,restaurant,16.0789549,108.2173222,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,SaoMai Coffee,restaurant,16.0764549,108.2190335,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CafeThanh Hoa,restaurant,16.0549074,108.2121294,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Ca Phe Paris Da,restaurant,16.0733682,108.214039,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Delta,restaurant,16.0598754,108.2122709,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,NangMai Coffee,restaurant,16.0610214,108.211931,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Ca Phe Trung,restaurant,16.056491,108.1666315,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Ca Phe Cam Ni,restaurant,16.0525482,108.1796323,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Ca Phe Bien Nho,restaurant,16.0559075,108.2444179,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CayBang Coffee,restaurant,16.0899132,108.2420341,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Cafe Giai Khat 417,restaurant,16.0693105,108.2051503,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Win Win,restaurant,16.0224941,108.2136583,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Thuy Trang,restaurant,16.0376986,108.2220751,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,CaPhe Hoa Co May,restaurant,16.0607378,108.2104826,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,55Coffee,restaurant,16.0733415,108.1775719,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,PhuongMai Coffee,restaurant,16.0889382,108.2421461,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,Trung Nguyên Coffee,restaurant,16.0311905,108.2242256,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+da_nang,Da Nang,TrungDuong Coffee,restaurant,16.0737871,108.1493575,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Cửa Đại,transport_hub,15.8761075,108.3889694,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+hoi_an,Hoi An,Golden Holiday,hotel_osm,15.887589,108.3279837,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Sunflower Hotel,hotel_osm,15.8804863,108.3427783,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Minh Quang,hotel_osm,15.8824297,108.3251204,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Hotel My Chau,hotel_osm,15.8816219,108.3276885,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Cargo Club Cafe & Restaurant,restaurant,15.8764695,108.3275305,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Nhi Nhi Hotel,hotel_osm,15.8794633,108.3208587,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Day & Night Café,restaurant,15.8827601,108.3270371,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Emerald Hoi An Riverside Resort,hotel_osm,15.8744836,108.3235617,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Banana Leaf,restaurant,15.8761553,108.328694,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Blue Dragon,restaurant,15.8761577,108.3305259,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Cafe Des Amis,restaurant,15.8761426,108.3302008,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Can,restaurant,15.8761347,108.3293599,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Cordon Bleu,restaurant,15.8761865,108.3308839,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Dac San Hoi An,restaurant,15.8770709,108.328868,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Du Port,restaurant,15.8761027,108.3295029,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Faifoo,restaurant,15.8771734,108.3288922,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Green Chili,restaurant,15.8766241,108.3271952,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Green Mango,restaurant,15.876648,108.3295924,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Hải Café,restaurant,15.8770516,108.3278406,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Hai San,restaurant,15.8761024,108.3297942,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Hong Phuc II,restaurant,15.8762696,108.3279918,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Hong Phuc,restaurant,15.8761444,108.3287821,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Khach San Phu Thinh,hotel_osm,15.877233,108.327529,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Kisetsu,restaurant,15.8767707,108.3302248,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Lantern Town,restaurant,15.8764689,108.329346,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Morning Glory,restaurant,15.8766204,108.3277853,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Cafe Phôn,restaurant,15.8761275,108.3289405,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Quang Thang,restaurant,15.8761822,108.3285209,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Red Sail,restaurant,15.8761784,108.3307714,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Sakura,restaurant,15.8764347,108.3270753,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Sao Mai,restaurant,15.8761549,108.3304625,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Tam Tam Cafe,restaurant,15.8766029,108.3275612,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Tam Tam Jardin,restaurant,15.8770543,108.327574,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Thanh Hien,restaurant,15.876325,108.3273919,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Viet Vic,restaurant,15.8763019,108.3276277,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Vinh Hung,hotel_osm,15.8770406,108.3269156,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,White Marble,restaurant,15.8764364,108.3285534,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,An Hoi,restaurant,15.8758924,108.3264035,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,An Hoi,hotel_osm,15.8761599,108.3245591,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Binh MI,restaurant,15.8774516,108.3247131,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Cava,restaurant,15.8761057,108.3253217,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Cho Ban,restaurant,15.8758168,108.3268026,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Nhà Hàng Cafe CitroNella,restaurant,15.8770664,108.3257834,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Guava and Mango,restaurant,15.8754048,108.3260219,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Hi Restaurant,restaurant,15.875158,108.3283506,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Khoai Tay Va Ca,restaurant,15.8754801,108.3281009,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Long Life Riverside,hotel_osm,15.8761954,108.3249199,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Mai Fish,restaurant,15.8774061,108.324786,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Man Nguyen,restaurant,15.8757103,108.3270947,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Mango Mango,restaurant,15.8760099,108.3258167,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Quan An Sau,restaurant,15.8761756,108.3252256,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Seafood Garden,restaurant,15.8757605,108.3270202,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Thanh Phuong,restaurant,15.8757759,108.3269721,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Van Phi,restaurant,15.8776902,108.3244607,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Yellow Flower,restaurant,15.8777899,108.324346,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Gourmet Garden,restaurant,15.8768188,108.3286791,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Huong Vien,restaurant,15.878563,108.3289969,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Old Garden,restaurant,15.8781656,108.3299528,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Pho Hoi,hotel_osm,15.8772983,108.3319068,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,The Pear Tree,restaurant,15.8774683,108.3317979,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,An Bang Beach Club,restaurant,15.9141779,108.3396551,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Kim Cuc,restaurant,15.9133928,108.3403672,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,the Dublin Gate,restaurant,15.8756716,108.3272471,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,The Market Restaurant,restaurant,15.8757382,108.3260369,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Miss Ly,restaurant,15.8777738,108.3311817,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Little Hoi An Boutique Hotel & Spa,hotel_osm,15.875959,108.3228119,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Riverside Bamboo Resort,hotel_osm,15.8813341,108.3505455,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Golden Bridge,restaurant,15.8958814,108.3680638,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Fusion Lounge,restaurant,15.875837,108.3266543,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Anantara Resort,hotel_osm,15.8774464,108.3359654,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hoi_an,Hoi An,Market,restaurant,15.8773645,108.3307783,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Bazar Garden Restaurant,restaurant,15.8775027,108.3310483,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hoi_an,Hoi An,Vegetarian Vegan Chay Resturant,restaurant,15.8780039,108.3281558,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Hue Backpackers,hotel_osm,16.469621,107.5941586,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Huế tourist bus stop,transport_hub,16.467257,107.583223,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+hue,Hue,Hong Thien 2 hotel,hotel_osm,16.4691326,107.5960838,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Tran Ly,hotel_osm,16.4704922,107.5945042,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Pilgrimage Village,hotel_osm,16.4250786,107.5794609,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Nha Hang CUNG DING Restaurant,restaurant,16.4839438,107.603723,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Thái Sơn,hotel_osm,16.4616919,107.600457,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Club Garden,restaurant,16.4691737,107.5958505,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Gold 2 Hotel,hotel_osm,16.4647734,107.593624,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Quan So 1,restaurant,16.4580449,107.5808365,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Nha Hang Queen,restaurant,16.4690321,107.5954277,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,A Lầu - Dzách Lầu,restaurant,16.4655821,107.5947465,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Camellia,hotel_osm,16.4652432,107.5949681,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Casablanca's Cafe,restaurant,16.4643979,107.5920373,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Xuan Trang,restaurant,16.46924,107.5956043,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Waterland,restaurant,16.4690959,107.5960864,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Nguyen Hue,hotel_osm,16.4579973,107.5910025,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Hue Amazing Homestay,hotel_osm,16.4715881,107.609913,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Huenino Hotel,hotel_osm,16.4710693,107.5955971,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Phong Nha,restaurant,16.4361777,107.5645786,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Century Riverside Hotel,hotel_osm,16.4705358,107.593545,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Mandarin Cafe,restaurant,16.465498,107.5917125,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Xiao,restaurant,16.4675631,107.5745925,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Les Jardins De La Carambole,restaurant,16.4651024,107.5756421,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Omar Khayyam,restaurant,16.4646216,107.592422,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Imperial,hotel_osm,16.4660129,107.5917583,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Nina's Cafe,restaurant,16.4641052,107.5927076,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Thang Long,hotel_osm,16.4647719,107.5931446,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Gem,hotel_osm,16.4650355,107.5933243,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Audiophile cafe,restaurant,16.4799797,107.5814616,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Biệt Phủ Thảo Nhi,restaurant,16.4097798,107.5883558,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Bánh Bèo Nậm Lọc Bà Đỏ,restaurant,16.4823051,107.5892512,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Cơm Ông Chử,restaurant,16.4681684,107.5943569,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Hoàng Trúc,restaurant,16.4721817,107.5806949,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Vườn Đào,restaurant,16.4723341,107.5809207,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Hanh Dat,hotel_osm,16.4727268,107.6004428,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Binh Duong 1,hotel_osm,16.464486,107.592743,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Festival,hotel_osm,16.460492,107.591433,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Sông Xanh,restaurant,16.4724198,107.5957571,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,La Boulangerie Francaise,restaurant,16.4653095,107.5933237,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Phu An,hotel_osm,16.4651701,107.5932199,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Duy Tan,hotel_osm,16.465141,107.592072,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Canary Boutique Hotel,hotel_osm,16.4715538,107.5974083,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Mr Ken Coffee,restaurant,16.4779022,107.5779778,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Holiday Diamond Hotel,hotel_osm,16.4714494,107.5954258,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Risotto Restaurant,restaurant,16.4719303,107.5955931,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Y Thao Garden Restaurant,restaurant,16.4682813,107.5674988,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Stop & Go Café,restaurant,16.466711,107.5913649,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Vina Hotel Hue,hotel_osm,16.4714312,107.5973016,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Thanh An,hotel_osm,16.463126,107.589712,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Zone 7 Coffee & Restaurant,restaurant,16.4604307,107.598596,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Hong Thien 1 Hotel,hotel_osm,16.4692111,107.5963379,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Cà phê Cảnh Viên,restaurant,16.4906992,107.5738025,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,An Hoa Bus Station,transport_hub,16.4790441,107.5573455,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+hue,Hue,Pallet Restaurant,restaurant,16.4646717,107.5929548,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Cherish Hotel,hotel_osm,16.4644442,107.5948295,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Khe Sanh Homestay,hotel_osm,16.4712388,107.5976493,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Jade Hotel,hotel_osm,16.4646678,107.593736,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Bigben,restaurant,16.4648343,107.5925886,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,You & Me,restaurant,16.4663959,107.5927042,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Guesthouse B&B,hotel_osm,16.464793,107.5932735,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Lucky Homestay,hotel_osm,16.4668146,107.5931679,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,hue serene palace hotel,hotel_osm,16.4703151,107.5972846,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Thai Binh 2,hotel_osm,16.4656206,107.5907885,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Nhat Le Hotel,hotel_osm,16.4648397,107.5911108,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Hangout Coffee & Bar,restaurant,16.465335,107.5933667,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Cozy Hue Hotel,hotel_osm,16.469913,107.5968544,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Oasis hostel,hotel_osm,16.4694657,107.5937308,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Jade Hotel,hotel_osm,16.4645423,107.5935062,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+hue,Hue,Time cafe,restaurant,16.4642663,107.5873415,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+hue,Hue,Vọng cảnh,hotel_osm,16.4645471,107.5940084,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Khách sạn Sài Gòn Quy Nhơn,hotel_osm,13.7709541,109.2342493,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Bến xe khách Quy Nhơn,transport_hub,13.7533396,109.2089074,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+quy_nhon,Quy Nhon,Hoang Huy,hotel_osm,13.7481253,109.2139628,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Hai Huong Hotel,hotel_osm,13.7519796,109.2108259,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Gió biển,restaurant,13.7626784,109.2232653,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Tính Tam (Chay),restaurant,13.7742272,109.2300254,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Thanh Vân,restaurant,13.7746721,109.2301115,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,M cafe,restaurant,13.7801286,109.2281364,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Tam thien,restaurant,13.7734845,109.2296955,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Bún Cá NGỌC LIÊN,restaurant,13.7651481,109.2244604,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Ý Linh,hotel_osm,13.7710378,109.2359423,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Thanh Linh 1,hotel_osm,13.7643505,109.2233548,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Aurora Villas,hotel_osm,13.7116104,109.2213567,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Hong Kong Hotel,hotel_osm,13.7534231,109.2098915,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Hoàng Nam ks good,hotel_osm,13.7620479,109.2187995,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Thanh Tâm,restaurant,13.7636515,109.2162893,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,6 cò,hotel_osm,13.7905793,109.2005657,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,buratino,restaurant,13.7643475,109.2141988,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Nha Hang Huong Viet,restaurant,13.7718048,109.2397331,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Thức Cafe,restaurant,13.7579395,109.215553,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Cafe Boy,restaurant,13.7764814,109.2223742,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Út Lợi,restaurant,13.7858488,109.2183471,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,MOKA CẦU ĐÔI,restaurant,13.786665,109.2051053,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Ngói đỏ,restaurant,13.7856464,109.2034001,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Cầu Đôi,restaurant,13.7868026,109.2051042,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Trúc quyên,restaurant,13.7846017,109.216575,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,TRINH,restaurant,13.7710832,109.2229423,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,FULL,restaurant,13.7748397,109.2225118,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Com chay,restaurant,13.7722059,109.2310514,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Nice's Cafe & Karaoke,restaurant,13.7634922,109.2231073,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Friendship Coffee,restaurant,13.7708685,109.2250877,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,jolly,restaurant,13.7736018,109.2359947,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Bún Thùy,restaurant,13.7721941,109.225337,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Athena Restaurant,restaurant,13.7587941,109.2142301,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Sống nhạc,restaurant,13.7695793,109.2182475,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Nhi Nữ,restaurant,13.7664458,109.2120223,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Mon's Coffee,restaurant,13.7530186,109.2134012,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Cia Vy 2,restaurant,13.7738784,109.2211064,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Khách Sạn Bảo Ngân,hotel_osm,13.7424788,109.211134,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,O.M.E hostel,hotel_osm,13.7702077,109.2244079,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,"Central Public Bus Stop (T3, T4, T5 south, T6, T6B, T7, T21, T22)",transport_hub,13.7669004,109.2224874,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+quy_nhon,Quy Nhon,Ngoc Nga,restaurant,13.7775336,109.2265325,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Phương Đông,hotel_osm,13.7615473,109.2191105,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Zhouse,hotel_osm,13.771231,109.2473426,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Minh hoa,restaurant,13.7726071,109.2310892,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Zhouse homestay,hotel_osm,13.7682088,109.230895,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Gỏi Cá Mai - Thanh Kiều,restaurant,13.771977,109.2471471,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Quy Nhon Sports Bar,restaurant,13.747684,109.2139464,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Nhon Hai Beach Hostel,hotel_osm,13.763569,109.2893458,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Nắng,restaurant,13.7764773,109.22213,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,REX,restaurant,13.7866839,109.2159187,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Thai’s Homestay,hotel_osm,13.7856293,109.2141897,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Quê Hương 2 restaurant,restaurant,13.7741646,109.2272373,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Hai san 114,restaurant,13.7716786,109.2400683,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Futa Bus Station,transport_hub,13.7613952,109.2026473,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+quy_nhon,Quy Nhon,Espresso Coffee Quy Nhơn,restaurant,13.7761074,109.2289543,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Happy Smile Homestay,hotel_osm,13.7448944,109.2099733,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,Phó Bien,restaurant,13.7520295,109.2156284,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Santorino Coffee & Tea,restaurant,13.77477,109.2254182,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Môc,restaurant,13.7551944,109.2127564,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Tu Casa Hostel,hotel_osm,13.7656821,109.2199161,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+quy_nhon,Quy Nhon,HoDo's house,restaurant,13.7513247,109.2108819,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+quy_nhon,Quy Nhon,Am Thuc Chay,restaurant,13.7595854,109.2053762,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Old Hon Gai Ferry Terminal,transport_hub,20.9580942,107.0672948,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+ha_long,Ha Long,Ha Long Pearl,hotel_osm,20.9515064,107.041204,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,BMC Thăng Long Hotel,hotel_osm,20.9483048,107.0289488,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Cua Vàng,restaurant,20.9594177,107.0187657,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Halong Plaza Hotel,hotel_osm,20.9602376,107.0608645,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Long Ha Nha Nghi,hotel_osm,20.950549,107.0828851,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Van Nam,hotel_osm,20.9575465,107.0502152,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Pizza Hut,restaurant,20.9508721,107.0847837,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Nhà Hàng Ẩm Thực Đông Nam,restaurant,20.9591167,107.0486819,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Old Cat Ba ferry terminal,transport_hub,20.9468412,107.0247193,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+ha_long,Ha Long,Vinpearl Ha Long resort,hotel_osm,20.941167,107.0253612,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Hokkaido Tea & Coffee,restaurant,20.9499859,107.0777452,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Alamo Hotel,hotel_osm,20.9520138,107.0801112,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Hạ long Khách sạn Vẻ đẹp tiềm ẩn,hotel_osm,20.9358279,106.9941233,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Quán ăn vặt Ba Sói,restaurant,20.979008,107.0204262,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Koc moc,hotel_osm,20.9544264,107.0970821,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Halong Lucky Hotel,hotel_osm,20.9579167,107.0505405,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Rock House Pizza,restaurant,20.9506474,107.0757861,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,14 Pizza Halong,restaurant,20.9540605,107.0236927,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Banana and Rose Homestay,hotel_osm,20.9322076,106.994876,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Quang Ninh Bus Station,transport_hub,20.9590933,107.0718734,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+ha_long,Ha Long,Halong Party Hostel & Hotel,hotel_osm,20.9573029,107.0501311,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Ếch ộp quán,restaurant,20.950791,107.0907315,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Thien Tan Hotel,hotel_osm,20.9819824,107.02139,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Quán Cà Phê Eleven Coffee,restaurant,20.9559718,107.004185,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Ngoc Tuan Hotel,hotel_osm,20.9675182,107.0202141,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Paris,hotel_osm,20.9512683,107.1017358,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Our Houses Ha Long,hotel_osm,20.9574897,107.0512458,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,My Way,restaurant,20.9483639,107.0969504,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Sơn Đoòng,restaurant,20.9498123,107.0989953,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Bella Hotel,hotel_osm,20.9496395,107.0967999,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Sunland Coffee,restaurant,20.9517336,107.0745791,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Royal Ha Long,hotel_osm,20.9509646,107.0359084,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Ha Long Ecolodge,hotel_osm,20.9637243,107.0468242,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Lotus Tea & Coffee,restaurant,20.9480996,107.0726609,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,deja vu house,hotel_osm,20.9474409,107.0737307,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Lea House,hotel_osm,20.9476547,107.0739344,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Wander Station Coffee & Restaurant,restaurant,20.9505919,107.0762422,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Ha Long International Cruise Port,transport_hub,20.9532759,107.0557052,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+ha_long,Ha Long,Gold Mark,hotel_osm,20.9688472,107.0195441,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Morning Star Hotel,hotel_osm,20.9315798,106.9935022,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Hùng vùòng,hotel_osm,20.9525465,107.0803343,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Bài thơ Hotel,hotel_osm,20.9472591,107.0334949,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,The Daily Coffee,restaurant,20.9508877,107.1025161,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Central Luxury Hotel,hotel_osm,20.9594176,106.9965675,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,MINALO Hotel,hotel_osm,20.9570226,107.0485979,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,tinh hieu hotel,hotel_osm,20.9457431,107.0359185,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Nhà Hàng Phương Nam 2,restaurant,20.9463151,107.032774,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Halong Aroma Hostel,hotel_osm,20.9466691,107.0329416,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Halong Fancy Hostel & Restaurant,hotel_osm,20.9570358,107.0490047,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,An Villa,hotel_osm,20.9651054,107.0546774,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+ha_long,Ha Long,Highlands Coffee,restaurant,20.9565985,107.0494617,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+ha_long,Ha Long,Prosperity,hotel_osm,20.9563045,107.0537776,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Bến Bèo,transport_hub,20.732131,107.0589122,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+cat_ba,Cat Ba,Phương Linh,hotel_osm,20.7247477,107.0519917,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Princes Hotel,hotel_osm,20.7242639,107.0507878,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Nhị Anh,hotel_osm,20.724812,107.0525497,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Quang Minh,hotel_osm,20.7242388,107.0506926,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Hùng Anh,hotel_osm,20.7251373,107.0532764,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Sunflower Two,hotel_osm,20.7260102,107.0532507,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Nam Phương 1,hotel_osm,20.7249982,107.0497553,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Lan Ha,hotel_osm,20.7254176,107.0498782,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Cat Ba Dream,hotel_osm,20.7241244,107.050041,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Sunflower One,hotel_osm,20.7243638,107.0504589,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Thang Long Hotel,hotel_osm,20.7241526,107.050033,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Tuan Ha,hotel_osm,20.7251708,107.0497593,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Sông Chanh II,hotel_osm,20.7258653,107.0508626,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Dung Hà,hotel_osm,20.7252071,107.0498104,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Yen Thanh,hotel_osm,20.724949,107.0494944,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Đảo Xanh,hotel_osm,20.7322923,107.058729,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Phong an lang,restaurant,20.7254227,107.0502446,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Ha Vy,restaurant,20.7241706,107.0500133,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Trường Giang,hotel_osm,20.7242749,107.0508444,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Huy Hoàng,hotel_osm,20.7242515,107.050736,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Sun & Sea Hotel,hotel_osm,20.725563,107.0504728,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,vien duong hotel,hotel_osm,20.7252271,107.0500357,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Draco QK3 Hotel,hotel_osm,20.7216172,107.0513378,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Nam Duong Hotel,hotel_osm,20.7232921,107.0504665,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Sea Dragon Hotel,hotel_osm,20.7254053,107.0507437,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Green Mango,restaurant,20.7234309,107.0503963,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Hoàng Hiếu Hotel,hotel_osm,20.7253972,107.0498601,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Viet Hai harbor,transport_hub,20.7836679,107.0659875,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+cat_ba,Cat Ba,Monkey Island Resort,hotel_osm,20.7293037,107.078449,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,My Way,restaurant,20.7255728,107.048093,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Hailong Hotel,hotel_osm,20.7231574,107.0505139,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Phuong Mai Family Hotel,hotel_osm,20.7255221,107.0482057,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Sea View Hotel,hotel_osm,20.7249088,107.0494246,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,guesthouse,hotel_osm,20.7637986,107.0274568,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Cat Ba Guest House,hotel_osm,20.7248336,107.0530669,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,little cat ba,hotel_osm,20.7399027,107.0426875,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Hoang Long,transport_hub,20.7249076,107.0489767,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+cat_ba,Cat Ba,Catba Central Hotel II,hotel_osm,20.7270299,107.0437802,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Woodstock Beach Camp,hotel_osm,20.7501788,106.9977479,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Cat Ba Mountain View Guesthouse,hotel_osm,20.7385094,107.0322535,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Cat Ba Oasis Bar,restaurant,20.7237473,107.0502284,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Nam VIP CAFÉ,restaurant,20.7256251,107.0479225,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Cat Ba Hostel,hotel_osm,20.7248791,107.0527876,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Cat Ba Lingur Hostel 2,hotel_osm,20.7267529,107.0521941,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Cafe Kim Ba - Ga Doi,restaurant,20.7697237,107.0202476,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Phương Nhung,restaurant,20.7256826,107.0474654,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Cat Ba Ancient House Homestay,hotel_osm,20.7423183,107.0288077,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Phong Lan,hotel_osm,20.7251321,107.0490692,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Like Coffee,restaurant,20.7258634,107.0470059,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Com No 368,restaurant,20.7277826,107.0468594,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Cat ba Garden House,hotel_osm,20.7270647,107.0517659,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Castway island,hotel_osm,20.7611156,107.0638045,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Tien Thang Hotel,hotel_osm,20.7225943,107.0508544,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Tang tien hotel,hotel_osm,20.7220126,107.0511224,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Ngoc Hoa Hotel,hotel_osm,20.7252294,107.0488659,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Phu Thanh,hotel_osm,20.7259468,107.0469462,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Huyen vu,hotel_osm,20.7262865,107.0504507,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Catba Central Hotel,hotel_osm,20.7244217,107.0518855,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Quan Cat Ba Cafe - Coffee,restaurant,20.7256782,107.0477358,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Tâm Hôn Viêt,restaurant,20.726928,107.0428609,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Viet Anh,hotel_osm,20.7249115,107.0496463,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Vietnamese Soul Food,restaurant,20.726929,107.0427059,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,My Way,restaurant,20.7266545,107.0467131,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Nhật Anh Hotel 2,hotel_osm,20.7278897,107.0461664,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Central Backpackers Hostel,hotel_osm,20.7400756,107.0419466,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Green Bamboo Forest,restaurant,20.7254218,107.0484375,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cat_ba,Cat Ba,Cat Ba Central Hostel Backpacker,hotel_osm,20.7225512,107.0508745,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cat_ba,Cat Ba,Cat Ba Green House,hotel_osm,20.7245907,107.0524978,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Khách sạn bộ Xây Dựng,hotel_osm,19.7375545,105.9019658,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Công Ty TNHH Thương Mại Và Du Lịch Ngân Hoa,hotel_osm,19.7293139,105.8992085,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Khách Sạn Hoa Hồng 1,hotel_osm,19.7332424,105.9002492,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Doanh Nghiệp Tư Nhân Khách Sạn Và Du Lịch Hoàng Long,hotel_osm,19.731263,105.8988759,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Khách sạn Thuỳ Dương 3,hotel_osm,19.7339695,105.9004316,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Thai Lan Hotel,hotel_osm,19.7360498,105.9000883,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Son Thuy Motel,hotel_osm,19.7361912,105.8997128,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Khách sạn Bắc Nam,hotel_osm,19.7376959,105.8997235,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Huong Bien Hotel,hotel_osm,19.7379887,105.9007427,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Cay Tre Guest House,hotel_osm,19.7383927,105.8987686,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Hotel Mai Trang,hotel_osm,19.7385038,105.902116,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Bãi Đền Cô Tiên,parking,19.7262439,105.889124,OpenStreetMap Overpass API,Ưu tiên bãi đỗ vệ tinh và shuttle.
+sam_son,Sam Son,Lach Nam,hotel_osm,19.7388502,105.9029124,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Khách Sạn Phương Đông,hotel_osm,19.730622,105.8985572,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,KS Tài nguyên Môi trường,hotel_osm,19.7408888,105.9041862,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Bãi Đậu Xe Hòn Trống Mái,parking,19.7259478,105.8918922,OpenStreetMap Overpass API,Ưu tiên bãi đỗ vệ tinh và shuttle.
+sam_son,Sam Son,Bến xe khách Sầm Sơn,transport_hub,19.7391219,105.8876178,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+sam_son,Sam Son,FLC Luxury Hotel Sầm Sơn,hotel_osm,19.763812,105.9185069,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,FLC Grand Hotel Sầm Sơn,hotel_osm,19.7646014,105.9170539,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Khách sạn Lê Lợi,hotel_osm,19.7336527,105.8992812,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Khách sạn Đường sắt Sầm Sơn,hotel_osm,19.7382916,105.8982725,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+sam_son,Sam Son,Khách sạn Bộ Công Thương,hotel_osm,19.7361999,105.9004573,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cua_lo,Cua Lo,Kingdom Hotel,hotel_osm,18.7980752,105.7285557,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cua_lo,Cua Lo,Khách Sạn Lan Đồng,hotel_osm,18.8081514,105.7216092,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cua_lo,Cua Lo,Xôi,restaurant,18.80191,105.7239795,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cua_lo,Cua Lo,Cafe Boom,restaurant,18.8020057,105.7240536,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+cua_lo,Cua Lo,Khách Sạn Ngân Hàng,hotel_osm,18.8098969,105.7217191,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cua_lo,Cua Lo,Khách sạn VEAM Cửa Lò,hotel_osm,18.7967778,105.7299638,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cua_lo,Cua Lo,Khách sạn Xanh,hotel_osm,18.7978405,105.7292691,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cua_lo,Cua Lo,Melia Vinpearl Cửa Hội Beach Resort,hotel_osm,18.7683214,105.7565298,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cua_lo,Cua Lo,Khách sạn An Bình,hotel_osm,18.8034393,105.7198839,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+cua_lo,Cua Lo,Bến xe Cửa Lò,transport_hub,18.8033288,105.7197379,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+vung_tau,Vung Tau,Cát Lở,transport_hub,10.4140208,107.1283186,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+vung_tau,Vung Tau,Hướng Việt,restaurant,10.40176,107.122708,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,cafe HT,restaurant,10.3894776,107.1018855,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,cafe Ngọc Ánh,restaurant,10.3895371,107.1019082,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,cafe Bụi Trúc,restaurant,10.389397,107.1018519,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,quán Cô Thơm,restaurant,10.389443,107.1018684,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Sơn Thuỷ Ngư Quán,restaurant,10.4441275,107.0821586,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Marina homestay,hotel_osm,10.4174584,107.1182871,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Lau bo nam vang,restaurant,10.3894913,107.1038419,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Giải khát 1719,restaurant,10.4530065,107.1726047,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Cafe Hương Tràm 1,restaurant,10.3989818,107.1164879,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Pho Tai Nam Dinh,restaurant,10.385781,107.0978157,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Bánh cuốn Phương Uyên,restaurant,10.3987214,107.1161816,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Cafe Thiên Ân,restaurant,10.4059623,107.188202,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Bún Riêu 6 Tòng,restaurant,10.4528684,107.0953685,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,CôMAI,hotel_osm,10.4140593,107.190199,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,nhà má yến,hotel_osm,10.3943487,107.1112538,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Xe Toàn Thắng,transport_hub,10.3648888,107.0949102,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+vung_tau,Vung Tau,Khu Nhà Rông,hotel_osm,10.3628222,107.1110098,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Miến Lươn Xứ Nghệ,restaurant,10.3701168,107.0880298,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Milano Boo,restaurant,10.3687741,107.0896649,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Phuong Trang,transport_hub,10.4244794,107.1586533,OpenStreetMap Overpass API,Tăng chuyến shuttle/xe điện vào giờ cao điểm.
+vung_tau,Vung Tau,Cairo Cafe,restaurant,10.4038792,107.1254404,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Khiết Tiên Quán,restaurant,10.4225168,107.1575728,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Cỏ,restaurant,10.4073151,107.1305373,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Hotel Sai Gon,hotel_osm,10.3765647,107.1157968,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Sea View,restaurant,10.3762213,107.1134893,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Badminton Coffee,restaurant,10.3762887,107.1147355,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Quân Nghĩa,restaurant,10.4274185,107.1584943,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Phở Bắc Hải,restaurant,10.4479318,107.1734251,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Hưng Ký,restaurant,10.4590429,107.1702466,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Võng,restaurant,10.4106114,107.1573488,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Phở Gà Tân Hồng,restaurant,10.4522021,107.1731188,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Hủ Tiếu Mực,restaurant,10.4119068,107.1572675,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Cơm Tấm,restaurant,10.4493183,107.1736111,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Ngọc Lan,restaurant,10.3809104,107.1110909,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Làng bè Gò Găng,restaurant,10.440372,107.1502188,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Làng bè Sông Chà Và,restaurant,10.44895,107.1221656,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Phở Tâm,restaurant,10.3649105,107.0969343,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Thuý Hoan,restaurant,10.3780112,107.1102288,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Cơm Niêu Hoa Sữa,restaurant,10.3654462,107.0935678,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Gỗ Phương Nam,restaurant,10.4103343,107.1562474,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Hội Ngộ,restaurant,10.3798266,107.1091408,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Không Tên,restaurant,10.3933096,107.1312986,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Twin Boys,restaurant,10.3771876,107.1106321,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+vung_tau,Vung Tau,Đất P10,hotel_osm,10.381269,107.1206014,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Medic sài gòn VT 5,hotel_osm,10.4002602,107.1161317,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Linh Đan (Thôn 7 LS),hotel_osm,10.4593309,107.0969553,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Phương Mai,hotel_osm,10.3905357,107.1030771,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Trang Đức,hotel_osm,10.3738616,107.1173428,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Nhà anh Tân,hotel_osm,10.3895294,107.1163846,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Linh Đan 3,hotel_osm,10.4568624,107.0970728,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Linh Đan (Huỳnh Văn Hớn),hotel_osm,10.3853796,107.1216623,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Như Ý 1,hotel_osm,10.364407,107.094923,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+vung_tau,Vung Tau,Pho Bac Ha,restaurant,10.3765544,107.1118097,OpenStreetMap Overpass API,Đưa vào combo ăn uống địa phương/OCOP và voucher giờ thấp điểm.
+mui_ne,Mui Ne,Canary Beach Resort,hotel_osm,10.9492932,108.2588354,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+mui_ne,Mui Ne,Hai Gia Resort,hotel_osm,10.948777,108.2606968,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."
+mui_ne,Mui Ne,Thai hoa muine resort,hotel_osm,10.9492499,108.2584496,OpenStreetMap Overpass API,"Gắn với combo lưu trú liên vùng, không dùng như occupancy thật."

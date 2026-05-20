@@ -1,0 +1,386 @@
+{
+  "registry_version": "1.0",
+  "last_updated": "2026-05-19",
+  "target_destinations": [
+    "Da Nang",
+    "Hoi An",
+    "Hue",
+    "Quy Nhon",
+    "Nha Trang",
+    "Phu Quoc",
+    "Ha Long",
+    "Cat Ba",
+    "Sam Son",
+    "Cua Lo",
+    "Vung Tau",
+    "Mui Ne",
+    "Ha Noi",
+    "Ho Chi Minh City",
+    "Ha Giang",
+    "Moc Chau",
+    "Con Dao",
+    "Ly Son",
+    "Can Tho",
+    "An Giang",
+    "Ben Tre",
+    "Ninh Binh",
+    "Da Lat",
+    "Sa Pa"
+  ],
+  "source_groups": [
+    {
+      "domain": "tourism_demand",
+      "priority": "critical",
+      "operational_use": ["demand_forecasting", "off_season_activation", "revenue_stability"],
+      "sources": [
+        {
+          "source_name": "Vietnam National Authority of Tourism statistics",
+          "access_type": "official_public_portal",
+          "example_url": "https://thongke.tourism.vn/",
+          "data_types": ["tourist_arrivals", "domestic_visitors", "international_markets", "transport_mode"],
+          "format": ["HTML", "XLS export when available"],
+          "update_frequency": "monthly",
+          "realtime_capable": false,
+          "rate_limit": "not published",
+          "reliability": "high",
+          "quality_status": "configured_raw_collection",
+          "license_note": "Official public statistics; verify reuse terms before redistribution."
+        },
+        {
+          "source_name": "Google Trends via pytrends",
+          "access_type": "unofficial_client",
+          "example_url": "https://trends.google.com/trends/",
+          "data_types": ["search_volume_index", "destination_popularity", "travel_intent"],
+          "format": ["CSV", "DataFrame"],
+          "update_frequency": "daily_to_weekly",
+          "realtime_capable": false,
+          "rate_limit": "unofficial and variable",
+          "reliability": "medium",
+          "quality_status": "planned_requires_terms_review",
+          "license_note": "Use aggregated trend indexes only; respect Google terms."
+        },
+        {
+          "source_name": "UN Tourism Data Dashboard",
+          "access_type": "public",
+          "example_url": "https://www.unwto.org/tourism-data/global-and-regional-tourism-performance",
+          "data_types": ["international_tourism_benchmark", "regional_recovery", "seasonality"],
+          "format": ["web", "download_when_available"],
+          "update_frequency": "monthly_to_quarterly",
+          "realtime_capable": false,
+          "rate_limit": "not published",
+          "reliability": "high",
+          "quality_status": "planned",
+          "license_note": "Global benchmark source; cite provider and verify reuse terms."
+        },
+        {
+          "source_name": "World Bank tourism indicators",
+          "access_type": "open_api",
+          "example_url": "https://api.worldbank.org/v2/",
+          "data_types": ["international_arrivals", "tourism_receipts", "macro_controls"],
+          "format": ["JSON", "CSV"],
+          "update_frequency": "annual",
+          "realtime_capable": false,
+          "rate_limit": "public API limits apply",
+          "reliability": "high",
+          "quality_status": "planned",
+          "license_note": "Open data with attribution."
+        }
+      ]
+    },
+    {
+      "domain": "hotels_accommodation",
+      "priority": "critical",
+      "operational_use": ["dynamic_pricing", "capacity_tracking", "demand_forecasting"],
+      "sources": [
+        {
+          "source_name": "Booking.com",
+          "access_type": "existing_local_extract_or_partner_access",
+          "example_url": "https://www.booking.com/",
+          "data_types": ["hotel_price", "availability_proxy", "review_score", "review_count"],
+          "format": ["CSV", "HTML raw", "partner API where approved"],
+          "update_frequency": "daily_to_hourly_if_approved",
+          "realtime_capable": true,
+          "rate_limit": "platform terms apply",
+          "reliability": "medium_high",
+          "quality_status": "existing_local_data_available",
+          "license_note": "Review platform terms before collection or redistribution."
+        },
+        {
+          "source_name": "Agoda",
+          "access_type": "partner_access_preferred",
+          "example_url": "https://www.agoda.com/",
+          "data_types": ["hotel_price", "room_availability", "promotion_signal", "review_score"],
+          "format": ["partner API", "approved extract"],
+          "update_frequency": "daily_to_hourly_if_approved",
+          "realtime_capable": true,
+          "rate_limit": "partner terms apply",
+          "reliability": "medium_high",
+          "quality_status": "planned_requires_access",
+          "license_note": "Use API or approved partner data only."
+        },
+        {
+          "source_name": "Traveloka",
+          "access_type": "existing_local_extract_or_partner_access",
+          "example_url": "https://www.traveloka.com/",
+          "data_types": ["hotel_price", "hotel_category", "review_score", "review_count"],
+          "format": ["CSV", "approved extract"],
+          "update_frequency": "daily_to_hourly_if_approved",
+          "realtime_capable": true,
+          "rate_limit": "platform terms apply",
+          "reliability": "medium_high",
+          "quality_status": "existing_local_data_available",
+          "license_note": "Review platform terms before collection or redistribution."
+        },
+        {
+          "source_name": "AirDNA",
+          "access_type": "paid_partner_api",
+          "example_url": "https://www.airdna.co/",
+          "data_types": ["short_term_rental_occupancy", "adr", "revpar", "supply"],
+          "format": ["API", "CSV export"],
+          "update_frequency": "daily_to_monthly",
+          "realtime_capable": false,
+          "rate_limit": "subscription terms apply",
+          "reliability": "high",
+          "quality_status": "planned_requires_subscription",
+          "license_note": "Paid market intelligence; redistribution restricted."
+        },
+        {
+          "source_name": "STR",
+          "access_type": "paid_partner_report",
+          "example_url": "https://str.com/",
+          "data_types": ["occupancy", "adr", "revpar", "hotel_pipeline"],
+          "format": ["CSV", "report"],
+          "update_frequency": "weekly_to_monthly",
+          "realtime_capable": false,
+          "rate_limit": "subscription terms apply",
+          "reliability": "high",
+          "quality_status": "planned_requires_subscription",
+          "license_note": "Paid benchmark data; redistribution restricted."
+        }
+      ]
+    },
+    {
+      "domain": "mobility_traffic",
+      "priority": "critical",
+      "operational_use": ["congestion_prediction", "flow_redistribution", "resource_allocation"],
+      "sources": [
+        {
+          "source_name": "Google Maps Platform",
+          "access_type": "paid_api",
+          "example_url": "https://developers.google.com/maps",
+          "data_types": ["travel_time", "distance_matrix", "places", "popular_times_when_available"],
+          "format": ["JSON"],
+          "update_frequency": "realtime",
+          "realtime_capable": true,
+          "rate_limit": "quota by billing plan",
+          "reliability": "high",
+          "quality_status": "planned_requires_api_key",
+          "license_note": "Google Maps Platform terms apply; cache restrictions apply."
+        },
+        {
+          "source_name": "TomTom Traffic API",
+          "access_type": "api",
+          "example_url": "https://developer.tomtom.com/traffic-api",
+          "data_types": ["traffic_flow", "incidents", "speed", "congestion"],
+          "format": ["JSON"],
+          "update_frequency": "realtime",
+          "realtime_capable": true,
+          "rate_limit": "quota by plan",
+          "reliability": "high",
+          "quality_status": "planned_requires_api_key",
+          "license_note": "TomTom terms apply."
+        },
+        {
+          "source_name": "HERE Traffic API",
+          "access_type": "api",
+          "example_url": "https://developer.here.com/",
+          "data_types": ["traffic_flow", "incidents", "routing", "travel_time"],
+          "format": ["JSON"],
+          "update_frequency": "realtime",
+          "realtime_capable": true,
+          "rate_limit": "quota by plan",
+          "reliability": "high",
+          "quality_status": "planned_requires_api_key",
+          "license_note": "HERE terms apply."
+        },
+        {
+          "source_name": "OpenStreetMap and Overpass API",
+          "access_type": "open_api",
+          "example_url": "https://overpass-api.de/api/interpreter",
+          "data_types": ["road_network", "pois", "beaches", "parking", "transport_hubs"],
+          "format": ["JSON", "GeoJSON", "OSM XML"],
+          "update_frequency": "daily_to_weekly",
+          "realtime_capable": false,
+          "rate_limit": "public server fair-use limits",
+          "reliability": "medium_high",
+          "quality_status": "planned_open_api",
+          "license_note": "OpenStreetMap ODbL attribution and share-alike obligations apply."
+        }
+      ]
+    },
+    {
+      "domain": "weather_environment",
+      "priority": "critical",
+      "operational_use": ["demand_forecasting", "beach_risk", "event_planning"],
+      "sources": [
+        {
+          "source_name": "Open-Meteo",
+          "access_type": "open_api",
+          "example_url": "https://open-meteo.com/",
+          "data_types": ["temperature", "rainfall", "humidity", "wind", "forecast"],
+          "format": ["JSON", "CSV"],
+          "update_frequency": "hourly",
+          "realtime_capable": true,
+          "rate_limit": "fair-use and commercial terms apply",
+          "reliability": "high",
+          "quality_status": "existing_local_data_available",
+          "license_note": "Attribution required."
+        },
+        {
+          "source_name": "NASA POWER",
+          "access_type": "open_api",
+          "example_url": "https://power.larc.nasa.gov/",
+          "data_types": ["climate_normals", "solar", "temperature", "precipitation"],
+          "format": ["JSON", "CSV"],
+          "update_frequency": "daily",
+          "realtime_capable": false,
+          "rate_limit": "public API limits apply",
+          "reliability": "high",
+          "quality_status": "planned_open_api",
+          "license_note": "NASA open data attribution."
+        },
+        {
+          "source_name": "NOAA",
+          "access_type": "open_api",
+          "example_url": "https://www.ncei.noaa.gov/",
+          "data_types": ["storm", "extreme_weather", "climate_history"],
+          "format": ["API", "CSV"],
+          "update_frequency": "daily_to_monthly",
+          "realtime_capable": false,
+          "rate_limit": "public API limits apply",
+          "reliability": "high",
+          "quality_status": "planned_open_api",
+          "license_note": "Public data; cite NOAA."
+        }
+      ]
+    },
+    {
+      "domain": "events_social_reviews",
+      "priority": "high",
+      "operational_use": ["demand_spike_detection", "satisfaction_tracking", "campaign_monitoring"],
+      "sources": [
+        {
+          "source_name": "Official local tourism portals",
+          "access_type": "public_web_or_feed",
+          "example_url": "local government and tourism department portals",
+          "data_types": ["festivals", "concerts", "holidays", "campaigns"],
+          "format": ["HTML", "RSS", "CSV when available"],
+          "update_frequency": "weekly_to_monthly",
+          "realtime_capable": false,
+          "rate_limit": "site-specific",
+          "reliability": "high",
+          "quality_status": "planned",
+          "license_note": "Official content may be copyrighted; store source URL and cite."
+        },
+        {
+          "source_name": "YouTube Data API",
+          "access_type": "api",
+          "example_url": "https://developers.google.com/youtube/v3",
+          "data_types": ["video_mentions", "views", "engagement", "viral_travel_content"],
+          "format": ["JSON"],
+          "update_frequency": "daily_to_hourly",
+          "realtime_capable": true,
+          "rate_limit": "quota units by API key",
+          "reliability": "medium_high",
+          "quality_status": "planned_requires_api_key",
+          "license_note": "YouTube API terms apply."
+        },
+        {
+          "source_name": "Reddit API",
+          "access_type": "api",
+          "example_url": "https://www.reddit.com/dev/api/",
+          "data_types": ["travel_discussions", "complaints", "intent_mentions"],
+          "format": ["JSON"],
+          "update_frequency": "hourly_to_daily",
+          "realtime_capable": true,
+          "rate_limit": "API terms and app limits apply",
+          "reliability": "medium",
+          "quality_status": "planned_requires_api_key",
+          "license_note": "Respect Reddit API terms and privacy requirements."
+        },
+        {
+          "source_name": "TikTok and Instagram public trend sources",
+          "access_type": "official_or_approved_provider_required",
+          "example_url": "platform APIs or licensed social listening provider",
+          "data_types": ["hashtags", "influencer_mentions", "engagement", "virality"],
+          "format": ["API", "CSV export"],
+          "update_frequency": "realtime_to_daily",
+          "realtime_capable": true,
+          "rate_limit": "provider terms apply",
+          "reliability": "medium",
+          "quality_status": "planned_requires_partner_access",
+          "license_note": "Do not scrape restricted platform content; use approved access."
+        }
+      ]
+    },
+    {
+      "domain": "transport_economic_infrastructure",
+      "priority": "critical",
+      "operational_use": ["capacity_planning", "economic_efficiency", "resource_allocation"],
+      "sources": [
+        {
+          "source_name": "Civil Aviation Authority of Vietnam",
+          "access_type": "official_public_web",
+          "example_url": "https://caa.gov.vn/",
+          "data_types": ["aviation_passenger_news", "air_capacity", "airport_operations"],
+          "format": ["HTML", "PDF", "CSV when available"],
+          "update_frequency": "monthly_to_quarterly",
+          "realtime_capable": false,
+          "rate_limit": "not published",
+          "reliability": "high",
+          "quality_status": "configured_raw_collection",
+          "license_note": "Official public source; cite provider."
+        },
+        {
+          "source_name": "AviationStack",
+          "access_type": "api",
+          "example_url": "https://aviationstack.com/",
+          "data_types": ["flight_schedules", "flight_status", "routes"],
+          "format": ["JSON"],
+          "update_frequency": "realtime",
+          "realtime_capable": true,
+          "rate_limit": "plan-specific",
+          "reliability": "medium_high",
+          "quality_status": "planned_requires_api_key",
+          "license_note": "Subscription terms apply."
+        },
+        {
+          "source_name": "OpenSky Network",
+          "access_type": "open_api",
+          "example_url": "https://opensky-network.org/apidoc/",
+          "data_types": ["flight_state_vectors", "aircraft_movements"],
+          "format": ["JSON"],
+          "update_frequency": "realtime",
+          "realtime_capable": true,
+          "rate_limit": "public and registered-user limits apply",
+          "reliability": "medium",
+          "quality_status": "planned_open_api",
+          "license_note": "OpenSky terms apply."
+        },
+        {
+          "source_name": "General Statistics Office of Vietnam",
+          "access_type": "official_public",
+          "example_url": "https://www.gso.gov.vn/",
+          "data_types": ["tourism_revenue", "employment", "local_business_activity", "macro_controls"],
+          "format": ["HTML", "Excel", "PDF"],
+          "update_frequency": "monthly_to_annual",
+          "realtime_capable": false,
+          "rate_limit": "not published",
+          "reliability": "high",
+          "quality_status": "planned",
+          "license_note": "Official statistics; cite and verify reuse terms."
+        }
+      ]
+    }
+  ]
+}
