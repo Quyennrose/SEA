@@ -15,6 +15,7 @@ import plotly.graph_objects as go
 import requests
 import streamlit as st
 import streamlit.components.v1 as components
+from zoneinfo import ZoneInfo
 from theme.colors import (
     ALERT_COLORS,
     INFRASTRUCTURE_CONTINUOUS_SCALE,
@@ -36,6 +37,7 @@ META = ROOT / "data" / "metadata"
 EXPORTS = ROOT / "exports"
 ENV_FILE = ROOT / ".env"
 VN_TZ = "Asia/Ho_Chi_Minh"
+VN_ZONE = ZoneInfo(VN_TZ)
 
 SUPPORTED_ENV_KEYS = [
     "POSITIONSTACK_API_KEY",
@@ -44,7 +46,10 @@ SUPPORTED_ENV_KEYS = [
     "RAPIDAPI_SERP_HOST",
     "RAPIDAPI_GOOGLE_MAPS_HOST",
     "RAPIDAPI_GOOGLE_PLACES_HOST",
+    "OPEN_METEO",
     "GOOGLE_SHEETS_ID",
+    "GOOGLE_APPLICATION_CREDENTIALS",
+    "GOOGLE_SERVICE_ACCOUNT_JSON",
     "GEMINI_API_KEY",
     "AI_PROVIDER",
     "GEMINI_MODEL",
@@ -55,7 +60,7 @@ SHEET_SUMMARY_TABLES = [
     ("Ranking toàn quốc", CURRENT / "xep_hang_canh_bao_toan_quoc.csv"),
     ("Dự báo", CURRENT / "forecast_demand_scores.csv"),
     ("Trạng thái dữ liệu", META / "data_freshness_status.csv"),
-    ("Dữ liệu mới cập nhật", CURRENT / "source_monitor_status.csv"),
+    ("Dữ liệu mới cập nhật", META / "source_monitor_status.csv"),
     ("Dữ liệu cũ gần đây", META / "pipeline_run_log.csv"),
     ("Kiểm định proxy", CURRENT / "proxy_vs_nearrealtime_comparison.csv"),
     ("Hiệu quả kinh tế", CURRENT / "de_xuat_hieu_qua_kinh_te.csv"),
@@ -70,6 +75,11 @@ def load_csv(path: Path) -> pd.DataFrame:
     if not path.exists():
         return pd.DataFrame()
     return pd.read_csv(path, dtype=str, encoding="utf-8-sig")
+
+
+@st.cache_data(show_spinner=False, ttl=300)
+def load_summary_table(path_text: str) -> pd.DataFrame:
+    return load_csv(Path(path_text))
 
 
 def to_num(value: Any, default: float | None = None) -> float | None:
@@ -105,10 +115,14 @@ def vn_time(value: Any) -> str:
         return str(value)
 
 
+def now_vn() -> str:
+    return datetime.now(VN_ZONE).strftime("%d/%m/%Y %H:%M")
+
+
 def file_time(path: Path) -> str:
     if not path.exists():
         return "thiếu dữ liệu"
-    return datetime.fromtimestamp(path.stat().st_mtime).strftime("%d/%m/%Y %H:%M")
+    return datetime.fromtimestamp(path.stat().st_mtime, VN_ZONE).strftime("%d/%m/%Y %H:%M")
 
 
 def strip_accents(text: str) -> str:
@@ -123,6 +137,12 @@ def read_env() -> dict[str, str]:
     env = {key: os.getenv(key, "").strip() for key in SUPPORTED_ENV_KEYS}
     env["CONFIG_SOURCE"] = ".env" if ENV_FILE.exists() and ENV_FILE.is_file() else "chưa tìm thấy .env"
     return env
+
+
+def open_meteo_endpoint(env: dict[str, str] | None = None) -> str:
+    source = (env or {}).get("OPEN_METEO") or os.getenv("OPEN_METEO", "") or "https://api.open-meteo.com/v1/forecast"
+    endpoint = source.strip().split("?", 1)[0]
+    return endpoint or "https://api.open-meteo.com/v1/forecast"
 
 
 def sheet_credentials_status() -> tuple[bool, str]:
@@ -160,7 +180,7 @@ def google_sheet_client() -> tuple[Any | None, str]:
 
 
 def sync_google_sheets_summary(sheet_id: str) -> pd.DataFrame:
-    now = datetime.now().astimezone().strftime("%d/%m/%Y %H:%M")
+    now = now_vn()
     if not sheet_id:
         status = pd.DataFrame(
             [{"Bảng summary": name, "Trạng thái": "Lỗi", "Số dòng": 0, "Lỗi": "Thiếu GOOGLE_SHEETS_ID", "Đồng bộ lúc": now} for name, _ in SHEET_SUMMARY_TABLES]
@@ -214,9 +234,9 @@ def alert_color(level: Any) -> str:
         "vàng": "#f2c94c",
         "vang": "#f2c94c",
         "xanh": "#2f9e44",
-        "xám": "#8b7bbf",
-        "xam": "#8b7bbf",
-    }.get(level, "#8b7bbf")
+        "xám": "#6c757d",
+        "xam": "#6c757d",
+    }.get(level, "#6c757d")
 
 
 def alert_label(level: Any) -> str:
@@ -347,8 +367,9 @@ def status_caption(dataset_id: str, freshness: pd.DataFrame) -> None:
     status = "cần kiểm tra"
     source = "SEA gold/current"
     confidence = "Trung bình"
-    if not freshness.empty and "dataset_id" in freshness.columns:
-        row = freshness[freshness["dataset_id"].astype(str).eq(dataset_id)]
+    id_col = "dataset_id" if "dataset_id" in freshness.columns else "ma_dataset" if "ma_dataset" in freshness.columns else ""
+    if not freshness.empty and id_col:
+        row = freshness[freshness[id_col].astype(str).eq(dataset_id)]
         if row.empty:
             row = freshness.head(1)
         if not row.empty:
@@ -492,7 +513,7 @@ def color_explanation(level: Any) -> str:
         return "Màu vàng nghĩa là cần theo dõi. Điểm đến có dấu hiệu tăng nhu cầu nhưng chưa cần hành động mạnh."
     if key == "xanh":
         return "Màu xanh nghĩa là còn dư địa. Có thể kích cầu có kiểm soát hoặc nhận khách điều phối nếu hạ tầng phù hợp."
-    return "Màu tím nhạt/xanh xám nghĩa là Thiếu dữ liệu. SEA chưa đủ dữ liệu để đánh giá chắc chắn vì có thể thiếu tọa độ, thời tiết, POI, khách sạn, tuyến di chuyển, vé/khu vui chơi, tin tức hoặc cập nhật gần đây. Thiếu dữ liệu không có nghĩa là an toàn; cần bổ sung nguồn trước khi ra quyết định mạnh."
+    return "Màu xám nghĩa là Thiếu dữ liệu. SEA chưa đủ dữ liệu để đánh giá chắc chắn vì có thể thiếu tọa độ, thời tiết, POI, khách sạn, tuyến di chuyển, vé/khu vui chơi, tin tức hoặc cập nhật gần đây. Thiếu dữ liệu không có nghĩa là an toàn; cần bổ sung nguồn trước khi ra quyết định mạnh."
 
 
 def weather_text(row: pd.Series) -> dict[str, str]:
@@ -718,7 +739,7 @@ def build_map_html(alerts: pd.DataFrame, poi: pd.DataFrame, routes: pd.DataFrame
           <span style="color:#e67700;font-weight:700;">●</span> Cam: áp lực cao<br>
           <span style="color:#f2c94c;font-weight:700;">●</span> Vàng: cần theo dõi<br>
           <span style="color:#2f9e44;font-weight:700;">●</span> Xanh: còn dư địa<br>
-          <span style="color:#8b7bbf;font-weight:700;">●</span> Thiếu dữ liệu`;
+          <span style="color:#6c757d;font-weight:700;">●</span> Thiếu dữ liệu`;
         return div;
       }};
       legend.addTo(map);
@@ -859,7 +880,7 @@ def destination_profile(
 
     explain(
         "Dấu ? của hồ sơ điểm đến",
-        "Hồ sơ điểm đến gom tình hình hiện tại, KPI, thời tiết, dự báo, hạ tầng, điều phối, hành động và độ tin cậy cho một điểm cụ thể. Nếu điểm có màu tím nhạt/xanh xám, SEA chưa đủ dữ liệu để ra quyết định mạnh và sẽ ghi rõ thiếu nguồn nào.",
+        "Hồ sơ điểm đến gom tình hình hiện tại, KPI, thời tiết, dự báo, hạ tầng, điều phối, hành động và độ tin cậy cho một điểm cụ thể. Nếu điểm có màu xám, SEA chưa đủ dữ liệu để ra quyết định mạnh và sẽ ghi rõ thiếu nguồn nào.",
     )
 
     fdf = forecast_for_destination(forecast, name)
@@ -972,7 +993,7 @@ def answer_question(question: str, alerts: pd.DataFrame, routes: pd.DataFrame, f
 
 **Độ tin cậy:** Khá, vì đây là metadata cấu hình nội bộ. Chưa phải kết quả gọi API realtime nếu chưa bấm `Kiểm tra lại API`.
 
-**Nên làm:** Cấu hình biến môi trường còn thiếu nếu cần nguồn đó; nếu chưa cấu hình Google Sheets, SEA vẫn chạy bình thường và tải CSV/Excel từ Kho dữ liệu.
+**Nên làm:** Cấu hình `GOOGLE_SHEETS_ID` và credentials service account nếu muốn đồng bộ Sheet. Nếu chưa cấu hình Google Sheets, SEA vẫn chạy bằng CSV local.
 
 **Hiệu quả kinh tế:** API/Sheet đầy đủ giúp dữ liệu mới hơn, ranking và đề xuất điều phối cập nhật nhanh hơn, tránh quyết định dựa trên dữ liệu cũ."""
 
@@ -1007,7 +1028,7 @@ def answer_question(question: str, alerts: pd.DataFrame, routes: pd.DataFrame, f
 **Hiệu quả kinh tế:** Kiểm định proxy giúp tránh điều phối sai, giảm rủi ro đẩy khách đến nơi chưa đủ hạ tầng."""
 
     if gray_intent:
-        return """**Tình hình:** Điểm có màu tím nhạt/xanh xám nghĩa là SEA chưa đủ dữ liệu để đánh giá chắc chắn.
+        return """**Tình hình:** Điểm có màu xám nghĩa là SEA chưa đủ dữ liệu để đánh giá chắc chắn.
 
 **Vì sao:** Có thể thiếu thời tiết, tọa độ, POI, khách sạn, giá vé, nguồn cập nhật hoặc dữ liệu near-realtime.
 
@@ -1051,7 +1072,7 @@ def answer_question(question: str, alerts: pd.DataFrame, routes: pd.DataFrame, f
 
 def check_api_status(env: dict[str, str], api_catalog: pd.DataFrame) -> pd.DataFrame:
     rows = []
-    now = datetime.now().strftime("%d/%m/%Y %H:%M")
+    now = now_vn()
     for _, row in api_catalog.iterrows():
         name = row.get("ten_api", "")
         key_name = str(row.get("bien_moi_truong", ""))
@@ -1065,7 +1086,7 @@ def check_api_status(env: dict[str, str], api_catalog: pd.DataFrame) -> pd.DataF
         try:
             if name == "Open-Meteo":
                 resp = requests.get(
-                    "https://api.open-meteo.com/v1/forecast",
+                    open_meteo_endpoint(env),
                     params={"latitude": 21.0285, "longitude": 105.8542, "current": "temperature_2m"},
                     timeout=6,
                 )
@@ -1124,14 +1145,14 @@ def check_api_status(env: dict[str, str], api_catalog: pd.DataFrame) -> pd.DataF
 def check_api_status(env: dict[str, str], api_catalog: pd.DataFrame | None = None, live: bool = False) -> pd.DataFrame:
     """Build API status from the freshly loaded root .env, not from stale metadata."""
     config_source = ".env" if ENV_FILE.exists() and ENV_FILE.is_file() else "chưa tìm thấy .env"
-    now = datetime.now().strftime("%d/%m/%Y %H:%M")
+    now = now_vn()
     api_defs = [
         ("Positionstack", "Geocode địa chỉ, POI, khách sạn thành tọa độ", "POSITIONSTACK_API_KEY", "https://api.positionstack.com", "", "Thiếu nguồn này thì SEA dùng tọa độ seed/current, độ phủ geocode giảm.", "Danh sách điểm đến mở rộng, OSM/Overpass"),
         ("OpenRouteService", "Routing, travel time và tuyến điều phối", "OPENROUTESERVICE_API_KEY", "https://api.openrouteservice.org", "", "Thiếu nguồn này thì SEA dùng OSRM hoặc tuyến proxy đã có.", "OSRM, destination network edges"),
         ("RapidAPI Google SERP", "Tìm tin tức, báo cáo và tín hiệu thị trường", "RAPIDAPI_KEY", env.get("RAPIDAPI_SERP_HOST") or "google-serp-search-api.p.rapidapi.com", "RAPIDAPI_SERP_HOST", "Thiếu nguồn này thì tin tức dùng snapshot/local signal, độ mới giảm.", "news_events hiện có, nguồn chính thống raw đã lưu"),
         ("RapidAPI Google Maps Extractor", "Business info, rating, review nếu endpoint hỗ trợ", "RAPIDAPI_KEY", env.get("RAPIDAPI_GOOGLE_MAPS_HOST") or "google-maps-extractor2.p.rapidapi.com", "RAPIDAPI_GOOGLE_MAPS_HOST", "Thiếu nguồn này thì SEA dùng OSM/POI current và dữ liệu công khai đã có.", "OSM/Overpass, Booking/Traveloka snapshot"),
-        ("RapidAPI Google Places", "Mở rộng POI/điểm đến nếu có host hợp lệ", "RAPIDAPI_KEY", env.get("RAPIDAPI_GOOGLE_PLACES_HOST") or "", "RAPIDAPI_GOOGLE_PLACES_HOST", "Thiếu host/key thì SEA vẫn dùng seed list và OSM để không chỉ có 24 điểm.", "danh_sach_diem_den_mo_rong, OSM/Overpass"),
-        ("Open-Meteo", "Thời tiết hiện tại, dự báo và lịch sử thời tiết", "", "https://api.open-meteo.com", "", "Nguồn công khai không cần key; nếu lỗi mạng thì dùng bản current ổn định gần nhất.", "weather_features current"),
+        ("RapidAPI Google Places", "Mở rộng POI/điểm đến nếu có host hợp lệ", "RAPIDAPI_KEY", env.get("RAPIDAPI_GOOGLE_PLACES_HOST") or "", "RAPIDAPI_GOOGLE_PLACES_HOST", "Thiếu host/key thì SEA vẫn dùng bảng toàn quốc trong gold/current và danh sách mở rộng.", "danh_sach_diem_den_mo_rong, OSM/Overpass"),
+        ("Open-Meteo", "Thời tiết hiện tại, dự báo và lịch sử thời tiết", "", env.get("OPEN_METEO") or "https://api.open-meteo.com/v1/forecast", "OPEN_METEO", "Nguồn công khai không cần key; nếu lỗi mạng thì dùng bản current ổn định gần nhất.", "weather_features current"),
         ("OSM/Overpass", "POI, bãi biển, khách sạn, nhà hàng, bãi đỗ", "", "https://overpass-api.de", "", "Nguồn mở không cần key; nếu lỗi mạng thì dùng POI đã lưu trong current.", "local_spending_poi current"),
         ("Google Sheets", "Đồng bộ các bảng summary cho người xem nhanh", "GOOGLE_SHEETS_ID", "https://docs.google.com/spreadsheets", "", "Thiếu Sheet ID thì SEA vẫn chạy, tải CSV/Excel từ Kho dữ liệu.", "exports/csv và exports/excel"),
         ("Gemini 2.5 Flash", "Trợ lý SEA trả lời theo knowledge base", "GEMINI_API_KEY", env.get("GEMINI_MODEL") or "gemini-2.5-flash", "", "Thiếu Gemini key thì fallback sang Ollama, sau đó rule-based.", "Ollama hoặc rule-based fallback"),
@@ -1146,7 +1167,7 @@ def check_api_status(env: dict[str, str], api_catalog: pd.DataFrame | None = Non
         if live and configured == "Đã cấu hình":
             try:
                 if name == "Open-Meteo":
-                    resp = requests.get("https://api.open-meteo.com/v1/forecast", params={"latitude": 21.0285, "longitude": 105.8542, "current": "temperature_2m"}, timeout=6)
+                    resp = requests.get(open_meteo_endpoint(env), params={"latitude": 21.0285, "longitude": 105.8542, "current": "temperature_2m"}, timeout=6)
                     result = "Thành công" if resp.ok else f"Lỗi HTTP {resp.status_code}"
                 elif name == "Positionstack":
                     resp = requests.get("http://api.positionstack.com/v1/forward", params={"access_key": os.getenv("POSITIONSTACK_API_KEY", ""), "query": "Ha Long", "limit": 1}, timeout=6)
@@ -1188,15 +1209,36 @@ def build_rule_context(question: str, alerts: pd.DataFrame, routes: pd.DataFrame
     return answer_question(question, alerts, routes, freshness, source_monitor, api_catalog)
 
 
+def build_ai_context(question: str, alerts: pd.DataFrame, routes: pd.DataFrame, freshness: pd.DataFrame, source_monitor: pd.DataFrame, api_catalog: pd.DataFrame) -> str:
+    q = strip_accents(question)
+    blocks: list[str] = []
+    if not alerts.empty:
+        matched = alerts[alerts["ten_diem_den"].astype(str).map(strip_accents).map(lambda name: name in q or q in name)] if "ten_diem_den" in alerts.columns else pd.DataFrame()
+        focus = matched if not matched.empty else alerts.sort_values("diem_ap_luc", ascending=False).head(8)
+        blocks.append("Bảng cảnh báo liên quan:\n" + focus.head(12).to_csv(index=False))
+    if not routes.empty:
+        blocks.append("Tuyến điều phối ưu tiên:\n" + routes.head(12).to_csv(index=False))
+    if not source_monitor.empty:
+        blocks.append("Trạng thái nguồn dữ liệu:\n" + source_monitor.head(20).to_csv(index=False))
+    if not freshness.empty:
+        blocks.append("Độ mới dữ liệu:\n" + freshness.head(20).to_csv(index=False))
+    if not api_catalog.empty:
+        blocks.append("Trạng thái API:\n" + api_catalog.head(20).to_csv(index=False))
+    return "\n\n".join(blocks)[:22000]
+
+
 def ask_sea_assistant(question: str, env: dict[str, str], alerts: pd.DataFrame, routes: pd.DataFrame, freshness: pd.DataFrame, source_monitor: pd.DataFrame, api_catalog: pd.DataFrame) -> str:
     fallback = build_rule_context(question, alerts, routes, freshness, source_monitor, api_catalog)
     kb_path = ROOT / "rag" / "sea_knowledge_base.md"
-    kb = kb_path.read_text(encoding="utf-8", errors="ignore")[:18000] if kb_path.exists() else ""
+    kb = kb_path.read_text(encoding="utf-8", errors="ignore")[:9000] if kb_path.exists() else ""
+    ai_context = build_ai_context(question, alerts, routes, freshness, source_monitor, api_catalog)
     prompt = (
         "Bạn là Trợ lý SEA. Chỉ trả lời bằng tiếng Việt, dựa trên dữ liệu được cung cấp. "
+        "Không bịa số, không gọi proxy là realtime, không khẳng định nguồn chưa có trong dữ liệu. "
         "Nếu thiếu dữ liệu, nói rõ: SEA chưa đủ dữ liệu để kết luận chắc chắn. "
         "Luôn trả lời theo format: Tình hình, Vì sao, Dữ liệu dùng, Độ tin cậy, Nên làm, Hiệu quả kinh tế.\n\n"
-        f"Knowledge base:\n{kb}\n\n"
+        f"Knowledge base tóm tắt:\n{kb}\n\n"
+        f"Context bảng liên quan:\n{ai_context}\n\n"
         f"Câu hỏi: {question}\n\n"
         f"Fallback dữ liệu đã tính:\n{fallback}"
     )
@@ -1206,7 +1248,10 @@ def ask_sea_assistant(question: str, env: dict[str, str], alerts: pd.DataFrame, 
             resp = requests.post(
                 f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
                 params={"key": env.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")},
-                json={"contents": [{"parts": [{"text": prompt}]}]},
+                json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {"temperature": 0.2, "topP": 0.8, "maxOutputTokens": 1200},
+                },
                 timeout=20,
             )
             if resp.ok:
@@ -1231,16 +1276,16 @@ def ask_sea_assistant(question: str, env: dict[str, str], alerts: pd.DataFrame, 
     return fallback
 
 
-alerts = load_csv(CURRENT / "national_destination_alerts.csv")
-ranking_vn = load_csv(CURRENT / "xep_hang_canh_bao_toan_quoc.csv")
+alerts = load_summary_table(str(CURRENT / "national_destination_alerts.csv"))
+ranking_vn = load_summary_table(str(CURRENT / "xep_hang_canh_bao_toan_quoc.csv"))
 expanded_destinations = load_csv(CURRENT / "danh_sach_diem_den_mo_rong.csv")
-forecast = load_csv(CURRENT / "forecast_demand_scores.csv")
+forecast = load_summary_table(str(CURRENT / "forecast_demand_scores.csv"))
 weather_current = load_csv(CURRENT / "thoi_tiet_hien_tai.csv")
 weather_7d = load_csv(CURRENT / "du_bao_thoi_tiet_7_ngay.csv")
 confidence = load_csv(CURRENT / "kpi_confidence_scores.csv")
-proxy_vi = load_csv(CURRENT / "kiem_dinh_proxy.csv")
-actions = load_csv(CURRENT / "economic_action_recommendations.csv")
-economic_proof = load_csv(CURRENT / "de_xuat_hieu_qua_kinh_te.csv")
+proxy_vi = load_summary_table(str(CURRENT / "kiem_dinh_proxy.csv"))
+actions = load_summary_table(str(CURRENT / "economic_action_recommendations.csv"))
+economic_proof = load_summary_table(str(CURRENT / "de_xuat_hieu_qua_kinh_te.csv"))
 tickets = load_csv(CURRENT / "attraction_ticket_catalog.csv")
 spending = load_csv(CURRENT / "local_spending_poi.csv")
 ticket_pressure = load_csv(CURRENT / "ticket_pressure_scores.csv")
@@ -1250,13 +1295,13 @@ news = load_csv(CURRENT / "news_events.csv")
 news_risk = load_csv(CURRENT / "news_risk_signals.csv")
 routes = load_csv(CURRENT / "redistribution_features.csv")
 dataset_audit = load_csv(META / "dataset_audit.csv")
-freshness = load_csv(META / "data_freshness_status.csv")
+freshness = load_summary_table(str(META / "trang_thai_do_moi_du_lieu.csv"))
 missing = load_csv(META / "missing_dataset_registry.csv")
-api_catalog = load_csv(META / "api_source_catalog.csv")
+api_catalog = load_summary_table(str(META / "api_source_catalog.csv"))
 kpi_catalog = load_csv(META / "kpi_methodology.csv")
-source_monitor = load_csv(META / "source_monitor_status.csv")
+source_monitor = load_summary_table(str(META / "trang_thai_nguon_du_lieu.csv"))
 update_queue = load_csv(META / "update_queue.csv")
-pipeline_log = load_csv(META / "pipeline_run_log.csv")
+pipeline_log = load_summary_table(str(META / "nhat_ky_pipeline.csv"))
 source_check_log = load_csv(META / "source_check_log.csv")
 env = read_env()
 
@@ -1303,6 +1348,7 @@ st.markdown(
     """
     <style>
       .block-container {padding-top: 1rem; padding-bottom: 4rem;}
+      #MainMenu, footer, [data-testid="stToolbar"], [data-testid="stStatusWidget"], [data-testid="stDeployButton"], [data-testid="stDecoration"], [data-testid="stHeaderActionElements"] {display:none !important; visibility:hidden !important;}
       [data-testid="stMetric"] {background:#fff;border:1px solid #d8dee4;border-radius:8px;padding:12px;}
       div[data-testid="stSidebar"] {background:#f8fafc;}
       .sea-chat {position:fixed;right:22px;bottom:22px;z-index:9999;}
@@ -1359,8 +1405,19 @@ with st.sidebar:
     st.session_state["active_page"] = page
     st.divider()
     st.subheader("Bộ lọc chung")
-    alert_choices = ["Tất cả", "đỏ", "cam", "vàng", "xanh", "Thiếu dữ liệu"]
-    selected_alert = st.multiselect("Mức cảnh báo", alert_choices[1:], default=[])
+    alert_filter_map = {
+        "Đỏ": ALERT_COLORS["red"],
+        "Cam": ALERT_COLORS["orange"],
+        "Vàng": ALERT_COLORS["yellow"],
+        "Xanh": ALERT_COLORS["green"],
+        "Xám / thiếu dữ liệu": ALERT_COLORS["missing"],
+    }
+    present_alert_colors = set(alerts["muc_canh_bao"].map(get_alert_color)) if "muc_canh_bao" in alerts.columns else set()
+    alert_choices = [label for label, color in alert_filter_map.items() if color in present_alert_colors]
+    selected_alert = st.multiselect("Mức cảnh báo", alert_choices, default=[])
+    if st.checkbox("Hiện màu không có dữ liệu", value=False):
+        missing_color_labels = [label for label, color in alert_filter_map.items() if color not in present_alert_colors]
+        st.caption("Màu chưa xuất hiện trong dữ liệu hiện tại: " + (", ".join(missing_color_labels) if missing_color_labels else "không có"))
     type_choices = ["Tất cả", "biển", "đô thị", "di sản", "đảo", "núi", "Mekong"]
     selected_type = st.selectbox("Loại điểm", type_choices)
     data_choices = ["Tất cả", "dữ liệu thật", "near-realtime", "proxy", "thiếu dữ liệu"]
@@ -1369,8 +1426,8 @@ with st.sidebar:
 
 view = alerts.copy()
 if selected_alert:
-    selected_alert_values = ["xám" if item == "Thiếu dữ liệu" else item for item in selected_alert]
-    view = view[view["muc_canh_bao"].astype(str).isin(selected_alert_values)]
+    selected_alert_colors = {alert_filter_map[item] for item in selected_alert}
+    view = view[view["muc_canh_bao"].map(get_alert_color).isin(selected_alert_colors)]
 if selected_type != "Tất cả":
     type_token = {
         "biển": "coastal|bien|bai bien",
@@ -1385,7 +1442,8 @@ if selected_data != "Tất cả":
     token = "missing" if selected_data == "thiếu dữ liệu" else selected_data.replace("dữ liệu thật", "real")
     view = view[view.get("loai_du_lieu", "").astype(str).str.contains(token, case=False, na=False)]
 if only_action:
-    view = view[view["muc_canh_bao"].astype(str).isin(["đỏ", "cam", "xám"])]
+    action_colors = {ALERT_COLORS["red"], ALERT_COLORS["orange"], ALERT_COLORS["missing"]}
+    view = view[view["muc_canh_bao"].map(get_alert_color).isin(action_colors)]
 
 
 if page == "Tổng quan":
@@ -1396,12 +1454,12 @@ if page == "Tổng quan":
         - Vàng: cần theo dõi, có dấu hiệu tăng nhu cầu.
         - Cam: áp lực cao, cần chuẩn bị điều phối.
         - Đỏ: nguy cơ quá tải, cần hành động ngay.
-        - Tím nhạt/xanh xám: thiếu dữ liệu, chưa đủ căn cứ đánh giá.
+        - Xám: thiếu dữ liệu, chưa đủ căn cứ đánh giá.
         """,
     )
     c1, c2, c3, c4, c5 = st.columns(5)
     with c1:
-        card("Điểm đến", f"{len(alerts):,}", "Ranking toàn quốc đang dùng.", "SEA không chỉ dùng 24 điểm mẫu; bảng mở rộng nằm tại danh_sach_diem_den_mo_rong.csv.")
+        card("Điểm/tỉnh trong ranking", f"{len(alerts):,}", "Đang đọc bảng toàn quốc.", "Số này lấy trực tiếp từ ranking hiện hành trong gold/current. Nếu đang hiện 63, dashboard đang dùng bảng toàn quốc; danh sách mở rộng nằm tại danh_sach_diem_den_mo_rong.csv.")
     with c2:
         need = alerts["muc_canh_bao"].astype(str).isin(["đỏ", "cam"]).sum()
         card("Điểm cần xử lý", f"{need:,}", "Đỏ/cam cần ưu tiên vận hành.", "Các điểm này nên xem hành động, điều phối và hạ tầng trước.")
@@ -1416,15 +1474,19 @@ if page == "Tổng quan":
 
     left, right = st.columns(2)
     with left:
-        count = alerts["muc_canh_bao"].value_counts().reset_index()
-        count.columns = ["Mức cảnh báo", "Số điểm"]
-        count["Mức cảnh báo"] = count["Mức cảnh báo"].map(alert_label)
+        count = alerts.assign(_color=alerts["muc_canh_bao"].map(get_alert_color))["_color"].value_counts().reset_index()
+        count.columns = ["Màu", "Số điểm"]
+        color_label_lookup = {color: label for label, color in alert_filter_map.items()}
+        count["Mức cảnh báo"] = count["Màu"].map(color_label_lookup).fillna("Xám / thiếu dữ liệu")
         st.plotly_chart(apply_chart_theme(px.pie(count, names="Mức cảnh báo", values="Số điểm", hole=0.55, color="Mức cảnh báo", color_discrete_map=alert_color_map(), title="Tỷ lệ điểm đến theo màu cảnh báo")), width="stretch")
+        display_df(count[["Mức cảnh báo", "Số điểm", "Màu"]], height=210)
     with right:
         top = alerts.sort_values("diem_ap_luc", ascending=False).head(10)
         st.plotly_chart(apply_chart_theme(px.bar(top, x="ten_diem_den", y="diem_ap_luc", color="muc_canh_bao", color_discrete_map=alert_color_map(), title="Top 10 điểm áp lực cao nhất", labels={"ten_diem_den": "Điểm đến", "diem_ap_luc": "Điểm áp lực", "muc_canh_bao": "Mức cảnh báo"})), width="stretch")
-    lower = alerts.sort_values("diem_ap_luc", ascending=True).head(10)
-    st.plotly_chart(apply_chart_theme(px.bar(lower, x="ten_diem_den", y="diem_ap_luc", color="muc_canh_bao", color_discrete_map=alert_color_map(), title="Top 10 điểm còn dư địa", labels={"ten_diem_den": "Điểm đến", "diem_ap_luc": "Điểm áp lực"})), width="stretch")
+    lower_source = alerts[~alerts["muc_canh_bao"].map(get_alert_color).eq(ALERT_COLORS["missing"])]
+    lower = lower_source.sort_values("diem_ap_luc", ascending=True).head(10)
+    st.caption("Bảng này lấy 10 điểm có điểm áp lực thấp nhất trong nhóm đã đủ dữ liệu. Màu cột vẫn là mức cảnh báo hiện tại; điểm xám/thiếu dữ liệu không được tính là còn dư địa.")
+    st.plotly_chart(apply_chart_theme(px.bar(lower, x="ten_diem_den", y="diem_ap_luc", color="muc_canh_bao", color_discrete_map=alert_color_map(), title="Top 10 điểm áp lực thấp / còn dư địa", labels={"ten_diem_den": "Điểm đến", "diem_ap_luc": "Điểm áp lực"})), width="stretch")
     display_df(vietnamese_alerts(view).head(80), height=420)
 
 elif page == "Bản đồ":
@@ -1438,7 +1500,7 @@ elif page == "Bản đồ":
 elif page == "Ranking":
     st.subheader("Ranking cảnh báo toàn quốc")
     status_caption("national_destination_alerts", freshness)
-    explain("Ranking đọc như thế nào?", "Bảng xếp hạng theo điểm áp lực, thời tiết, hạ tầng, cơ hội kinh tế và khả năng điều phối. Màu tím nhạt/xanh xám là Thiếu dữ liệu, không phải an toàn.")
+    explain("Ranking đọc như thế nào?", "Bảng xếp hạng theo điểm áp lực, thời tiết, hạ tầng, cơ hội kinh tế và khả năng điều phối. Màu xám là Thiếu dữ liệu, không phải an toàn.")
     st.info("Điểm thiếu dữ liệu vì chưa có một hoặc nhiều nguồn: tọa độ, thời tiết, POI, khách sạn, tuyến di chuyển, vé/khu vui chơi, tin tức hoặc cập nhật gần đây.")
     display_alert_ranking(view, height=520)
     st.markdown("**Mở hồ sơ điểm đến từ ranking**")
@@ -1627,7 +1689,7 @@ elif page == "Cập nhật":
                     progress.progress(i / len(steps))
                 result = subprocess.run([sys.executable, str(ROOT / "scrapers" / "sea_operating_pipeline.py")], cwd=str(ROOT), capture_output=True, text=True, timeout=900)
                 if result.returncode == 0:
-                    st.success(f"Cập nhật thành công lúc {datetime.now().strftime('%d/%m/%Y %H:%M')} theo giờ Việt Nam.")
+                    st.success(f"Cập nhật thành công lúc {now_vn()} theo giờ Việt Nam.")
                     load_csv.clear()
                     st.rerun()
                 else:
@@ -1636,7 +1698,7 @@ elif page == "Cập nhật":
                     try:
                         log_path = META / "nhat_ky_pipeline.csv"
                         fail = pd.DataFrame([{
-                            "thoi_gian_chay": datetime.now().strftime("%d/%m/%Y %H:%M"),
+                            "thoi_gian_chay": now_vn(),
                             "mui_gio": "Việt Nam",
                             "buoc_pipeline": "dashboard_cap_nhat_ngay",
                             "trang_thai": "error",
@@ -1653,7 +1715,7 @@ elif page == "Cập nhật":
                 try:
                     log_path = META / "nhat_ky_pipeline.csv"
                     fail = pd.DataFrame([{
-                        "thoi_gian_chay": datetime.now().strftime("%d/%m/%Y %H:%M"),
+                        "thoi_gian_chay": now_vn(),
                         "mui_gio": "Việt Nam",
                         "buoc_pipeline": "dashboard_cap_nhat_ngay",
                         "trang_thai": "error",
@@ -1687,7 +1749,9 @@ elif page == "API & Sheet":
     sync_tables = [name for name, _ in SHEET_SUMMARY_TABLES]
     last_sheet_sync = "thiếu dữ liệu"
     if not freshness.empty and "google_sheets_summary_da_sync" in freshness.columns:
-        last_sheet_sync = str(freshness["google_sheets_summary_da_sync"].dropna().astype(str).tail(1).iloc[0]) if not freshness["google_sheets_summary_da_sync"].dropna().empty else last_sheet_sync
+        non_empty_sync = freshness["google_sheets_summary_da_sync"].dropna().astype(str)
+        if not non_empty_sync.empty:
+            last_sheet_sync = str(non_empty_sync.tail(1).iloc[0])
     sync_status_path = META / "google_sheets_sync_status.csv"
     existing_sync_status = load_csv(sync_status_path)
     if not existing_sync_status.empty and "Đồng bộ lúc" in existing_sync_status.columns:
@@ -1705,7 +1769,7 @@ elif page == "API & Sheet":
         st.success(credentials_note)
     else:
         st.error(credentials_note)
-        st.caption("Cần tạo Google Service Account, chia sẻ Sheet cho email service account quyền Editor, rồi cấu hình một trong hai biến trên trong `.env` hoặc GitHub Actions Secrets.")
+        st.caption("Cần tạo Google Service Account, chia sẻ Sheet cho email service account quyền Editor, rồi cấu hình `GOOGLE_SERVICE_ACCOUNT_JSON` hoặc `GOOGLE_APPLICATION_CREDENTIALS`.")
     st.write("Chỉ sync summary, không sync raw data.")
     if existing_sync_status.empty:
         sheet_status = pd.DataFrame(
@@ -1722,8 +1786,9 @@ elif page == "API & Sheet":
         if sheet_id:
             with st.spinner("Đang đồng bộ Google Sheets summary..."):
                 result = sync_google_sheets_summary(sheet_id)
+            load_csv.clear()
             if not result.empty and result["Trạng thái"].astype(str).eq("Đã sync").all():
-                st.success(f"Đồng bộ Google Sheets thành công lúc {datetime.now().astimezone().strftime('%d/%m/%Y %H:%M')}.")
+                st.success(f"Đồng bộ Google Sheets thành công lúc {now_vn()}.")
             else:
                 st.error("Đồng bộ Google Sheets chưa thành công. Xem cột Lỗi bên dưới.")
             display_df(result, height=260)

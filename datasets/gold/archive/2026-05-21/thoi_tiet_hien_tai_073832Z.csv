@@ -1,0 +1,64 @@
+﻿destination_id,ten_diem_den,tinh_thanh,vung,lat,lng,coastal_zone,nhiet_do_hien_tai,mua_hien_tai,gio_hien_tai,do_am_hien_tai,trang_thai_thoi_tiet_ngan,cap_nhat_thoi_tiet_luc,rui_ro_thoi_tiet,phu_hop_di_bien,chan_doan_thieu_thoi_tiet
+ha_long,Hạ Long,Quảng Ninh,Đông Bắc,20.9712,107.0448,yes,27.4,0.0,13.5,93,Ổn định,21/05/2026 12:43,84.1,không thuận lợi,
+cat_ba,Cát Bà,Hải Phòng,Đông Bắc,20.7278,107.0482,yes,28.0,0.0,21.1,92,Ổn định,21/05/2026 12:43,96.38,không thuận lợi,
+quy_nhon,Quy Nhơn,Bình Định,Nam Trung Bộ,13.7563,109.2297,yes,27.7,0.0,5.4,93,Ổn định,21/05/2026 12:43,68.32,cần theo dõi,
+da_nang,Đà Nẵng,Đà Nẵng,Duyên hải miền Trung,16.0471,108.2068,yes,27.0,0.1,8.8,94,Ổn định,21/05/2026 12:43,49.64,cần theo dõi,
+mui_ne,Mũi Né,Bình Thuận,Nam Trung Bộ,10.9333,108.2833,yes,27.1,0.1,6.7,93,Ổn định,21/05/2026 12:43,49.66,cần theo dõi,
+sam_son,Sầm Sơn,Thanh Hóa,Bắc Trung Bộ,19.7419,105.902,yes,28.8,0.0,21.1,91,Ổn định,21/05/2026 12:43,97.98,không thuận lợi,
+hoi_an,Hội An,Quảng Nam,Duyên hải miền Trung,15.8801,108.338,yes,27.0,0.1,5.2,95,Ổn định,21/05/2026 12:43,41.96,cần theo dõi,
+hue,Huế,Huế,Duyên hải miền Trung,16.4637,107.5909,no,27.1,0.1,1.9,97,Ổn định,21/05/2026 12:43,61.22,không áp dụng,
+vung_tau,Vũng Tàu,Bà Rịa - Vũng Tàu,Đông Nam Bộ,10.4114,107.1362,yes,28.5,0.0,7.9,83,Ổn định,21/05/2026 12:43,48.82,cần theo dõi,
+cua_lo,Cửa Lò,Nghệ An,Bắc Trung Bộ,18.7929,105.722,yes,28.5,0.0,9.1,85,Ổn định,21/05/2026 12:43,40.58,cần theo dõi,
+ninh_binh,Ninh Bình,Ninh Bình,Đồng bằng sông Hồng,20.2506,105.9745,no,28.2,0.0,14.1,91,Ổn định,21/05/2026 12:43,85.38,không áp dụng,
+ly_son,Lý Sơn,Quảng Ngãi,Đảo miền Trung,15.3833,109.1167,yes,28.1,0.0,27.0,85,Ổn định,21/05/2026 12:43,83.6,không thuận lợi,
+ha_noi,Hà Nội,Hà Nội,Đồng bằng sông Hồng,21.0278,105.8342,no,27.5,0.0,12.2,94,Ổn định,21/05/2026 12:43,77.56,không áp dụng,
+ha_giang,Hà Giang,Hà Giang,Miền núi phía Bắc,22.8233,104.9836,no,24.9,0.6,3.1,97,Ổn định,21/05/2026 12:43,71.78,không áp dụng,
+phu_quoc,Phú Quốc,Kiên Giang,Đảo Tây Nam Bộ,10.2899,103.984,yes,26.6,0.1,11.6,87,Ổn định,21/05/2026 12:43,57.28,cần theo dõi,
+phong_nha,Phong Nha - Kẻ Bàng,Quảng Bình,Bắc Trung Bộ,17.5903,106.283,no,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,không áp dụng,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+ba_na,Bà Nà Hills,Đà Nẵng,Duyên hải miền Trung,15.995,107.997,no,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,không áp dụng,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+mai_chau,Mai Châu,Hòa Bình,Miền núi phía Bắc,20.6629,105.083,no,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,không áp dụng,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+tam_dao,Tam Đảo,Vĩnh Phúc,Trung du miền núi Bắc Bộ,21.4569,105.6442,no,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,không áp dụng,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+pleiku,Pleiku,Gia Lai,Tây Nguyên,13.9718,108.0151,no,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,không áp dụng,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+buon_ma_thuot,Buôn Ma Thuột,Đắk Lắk,Tây Nguyên,12.6667,108.05,no,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,không áp dụng,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+chau_doc,Châu Đốc,An Giang,Đồng bằng sông Cửu Long,10.705,105.1167,no,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,không áp dụng,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+ba_vi,Ba Vì,Hà Nội,Đồng bằng sông Hồng,21.082,105.374,no,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,không áp dụng,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+thien_cam,Thiên Cầm,Hà Tĩnh,Bắc Trung Bộ,18.2597,106.1053,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+nhat_le,Nhật Lệ,Quảng Bình,Bắc Trung Bộ,17.4833,106.6233,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+cua_tung,Cửa Tùng,Quảng Trị,Bắc Trung Bộ,17.1012,107.1028,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+hai_tien,Hải Tiến,Thanh Hóa,Bắc Trung Bộ,19.8605,105.9297,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+lang_co,Lăng Cô,Huế,Duyên hải miền Trung,16.2383,108.0789,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+cu_lao_cham,Cù Lao Chàm,Quảng Nam,Duyên hải miền Trung,15.955,108.51,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+tam_ky,Tam Kỳ,Quảng Nam,Duyên hải miền Trung,15.5736,108.474,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+sa_huynh,Sa Huỳnh,Quảng Ngãi,Duyên hải miền Trung,14.6723,109.0588,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+my_khe,Mỹ Khê,Đà Nẵng,Duyên hải miền Trung,16.0544,108.2478,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+la_gi,La Gi,Bình Thuận,Nam Trung Bộ,10.6599,107.7722,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+phan_thiet,Phan Thiết,Bình Thuận,Nam Trung Bộ,10.9804,108.2615,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+ky_co,Kỳ Co,Bình Định,Nam Trung Bộ,13.895,109.291,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+binh_ba,Bình Ba,Khánh Hòa,Nam Trung Bộ,11.8535,109.23,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+cam_ranh,Cam Ranh,Khánh Hòa,Nam Trung Bộ,11.902,109.2207,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+phan_rang,Phan Rang - Tháp Chàm,Ninh Thuận,Nam Trung Bộ,11.5826,108.9912,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+vinh_hy,Vĩnh Hy,Ninh Thuận,Nam Trung Bộ,11.7183,109.19,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+ghenh_da_dia,Gành Đá Đĩa,Phú Yên,Nam Trung Bộ,13.3533,109.293,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+tuy_hoa,Tuy Hòa,Phú Yên,Nam Trung Bộ,13.0955,109.3209,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+ha_tien,Hà Tiên,Kiên Giang,Tây Nam Bộ,10.3831,104.4875,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+co_to,Cô Tô,Quảng Ninh,Đông Bắc,20.9736,107.7657,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+tra_co,Trà Cổ,Quảng Ninh,Đông Bắc,21.4644,108.0142,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+ho_tram,Hồ Tràm,Bà Rịa - Vũng Tàu,Đông Nam Bộ,10.477,107.426,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+can_gio,Cần Giờ,TP Hồ Chí Minh,Đông Nam Bộ,10.4111,106.9547,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+hon_son,Hòn Sơn,Kiên Giang,Đảo Tây Nam Bộ,9.81,104.63,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+nam_du,Nam Du,Kiên Giang,Đảo Tây Nam Bộ,9.684,104.354,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+bac_lieu,Bạc Liêu,Bạc Liêu,Đồng bằng sông Cửu Long,9.294,105.7244,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+ca_mau_dat_mui,Đất Mũi Cà Mau,Cà Mau,Đồng bằng sông Cửu Long,8.6208,104.7314,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+soc_trang,Sóc Trăng,Sóc Trăng,Đồng bằng sông Cửu Long,9.6025,105.9739,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+tra_vinh,Trà Vinh,Trà Vinh,Đồng bằng sông Cửu Long,9.9347,106.3453,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+do_son,Đồ Sơn,Hải Phòng,Đồng bằng sông Hồng,20.7149,106.7894,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+thinh_long,Thịnh Long,Nam Định,Đồng bằng sông Hồng,20.0333,106.2833,yes,,,,,thiếu dữ liệu,21/05/2026 12:43,50.0,cần theo dõi,"Thiếu thời tiết: kiểm tra vi_do/kinh_do, geocode, Open-Meteo call và bước ghi gold/current."
+moc_chau,Mộc Châu,Sơn La,Miền núi phía Bắc,20.8297,104.6946,no,22.4,0.0,5.9,97,Ổn định,21/05/2026 12:43,46.02,không áp dụng,
+ben_tre,Bến Tre,Bến Tre,Đồng bằng sông Cửu Long,10.2434,106.3756,no,27.4,0.0,4.9,87,Ổn định,21/05/2026 12:43,43.02,không áp dụng,
+an_giang,An Giang,An Giang,Đồng bằng sông Cửu Long,10.5216,105.1259,no,28.0,0.0,3.1,80,Ổn định,21/05/2026 12:43,40.38,không áp dụng,
+can_tho,Cần Thơ,Cần Thơ,Đồng bằng sông Cửu Long,10.0452,105.7469,no,27.0,0.0,5.2,91,Ổn định,21/05/2026 12:43,38.76,không áp dụng,
+nha_trang,Nha Trang,Khánh Hòa,Nam Trung Bộ,12.2388,109.1967,yes,27.7,0.0,4.6,90,Ổn định,21/05/2026 12:43,43.08,cần theo dõi,
+con_dao,Côn Đảo,Bà Rịa - Vũng Tàu,Đảo Đông Nam Bộ,8.6864,106.6082,yes,29.4,0.0,16.9,76,Ổn định,21/05/2026 12:43,65.62,cần theo dõi,
+sa_pa,Sa Pa,Lào Cai,Miền núi phía Bắc,22.3364,103.8438,no,18.4,0.2,7.0,99,Ổn định,21/05/2026 12:43,50.8,không áp dụng,
+ho_chi_minh_city,TP Hồ Chí Minh,TP Hồ Chí Minh,Đông Nam Bộ,10.8231,106.6297,no,27.5,0.0,6.5,91,Ổn định,21/05/2026 12:43,47.1,không áp dụng,
+da_lat,Đà Lạt,Lâm Đồng,Tây Nguyên,11.9404,108.4583,no,18.1,0.0,5.3,100,Ổn định,21/05/2026 12:43,41.74,không áp dụng,

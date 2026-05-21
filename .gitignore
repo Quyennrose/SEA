@@ -1,3 +1,8 @@
 datasets/weather/weather_archive_vietnam.csv
 datasets/gold/weather_daily.csv
 datasets/weather/weather_all_vietnam.csv
+.env
+service-account*.json
+node_modules/
+__pycache__/
+*.pyc

@@ -11,24 +11,38 @@ ALERT_COLORS = {
     "yellow": "#f2c94c",
     "orange": "#e67700",
     "red": "#c92a2a",
-    "missing": "#8b7bbf",
-    "gray": "#8b7bbf",
+    "missing": "#6c757d",
+    "gray": "#6c757d",
+}
+
+ALERT_LABELS = {
+    "red": "Đỏ",
+    "orange": "Cam",
+    "yellow": "Vàng",
+    "green": "Xanh",
+    "missing": "Xám / thiếu dữ liệu",
 }
 
 ALERT_COLOR_MAP = {
-    "xanh": ALERT_COLORS["green"],
-    "xanh nhat": ALERT_COLORS["light_green"],
-    "vang": ALERT_COLORS["yellow"],
-    "cam": ALERT_COLORS["orange"],
     "do": ALERT_COLORS["red"],
-    "xam": ALERT_COLORS["missing"],
-    "thieu du lieu": ALERT_COLORS["missing"],
-    "green": ALERT_COLORS["green"],
-    "yellow": ALERT_COLORS["yellow"],
-    "orange": ALERT_COLORS["orange"],
+    "đỏ": ALERT_COLORS["red"],
     "red": ALERT_COLORS["red"],
+    "cam": ALERT_COLORS["orange"],
+    "orange": ALERT_COLORS["orange"],
+    "vang": ALERT_COLORS["yellow"],
+    "vàng": ALERT_COLORS["yellow"],
+    "yellow": ALERT_COLORS["yellow"],
+    "xanh": ALERT_COLORS["green"],
+    "green": ALERT_COLORS["green"],
+    "xanh nhat": ALERT_COLORS["light_green"],
+    "xanh nhạt": ALERT_COLORS["light_green"],
+    "xam": ALERT_COLORS["missing"],
+    "xám": ALERT_COLORS["missing"],
     "gray": ALERT_COLORS["missing"],
+    "grey": ALERT_COLORS["missing"],
     "missing": ALERT_COLORS["missing"],
+    "thieu du lieu": ALERT_COLORS["missing"],
+    "thiếu dữ liệu": ALERT_COLORS["missing"],
 }
 
 PRESSURE_CONTINUOUS_SCALE = [
@@ -55,7 +69,13 @@ INFRASTRUCTURE_CONTINUOUS_SCALE = [
 
 
 def _normalize(value: Any) -> str:
-    text = unicodedata.normalize("NFD", str(value).strip().lower())
+    raw = str(value).strip()
+    if "Ã" in raw or "Ä" in raw:
+        try:
+            raw = raw.encode("latin1").decode("utf-8")
+        except UnicodeError:
+            pass
+    text = unicodedata.normalize("NFD", raw.lower())
     return "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
 
 
@@ -114,17 +134,21 @@ def plotly_alert_color_map() -> dict[str, str]:
     return {
         "đỏ": ALERT_COLORS["red"],
         "do": ALERT_COLORS["red"],
+        "Đỏ": ALERT_COLORS["red"],
+        "Đỏ - nguy cơ quá tải": ALERT_COLORS["red"],
         "cam": ALERT_COLORS["orange"],
+        "Cam": ALERT_COLORS["orange"],
+        "Cam - áp lực cao": ALERT_COLORS["orange"],
         "vàng": ALERT_COLORS["yellow"],
         "vang": ALERT_COLORS["yellow"],
+        "Vàng": ALERT_COLORS["yellow"],
+        "Vàng - cần theo dõi": ALERT_COLORS["yellow"],
         "xanh": ALERT_COLORS["green"],
+        "Xanh": ALERT_COLORS["green"],
+        "Xanh - còn dư địa": ALERT_COLORS["green"],
         "xám": ALERT_COLORS["missing"],
         "xam": ALERT_COLORS["missing"],
+        "Xám": ALERT_COLORS["missing"],
         "Thiếu dữ liệu": ALERT_COLORS["missing"],
-        "Đỏ - nguy cơ quá tải": ALERT_COLORS["red"],
-        "Cam - áp lực cao": ALERT_COLORS["orange"],
-        "Vàng - cần theo dõi": ALERT_COLORS["yellow"],
-        "Xanh - còn dư địa": ALERT_COLORS["green"],
-        "Thiếu dữ liệu": ALERT_COLORS["missing"],
-        "Thiếu dữ liệu": ALERT_COLORS["missing"],
+        "Xám / thiếu dữ liệu": ALERT_COLORS["missing"],
     }

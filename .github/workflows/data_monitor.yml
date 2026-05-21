@@ -2,8 +2,8 @@ name: SEA data monitor
 
 on:
   schedule:
-    # 02:00 UTC = 09:00 Asia/Ho_Chi_Minh
-    - cron: "0 2 * * *"
+    # Every 6 hours. UTC+7 examples: 01:00, 07:00, 13:00, 19:00 Asia/Ho_Chi_Minh.
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -21,6 +21,8 @@ jobs:
       POSITIONSTACK_API_KEY: ${{ secrets.POSITIONSTACK_API_KEY }}
       OPENROUTESERVICE_API_KEY: ${{ secrets.OPENROUTESERVICE_API_KEY }}
       GOOGLE_SHEETS_ID: ${{ secrets.GOOGLE_SHEETS_ID }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      OPEN_METEO: ${{ vars.OPEN_METEO || 'https://api.open-meteo.com/v1/forecast' }}
       SYNC_FULL_DATA_TO_SHEETS: "false"
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       AI_PROVIDER: gemini

@@ -1,9 +1,9 @@
 ﻿event_type,tu_khoa_nhan_dien,tac_dong_van_hanh
-environmental_risk,"cháy rừng, ô nhiễm, rác thải, sự cố môi trường","giảm Destination Health, không recommend điểm đó"
-weather_disruption,"bão, mưa lớn, ngập, biển động","tăng Weather Risk, cảnh báo tuyến/bãi biển"
-traffic_disruption,"kẹt xe, sạt lở, ùn tắc, cấm đường","tăng Travel Friction, đề xuất phân luồng"
-event_pressure,"lễ hội, concert, sự kiện thể thao","tăng Demand Score, chia khung giờ, tăng shuttle"
-capacity_change,"đóng/mở điểm tham quan, thay đổi sức chứa",cập nhật áp lực vé/hạ tầng
-economic_opportunity,"doanh thu, sản phẩm mới, kích cầu","tăng cơ hội kinh tế, combo địa phương"
-policy_change,"quy định, phí, chính sách visa/du lịch",điều chỉnh khuyến nghị vận hành
-ticket_price_change,"giá vé, combo, khuyến mãi",cập nhật ticket pressure và gợi ý giá
+environmental_risk,"chÃ¡y rá»«ng, Ã´ nhiá»…m, rÃ¡c tháº£i, sá»± cá»‘ mÃ´i trÆ°á»ng","giáº£m Destination Health, khÃ´ng recommend Ä‘iá»ƒm Ä‘Ã³"
+weather_disruption,"bÃ£o, mÆ°a lá»›n, ngáº­p, biá»ƒn Ä‘á»™ng","tÄƒng Weather Risk, cáº£nh bÃ¡o tuyáº¿n/bÃ£i biá»ƒn"
+traffic_disruption,"káº¹t xe, sáº¡t lá»Ÿ, Ã¹n táº¯c, cáº¥m Ä‘Æ°á»ng","tÄƒng Travel Friction, Ä‘á» xuáº¥t phÃ¢n luá»“ng"
+event_pressure,"lá»… há»™i, concert, sá»± kiá»‡n thá»ƒ thao","tÄƒng Demand Score, chia khung giá», tÄƒng shuttle"
+capacity_change,"Ä‘Ã³ng/má»Ÿ Ä‘iá»ƒm tham quan, thay Ä‘á»•i sá»©c chá»©a",cáº­p nháº­t Ã¡p lá»±c vÃ©/háº¡ táº§ng
+economic_opportunity,"doanh thu, sáº£n pháº©m má»›i, kÃ­ch cáº§u","tÄƒng cÆ¡ há»™i kinh táº¿, combo Ä‘á»‹a phÆ°Æ¡ng"
+policy_change,"quy Ä‘á»‹nh, phÃ­, chÃ­nh sÃ¡ch visa/du lá»‹ch",Ä‘iá»u chá»‰nh khuyáº¿n nghá»‹ váº­n hÃ nh
+ticket_price_change,"giÃ¡ vÃ©, combo, khuyáº¿n mÃ£i",cáº­p nháº­t ticket pressure vÃ  gá»£i Ã½ giÃ¡
