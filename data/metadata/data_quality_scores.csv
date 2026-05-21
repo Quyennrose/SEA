@@ -14,6 +14,8 @@ tourism_demand_gold,,,,5,0,0,,blocked
 transport_flow_gold,,,,5,0,0,,blocked
 poi_capacity_gold,,,,5,0,0,,blocked
 events_calendar_gold,,,,5,0,0,,blocked
+weather_all_vietnam,datasets/weather/weather_all_vietnam.csv,proxy,55,55,55,40,25,cần bổ sung
+weather_archive_vietnam,datasets/weather/weather_archive_vietnam.csv,proxy,55,55,55,40,25,cần bổ sung
 booking_scrape_status,datasets/booking/booking_scrape_status.csv,proxy,55,55,55,40,25,cần bổ sung
 booking_hotels,datasets/bronze/booking/hotels/booking_hotels.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 booking_reviews,datasets/bronze/booking/reviews/booking_reviews.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
@@ -246,12 +248,32 @@ xep_hang_canh_bao_toan_quoc_102114Z,datasets/gold/archive/2026-05-20/xep_hang_ca
 xep_hang_canh_bao_toan_quoc_105037Z,datasets/gold/archive/2026-05-20/xep_hang_canh_bao_toan_quoc_105037Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
 xep_hang_canh_bao_toan_quoc_143522Z,datasets/gold/archive/2026-05-20/xep_hang_canh_bao_toan_quoc_143522Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
 xep_hang_canh_bao_toan_quoc_151825Z,datasets/gold/archive/2026-05-20/xep_hang_canh_bao_toan_quoc_151825Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+attraction_ticket_catalog_061855Z,datasets/gold/archive/2026-05-21/attraction_ticket_catalog_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+danh_sach_diem_den_mo_rong_061855Z,datasets/gold/archive/2026-05-21/danh_sach_diem_den_mo_rong_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+de_xuat_hieu_qua_kinh_te_061855Z,datasets/gold/archive/2026-05-21/de_xuat_hieu_qua_kinh_te_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+du_bao_thoi_tiet_7_ngay_061855Z,datasets/gold/archive/2026-05-21/du_bao_thoi_tiet_7_ngay_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+economic_action_recommendations_061855Z,datasets/gold/archive/2026-05-21/economic_action_recommendations_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+flight_price_signal_061855Z,datasets/gold/archive/2026-05-21/flight_price_signal_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+forecast_demand_scores_061855Z,datasets/gold/archive/2026-05-21/forecast_demand_scores_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+hotel_price_pressure_061855Z,datasets/gold/archive/2026-05-21/hotel_price_pressure_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+kiem_dinh_proxy_061855Z,datasets/gold/archive/2026-05-21/kiem_dinh_proxy_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+kpi_confidence_scores_061855Z,datasets/gold/archive/2026-05-21/kpi_confidence_scores_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+kpi_scale_catalog_061855Z,datasets/gold/archive/2026-05-21/kpi_scale_catalog_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+local_spending_poi_061855Z,datasets/gold/archive/2026-05-21/local_spending_poi_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+national_destination_alerts_061855Z,datasets/gold/archive/2026-05-21/national_destination_alerts_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+news_action_recommendations_061855Z,datasets/gold/archive/2026-05-21/news_action_recommendations_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+news_events_061855Z,datasets/gold/archive/2026-05-21/news_events_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+news_risk_signals_061855Z,datasets/gold/archive/2026-05-21/news_risk_signals_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+proxy_vs_nearrealtime_comparison_061855Z,datasets/gold/archive/2026-05-21/proxy_vs_nearrealtime_comparison_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+redistribution_features_061855Z,datasets/gold/archive/2026-05-21/redistribution_features_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+thoi_tiet_hien_tai_061855Z,datasets/gold/archive/2026-05-21/thoi_tiet_hien_tai_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+ticket_pressure_scores_061855Z,datasets/gold/archive/2026-05-21/ticket_pressure_scores_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
+xep_hang_canh_bao_toan_quoc_061855Z,datasets/gold/archive/2026-05-21/xep_hang_canh_bao_toan_quoc_061855Z.csv,mixed,55,55,55,75,55,sẵn sàng một phần
 congestion_features,datasets/gold/congestion_features.csv,mixed,55,55,55,75,55,sẵn sàng một phần
-danh_sach_diem_den_mo_rong,datasets/gold/current_csv/danh_sach_diem_den_mo_rong.csv,mixed,55,55,55,75,55,sẵn sàng một phần
-du_bao_thoi_tiet_7_ngay,datasets/gold/current_csv/du_bao_thoi_tiet_7_ngay.csv,mixed,55,55,55,75,55,sẵn sàng một phần
-thoi_tiet_hien_tai,datasets/gold/current_csv/thoi_tiet_hien_tai.csv,mixed,55,55,55,75,55,sẵn sàng một phần
 attraction_ticket_catalog,datasets/gold/current_parquet/attraction_ticket_catalog.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
+danh_sach_diem_den_mo_rong,datasets/gold/current_parquet/danh_sach_diem_den_mo_rong.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 de_xuat_hieu_qua_kinh_te,datasets/gold/current_parquet/de_xuat_hieu_qua_kinh_te.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
+du_bao_thoi_tiet_7_ngay,datasets/gold/current_parquet/du_bao_thoi_tiet_7_ngay.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 economic_action_recommendations,datasets/gold/current_parquet/economic_action_recommendations.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 flight_price_signal,datasets/gold/current_parquet/flight_price_signal.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 forecast_demand_scores,datasets/gold/current_parquet/forecast_demand_scores.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
@@ -265,6 +287,7 @@ news_action_recommendations,datasets/gold/current_parquet/news_action_recommenda
 news_events,datasets/gold/current_parquet/news_events.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 news_risk_signals,datasets/gold/current_parquet/news_risk_signals.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 proxy_vs_nearrealtime_comparison,datasets/gold/current_parquet/proxy_vs_nearrealtime_comparison.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
+thoi_tiet_hien_tai,datasets/gold/current_parquet/thoi_tiet_hien_tai.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 ticket_pressure_scores,datasets/gold/current_parquet/ticket_pressure_scores.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 xep_hang_canh_bao_toan_quoc,datasets/gold/current_parquet/xep_hang_canh_bao_toan_quoc.parquet,mixed,55,55,55,75,55,sẵn sàng một phần
 destination_health_scores,datasets/gold/destination_health_scores.csv,mixed,55,55,55,75,55,sẵn sàng một phần
@@ -356,7 +379,5 @@ traveloka_full,datasets/traveloka/debug/traveloka_full.html,proxy,55,55,55,40,25
 traveloka_vietnam_discovery,datasets/traveloka/debug/traveloka_vietnam_discovery.html,proxy,55,55,55,40,25,cần bổ sung
 traveloka_hotels_full,datasets/traveloka/traveloka_hotels_full.csv,proxy,55,55,55,40,25,cần bổ sung
 traveloka_reviews,datasets/traveloka/traveloka_reviews.csv,proxy,55,55,55,40,25,cần bổ sung
-weather_all_vietnam,datasets/weather/weather_all_vietnam.csv,proxy,55,55,55,40,25,cần bổ sung
-weather_archive_vietnam,datasets/weather/weather_archive_vietnam.csv,proxy,55,55,55,40,25,cần bổ sung
 weather_scrape_status,datasets/weather/weather_scrape_status.csv,proxy,55,55,55,40,25,cần bổ sung
 weather_today_vietnam,datasets/weather/weather_today_vietnam.csv,proxy,55,55,55,40,25,cần bổ sung

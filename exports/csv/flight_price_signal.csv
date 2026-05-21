@@ -1,64 +1,64 @@
 ﻿destination_id,ten_diem_den,flight_price_signal,loai_du_lieu,tooltip,last_updated
-ha_long,Hạ Long,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-cat_ba,Cát Bà,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-quy_nhon,Quy Nhơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-da_nang,Đà Nẵng,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-mui_ne,Mũi Né,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-sam_son,Sầm Sơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-hoi_an,Hội An,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-hue,Huế,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-vung_tau,Vũng Tàu,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-cua_lo,Cửa Lò,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ninh_binh,Ninh Bình,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ly_son,Lý Sơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ha_noi,Hà Nội,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ha_giang,Hà Giang,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-phu_quoc,Phú Quốc,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-phong_nha,Phong Nha - Kẻ Bàng,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ba_na,Bà Nà Hills,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-mai_chau,Mai Châu,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-tam_dao,Tam Đảo,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-pleiku,Pleiku,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-buon_ma_thuot,Buôn Ma Thuột,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-chau_doc,Châu Đốc,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ba_vi,Ba Vì,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-thien_cam,Thiên Cầm,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-nhat_le,Nhật Lệ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-cua_tung,Cửa Tùng,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-hai_tien,Hải Tiến,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-lang_co,Lăng Cô,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-cu_lao_cham,Cù Lao Chàm,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-tam_ky,Tam Kỳ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-sa_huynh,Sa Huỳnh,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-my_khe,Mỹ Khê,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-la_gi,La Gi,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-phan_thiet,Phan Thiết,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ky_co,Kỳ Co,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-binh_ba,Bình Ba,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-cam_ranh,Cam Ranh,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-phan_rang,Phan Rang - Tháp Chàm,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-vinh_hy,Vĩnh Hy,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ghenh_da_dia,Gành Đá Đĩa,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-tuy_hoa,Tuy Hòa,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ha_tien,Hà Tiên,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-co_to,Cô Tô,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-tra_co,Trà Cổ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ho_tram,Hồ Tràm,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-can_gio,Cần Giờ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-hon_son,Hòn Sơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-nam_du,Nam Du,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-bac_lieu,Bạc Liêu,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ca_mau_dat_mui,Đất Mũi Cà Mau,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-soc_trang,Sóc Trăng,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-tra_vinh,Trà Vinh,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-do_son,Đồ Sơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-thinh_long,Thịnh Long,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-moc_chau,Mộc Châu,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ben_tre,Bến Tre,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-an_giang,An Giang,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-can_tho,Cần Thơ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-nha_trang,Nha Trang,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-con_dao,Côn Đảo,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-sa_pa,Sa Pa,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-ho_chi_minh_city,TP Hồ Chí Minh,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
-da_lat,Đà Lạt,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,20/05/2026 22:18
+ha_long,Hạ Long,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+cat_ba,Cát Bà,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+quy_nhon,Quy Nhơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+da_nang,Đà Nẵng,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+mui_ne,Mũi Né,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+sam_son,Sầm Sơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+hoi_an,Hội An,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+hue,Huế,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+vung_tau,Vũng Tàu,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+cua_lo,Cửa Lò,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ninh_binh,Ninh Bình,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ly_son,Lý Sơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ha_noi,Hà Nội,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ha_giang,Hà Giang,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+phu_quoc,Phú Quốc,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+phong_nha,Phong Nha - Kẻ Bàng,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ba_na,Bà Nà Hills,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+mai_chau,Mai Châu,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+tam_dao,Tam Đảo,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+pleiku,Pleiku,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+buon_ma_thuot,Buôn Ma Thuột,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+chau_doc,Châu Đốc,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ba_vi,Ba Vì,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+thien_cam,Thiên Cầm,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+nhat_le,Nhật Lệ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+cua_tung,Cửa Tùng,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+hai_tien,Hải Tiến,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+lang_co,Lăng Cô,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+cu_lao_cham,Cù Lao Chàm,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+tam_ky,Tam Kỳ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+sa_huynh,Sa Huỳnh,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+my_khe,Mỹ Khê,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+la_gi,La Gi,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+phan_thiet,Phan Thiết,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ky_co,Kỳ Co,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+binh_ba,Bình Ba,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+cam_ranh,Cam Ranh,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+phan_rang,Phan Rang - Tháp Chàm,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+vinh_hy,Vĩnh Hy,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ghenh_da_dia,Gành Đá Đĩa,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+tuy_hoa,Tuy Hòa,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ha_tien,Hà Tiên,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+co_to,Cô Tô,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+tra_co,Trà Cổ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ho_tram,Hồ Tràm,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+can_gio,Cần Giờ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+hon_son,Hòn Sơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+nam_du,Nam Du,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+bac_lieu,Bạc Liêu,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ca_mau_dat_mui,Đất Mũi Cà Mau,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+soc_trang,Sóc Trăng,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+tra_vinh,Trà Vinh,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+do_son,Đồ Sơn,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+thinh_long,Thịnh Long,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+moc_chau,Mộc Châu,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ben_tre,Bến Tre,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+an_giang,An Giang,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+can_tho,Cần Thơ,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+nha_trang,Nha Trang,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+con_dao,Côn Đảo,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+sa_pa,Sa Pa,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+ho_chi_minh_city,TP Hồ Chí Minh,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18
+da_lat,Đà Lạt,thiếu nguồn hợp lệ,partner_api_required,Cần API hàng không/OTA được phép dùng; SEA không bịa tín hiệu giá vé máy bay.,21/05/2026 13:18

@@ -1,8 +1,8 @@
 ﻿Bảng summary,Trạng thái,Số dòng,Lỗi,Đồng bộ lúc
-Ranking toàn quốc,Lỗi,0,Thiếu package gspread/google-auth. Chạy: pip install -r requirements.txt,20/05/2026 22:46
-Dự báo,Lỗi,0,Thiếu package gspread/google-auth. Chạy: pip install -r requirements.txt,20/05/2026 22:46
-Trạng thái dữ liệu,Lỗi,0,Thiếu package gspread/google-auth. Chạy: pip install -r requirements.txt,20/05/2026 22:46
-Dữ liệu mới cập nhật,Lỗi,0,Thiếu package gspread/google-auth. Chạy: pip install -r requirements.txt,20/05/2026 22:46
-Dữ liệu cũ gần đây,Lỗi,0,Thiếu package gspread/google-auth. Chạy: pip install -r requirements.txt,20/05/2026 22:46
-Kiểm định proxy,Lỗi,0,Thiếu package gspread/google-auth. Chạy: pip install -r requirements.txt,20/05/2026 22:46
-Hiệu quả kinh tế,Lỗi,0,Thiếu package gspread/google-auth. Chạy: pip install -r requirements.txt,20/05/2026 22:46
+Ranking toàn quốc,Lỗi,0,Thiếu GOOGLE_SERVICE_ACCOUNT_JSON hoặc GOOGLE_APPLICATION_CREDENTIALS,21/05/2026 13:18
+Dự báo,Lỗi,0,Thiếu GOOGLE_SERVICE_ACCOUNT_JSON hoặc GOOGLE_APPLICATION_CREDENTIALS,21/05/2026 13:18
+Trạng thái dữ liệu,Lỗi,0,Thiếu GOOGLE_SERVICE_ACCOUNT_JSON hoặc GOOGLE_APPLICATION_CREDENTIALS,21/05/2026 13:18
+Dữ liệu mới cập nhật,Lỗi,0,Thiếu GOOGLE_SERVICE_ACCOUNT_JSON hoặc GOOGLE_APPLICATION_CREDENTIALS,21/05/2026 13:18
+Dữ liệu cũ gần đây,Lỗi,0,Thiếu GOOGLE_SERVICE_ACCOUNT_JSON hoặc GOOGLE_APPLICATION_CREDENTIALS,21/05/2026 13:18
+Kiểm định proxy,Lỗi,0,Thiếu GOOGLE_SERVICE_ACCOUNT_JSON hoặc GOOGLE_APPLICATION_CREDENTIALS,21/05/2026 13:18
+Hiệu quả kinh tế,Lỗi,0,Thiếu GOOGLE_SERVICE_ACCOUNT_JSON hoặc GOOGLE_APPLICATION_CREDENTIALS,21/05/2026 13:18
