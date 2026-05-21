@@ -245,6 +245,7 @@ SYNC_FULL_DATA_TO_SHEETS=false
 GEMINI_API_KEY=
 AI_PROVIDER=gemini
 GEMINI_MODEL=gemini-2.5-flash
+OPEN_METEO=https://api.open-meteo.com/v1/forecast?latitude=16.1667&longitude=107.8333&hourly=temperature_2m
 ```
 
 Không commit file `.env` ở gốc repo. `.gitignore` đã chặn secret; `.env.example` chỉ chứa biến mẫu, không chứa key thật.
@@ -476,12 +477,14 @@ Workflow:
 
 - `.github/workflows/data_monitor.yml`
 
-Workflow chạy hằng ngày và hỗ trợ `workflow_dispatch`. Các bước chính:
+Workflow chạy tự động mỗi 6 giờ và hỗ trợ `workflow_dispatch`. Các bước chính:
 
-- Lịch tự động: `0 2 * * *` UTC, tương đương 09:00 Asia/Ho_Chi_Minh.
+- Lịch tự động: `0 */6 * * *` UTC, tương đương khoảng 01:00, 07:00, 13:00, 19:00 Asia/Ho_Chi_Minh.
 - API key lấy từ GitHub Actions Secrets, không commit `.env`.
 - Workflow chạy `python scrapers/sea_operating_pipeline.py`.
 - Sau khi chạy, workflow commit lại `datasets/gold/current`, `datasets/gold/current_csv`, `datasets/gold/current_parquet`, `data/metadata`, `exports` và `rag`.
+- Google Sheets được đồng bộ nếu đã cấu hình `GOOGLE_SHEETS_ID` và `GOOGLE_SERVICE_ACCOUNT_JSON` trong GitHub Secrets.
+- Open-Meteo không cần key; workflow dùng biến `OPEN_METEO` trong GitHub Actions Variables nếu có, nếu không thì dùng endpoint mặc định.
 
 ```powershell
 python scrapers/source_monitor.py
